@@ -1,0 +1,1133 @@
+PropDefinitions:
+  BodyPartExamined:
+    Req: 'Yes'
+    Type: String
+  DOI:
+    Desc: Where applicable, the digital object identifier for the cited work, by which
+      it can be permanently identified, and linked to via the internet.This property
+      is used as the key via which to identify the correct records during data updates.
+    Req: 'Yes'
+    Term:
+    - Code: '15915370'
+      Definition: A unique code used by publishers to identify a digital object, such
+        as a journal article, web document, or other item of intellectual property.
+      Origin: caDSR
+      Value: Publication Digital Object Identifier Text
+      Version: '1'
+    Type: String
+  DOI_version:
+    Req: 'No'
+    Type: String
+  Manufacturer:
+    Req: 'No'
+    Type: String
+  ManufacturerModelName:
+    Req: 'No'
+    Type: String
+  Modality:
+    Desc: Imaging modality
+    Req: 'Yes'
+    Term:
+    - Code: '2896064'
+      Definition: A system of categories for representing a specific manner, characteristic,
+        pattern of a data acquisition device used in an imaging event whether physical
+        or electronic.
+      Origin: caDSR
+      Value: Image Series Modality DICOM Modality Type
+      Version: '2'
+    Type: String
+  NCBI Taxonomy ID:
+    Desc: A label provided by NCBI Taxonomy Database (https://www.ncbi.nlm.nih.gov/taxonomy/),
+      which uniquely identifies group or category, at any level, in a system for classifying
+      plants or animals (including humans) providing ranked categories for the classification
+      of organisms according to their suspected evolutionary relationships.
+    Req: 'Yes'
+    Term:
+    - Code: '10543100'
+      Definition: The unique numerical identifier of a subject's organismal classification
+        as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
+        standard nomenclature and classification repository.
+      Origin: caDSR
+      Value: Subject Taxonomy NCBI Identifier
+      Version: '2'
+    Type: String
+  Patient_age_at_imaging:
+    Req: 'No'
+    Type: String
+  PixelSpacing(mm)-Row:
+    Req: 'No'
+    Type: String
+  Radiology_id:
+    Req: 'No'
+    Type: String
+  SeriesDescription:
+    Req: 'No'
+    Type: String
+  SliceThickness(mm):
+    Req: 'No'
+    Type: String
+  SoftwareVersions:
+    Req: 'No'
+    Type: String
+  StudyDesc:
+    Req: 'No'
+    Type: String
+  acknowledgements:
+    Desc: additional acknowledgments
+    Req: 'No'
+    Type: String
+  acquisition_method_type:
+    Desc: Records the method of acquisition or source for the specimen under consideration
+    Req: 'No'
+    Term:
+    - Code: '6626651'
+      Definition: Records the method of acquisition or source for the specimen under
+        consideration.
+      Origin: caDSR
+      Value: Biospecimen Acquisition Method Type
+      Version: '2'
+    Type: String
+  adult_or_childhood_study:
+    Desc: Study participants are adult, pediatric, or other
+    Req: 'No'
+    Term:
+    - Code: '11524549'
+      Definition: The identifiable class of the study participant based upon their
+        age.
+      Origin: caDSR
+      Value: Subject Legal Adult Or Pediatric Study Participant Type
+      Version: '2'
+    Type: String
+  age_at_diagnosis:
+    Desc: Age at the time of diagnosis expressed in number of days since birth.
+    Req: 'Yes'
+    Term:
+    - Code: '10609539'
+      Definition: The subject's age since birth at the time of diagnosis.
+      Origin: caDSR
+      Value: Subject Age at Diagnosis Integer
+      Version: '1'
+    Type: String
+  antibody_name:
+    Desc: short descriptive name for this antibody
+    Req: 'No'
+    Term:
+    - Code: '14765184'
+      Definition: The words by which the protein made by B lymphocytes in response
+        to a foreign substance (antigen) used in multiplex imaging is known.
+      Origin: caDSR
+      Value: Multiplex Imaging Antibody Name
+      Version: '1'
+    Type: String
+  authorship:
+    Desc: A list of authors for the cited work. More specifically, for publications
+      with no more than three authors, authorship quoted in full; for publications
+      with more than three authors, authorship abbreviated to first author et al.
+    Req: 'Yes'
+    Term:
+    - Code: '16081468'
+      Definition: A list of authors cited for a published work.
+      Origin: caDSR
+      Value: Publication Citation Author List Text
+      Version: '1'
+    Type: String
+  catalog_number:
+    Desc: catalog number from vendor
+    Req: 'No'
+    Term:
+    - Code: '14767261'
+      Definition: A textual description of the catalog identifier assigned to a product
+        by the vendor used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Vendor Catalog Number Text
+      Version: '1'
+    Type: String
+  channel_id:
+    Desc: The unique channel identifier for each channel in this image must match
+      the corresponding field in the OME-TIFF header
+    Req: 'Yes'
+    Term:
+    - Code: '14765171'
+      Definition: A sequence of characters used to identify, name, or characterize
+        the OME TIFF channel used in multiplex imaging.
+      Origin: caDSR
+      Value: OME Tagged Image File Format Channel Identifier
+      Version: '1'
+    Type: String
+  channel_metadata_filename:
+    Desc: File name of uploaded companion CSV file containing channel-level metadata
+      details
+    Req: 'Yes'
+    Term:
+    - Code: '7787678'
+      Definition: The full path name of the uploaded file containing channel-level
+        metadata describing the processes used to analyze the experimental data in
+        a study.
+      Origin: caDSR
+      Value: Channel Analysis Metadata Electronic File Name Text
+      Version: '1'
+    Type: String
+  channel_name:
+    Desc: Channel label for each channel in this image must match the corresponding
+      field in the OME-TIFF header
+    Req: 'Yes'
+    Term:
+    - Code: '14765172'
+      Definition: The words by which the OME TIFF channel used in multiplex imaging
+        is known.
+      Origin: caDSR
+      Value: OME Tagged Image File Format Channel Name
+      Version: '1'
+    Type: String
+  clone:
+    Desc: Unique clone identifier
+    Req: 'No'
+    Term:
+    - Code: '14767258'
+      Definition: A sequence of characters used to identify a group of genetically
+        identical cells, organisms, or DNA molecules used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Clone Unique Identifier
+      Version: '1'
+    Type: String
+  concentration:
+    Desc: Final concentration used in experiment
+    Req: 'No'
+    Term:
+    - Code: '14768386'
+      Definition: A numerical quantity which captures the measure of the amount of
+        substance present in a unit amount of mixture used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Final Concentration Number
+      Version: '1'
+    Type: String
+  cycle_number:
+    Desc: 'the cycle # in which the co-listed reagent(s) was(were) used'
+    Req: 'No'
+    Term:
+    - Code: '14765176'
+      Definition: A numerical value which captures the cycle number during which a
+        reagent was used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Reagent Cycle Number Integer
+      Version: '1'
+    Type: String
+  data_has_been_de-identified:
+    Desc: Flag
+    Req: 'Yes'
+    Type: String
+  dataset.dataset_id:
+    Req: 'No'
+    Type: String
+  dataset_abstract:
+    Desc: Short description that will identify the dataset on public pages
+    Req: 'Yes'
+    Type: String
+  dataset_description:
+    Desc: Description of the collection / dataset / study
+    Req: 'Yes'
+    Type: String
+  dataset_id:
+    Req: 'No'
+    Type: String
+  dataset_long_name:
+    Desc: descriptive title for the collection/ dataset
+    Req: 'Yes'
+    Term:
+    - Code: '11459810'
+      Definition: "The\_narrative title\_used as\_a\_textual\_label\_for\_a\_research\
+        \ data\_collection."
+      Origin: caDSR
+      Value: Study Administration Study Name Text
+      Version: '4'
+    Type: String
+  dataset_short_name:
+    Desc: abbreviated title for the collection/ dataset
+    Req: 'Yes'
+    Term:
+    - Code: '11459812'
+      Definition: "The acronym\_or\_abbreviated\_form of\_the\_title\_for a\_research\
+        \ data\_collection."
+      Origin: caDSR
+      Value: Study Administration Study Short Name Text
+      Version: '4'
+    Type: String
+  de_identification_method_description:
+    Desc: Description of the process of removing potentially identifying data or data
+      elements to render data into a form that does not identify individuals and where
+      identification is not likely to take place.
+    Req: 'No'
+    Term:
+    - Code: '14612655'
+      Definition: Text describing the manner of procedure or systematic course of
+        actions performed to remove text elements that would make data individually
+        identifiable.
+      Origin: caDSR
+      Value: Deidentification Method Description Text
+      Version: '1'
+    Type: String
+  de_identification_method_type:
+    Desc: General description of the de-identification method
+    Req: 'Yes'
+    Term:
+    - Code: '14607284'
+      Definition: The type of procedure used to remove any text elements that would
+        make data individually identifiable.
+      Origin: caDSR
+      Value: Deidentification Method Type
+      Version: '1'
+    Type: String
+  de_identification_software:
+    Desc: Software that was used to de-identify the images (if used)
+    Req: 'No'
+    Term:
+    - Code: '14612658'
+      Definition: Text describing the literal identifier of the software program used
+        to remove text elements that would make data individually identifiable.
+      Origin: caDSR
+      Value: Deidentification Software Name Text
+      Version: '1'
+    Type: String
+  diagnosis_id:
+    Req: 'No'
+    Type: String
+  dilution:
+    Desc: Final dilution ratio used in experiment
+    Req: 'No'
+    Term:
+    - Code: '14767270'
+      Definition: A numerical quantity which captures the concentration of  different
+        reagents used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Final Dilution Ratio Number
+      Version: '1'
+    Type: String
+  email:
+    Desc: The string of characters that represents the electronic mail address of
+      a person.
+    Req: 'Yes'
+    Term:
+    - Code: '2517550'
+      Definition: The string of characters that represents the electronic mail address
+        of a person.
+      Origin: caDSR
+      Value: Person Email Address Text
+      Version: '1'
+    Type: String
+  embedding_medium:
+    Desc: The term which describes the method used to maintain the specimen in a viable
+      state.
+    Req: 'Yes'
+    Term:
+    - Code: '8028962'
+      Definition: The term which describes the method used to maintain the specimen
+        in a viable state.
+      Origin: caDSR
+      Value: Specimen Preservation Procedure Type
+      Version: '3'
+    Type: String
+  emission_bandwidth:
+    Desc: nominal width of emission spectrum (nm)
+    Req: 'No'
+    Term:
+    - Code: '14765193'
+      Definition: A numerical quantity which captures the nominal width of an emission
+        spectrum used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Emission Bandwidth Number
+      Version: '1'
+    Type: String
+  emission_wavelength:
+    Desc: center/peak of the emission spectrum (nm)
+    Req: 'No'
+    Term:
+    - Code: '14767264'
+      Definition: A numerical quantity which captures the wavelength with the maximum
+        peak in an emission spectrum.
+      Origin: caDSR
+      Value: Assay Emission Wavelength Number
+      Version: '1'
+    Type: String
+  ethnicity:
+    Desc: An individual's self-described social and cultural grouping, specifically
+      whether an individual describes themselves as Hispanic or Latino. The provided
+      values are based on the categories defined by the U.S. Office of Management
+      and Business and used by the U.S. Census Bureau.
+    Req: 'Yes'
+    Term:
+    - Code: '2192217'
+      Definition: The text for reporting information about ethnicity based on the
+        Office of Management and Budget (OMB) categories.
+      Origin: caDSR
+      Value: Ethnic Group Category Text
+      Version: '2'
+    Type: String
+  excitation_bandwidth:
+    Desc: nominal width of excitation spectrum (nm)
+    Req: 'No'
+    Term:
+    - Code: '14765190'
+      Definition: A numerical quantity which captures the nominal width of an excitation
+        spectrum used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Excitation Bandwidth Number
+      Version: '1'
+    Type: String
+  excitation_wavelength:
+    Desc: center/peak of the excitation spectrum (nm)
+    Req: 'No'
+    Term:
+    - Code: '14765187'
+      Definition: A numerical quantity which captures the electromagnetic radiation
+        wavelength that causes peak excitation used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Excitation Wavelength Number
+      Version: '1'
+    Type: String
+  file_description:
+    Desc: Human-readable description of file
+    Req: 'No'
+    Term:
+    - Code: '11280338'
+      Definition: A free text field that can be used to document the content and other
+        details about a data file that may not be captured elsewhere.
+      Origin: caDSR
+      Value: Data File Description Text
+      Version: '2'
+    Type: String
+  file_id:
+    Desc: A file identifier generated by CRDC Submission Portal. This property is
+      not included in the downloaded submission template
+    Req: 'Yes'
+    Type: String
+  file_name:
+    Desc: Name of file
+    Req: 'Yes'
+    Term:
+    - Code: '11284037'
+      Definition: The literal label for an electronic data file.
+      Origin: caDSR
+      Value: Data File Name Text
+      Version: '3'
+    Type: String
+  file_size:
+    Desc: File size in bytes
+    Req: 'No'
+    Term:
+    - Code: '11479876'
+      Definition: The measure (in bytes) of how much space a data file takes up on
+        a storage medium.
+      Origin: caDSR
+      Value: Data File Size Integer
+      Version: '2'
+    Type: String
+  file_type:
+    Desc: File type from enumerated list
+    Req: 'Yes'
+    Term:
+    - Code: '11416926'
+      Definition: A defined organization or layout representing and structuring data
+        in a computer file.
+      Origin: caDSR
+      Value: Data File Format Type
+      Version: '2'
+    Type: String
+  first_name:
+    Desc: A word or group of words indicating a person's first (personal or given)
+      name; the name that precedes the surname. Synonym = Given Name.> The first or
+      given name of the person responsible for the conduct of the clinical trial or
+      research project.
+    Req: 'Yes'
+    Term:
+    - Code: '2179589'
+      Definition: A word or group of words indicating a person's first (personal or
+        given) name; the name that precedes the surname. Synonym = Given Name
+      Origin: caDSR
+      Value: Person Given/First Name
+      Version: '2'
+    Type: String
+  fluorophore:
+    Desc: Fluorescent dye label
+    Req: 'No'
+    Term:
+    - Code: '14767255'
+      Definition: A textual description of fluorescent antibodies, aptamers, peptides,
+        dyes, and similar detection reagents used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Fluorescent Dye Text
+      Version: '1'
+    Type: String
+  funding_agency:
+    Desc: Funding agency of the requestor study
+    Req: 'No'
+    Term:
+    - Code: '11524545'
+      Definition: The name of the funding source organization or sponsor.
+      Origin: caDSR
+      Value: Funding Agency Organization Name Text
+      Version: '2'
+    Type: String
+  funding_source_program_name:
+    Desc: The funding source organization/sponsor
+    Req: 'No'
+    Term:
+    - Code: '11524546'
+      Definition: The name of the program assigned by the funding agency.
+      Origin: caDSR
+      Value: Funding Agency Program Name Text
+      Version: '2'
+    Type: String
+  grant_id:
+    Desc: Grant or contract identifier
+    Req: 'No'
+    Term:
+    - Code: '3434057'
+      Definition: Unique alphanumeric Identifier of a grant funding resource used
+        to treat a patient on a study.
+      Origin: caDSR
+      Value: Grant Funding Identifier Number
+      Version: '2'
+    Type: String
+  histopathology.histopathology_id:
+    Req: 'No'
+    Type: String
+  histopathology_id:
+    Req: 'No'
+    Type: String
+  image_modality:
+    Req: 'Yes'
+    Term:
+    - Code: '2896064'
+      Definition: A system of categories for representing a specific manner, characteristic,
+        pattern of a data acquisition device used in an imaging event whether physical
+        or electronic.
+      Origin: caDSR
+      Value: Image Series Modality DICOM Modality Type
+      Version: '2'
+    Type: String
+  imaging_assay_type:
+    Desc: Type of imaging assay
+    Req: 'Yes'
+    Term:
+    - Code: '7789196'
+      Definition: The type of assay method or technology utilized to determine the
+        amount of a particular constituent in a sample or the biological properties
+        or activity of the sample.
+      Origin: caDSR
+      Value: Assay Technology Type
+      Version: '2'
+    Type: String
+  immersion:
+    Desc: Immersion medium
+    Req: 'No'
+    Term:
+    - Code: '8058286'
+      Definition: Text specifying the kind of fluid used to fill the space between
+        a microscope's objective lens and the coverslip.
+      Origin: caDSR
+      Value: Microscope Device Immersion Medium Type
+      Version: '1'
+    Type: String
+  institution_name:
+    Desc: TBD
+    Req: 'No'
+    Term:
+    - Code: '1100'
+      Definition: the name of the organization entering patients on a clinical trial.
+      Origin: caDSR
+      Value: Institution Name
+      Version: '4'
+    Type: String
+  investigator_id:
+    Req: 'No'
+    Type: String
+  is_phantom:
+    Req: 'Yes'
+    Type: String
+  journal_citation:
+    Desc: The name of the journal in which the cited work was published, inclusive
+      of the citation itself in terms of journal volume number, part number where
+      applicable, and page numbers.
+    Req: 'No'
+    Term:
+    - Code: '16081476'
+      Definition: A bibliographical reference to a cited journal article.
+      Origin: caDSR
+      Value: Publication Journal Citation Text
+      Version: '1'
+    Type: String
+  lab_test_name:
+    Desc: Descriptive name of the lab test or examination used to obtain the measurement
+      or finding. Any test normally performed by a clinical laboratory is considered
+      a lab test.
+    Req: 'No'
+    Term:
+    - Code: '6343328'
+      Definition: Descriptive name of the lab test or examination used to obtain the
+        measurement or finding. Any test normally performed by a clinical laboratory
+        is considered a lab test. This content is being reviewed for compliance with
+        Executive Order 14168 which mandates that gender should not be used as a replacement
+        for sex.
+      Origin: caDSR
+      Value: Lab Test or Examination Name
+      Version: '12'
+    Type: String
+  last_name:
+    Desc: A means of identifying an individual by using a word or group of words indicating
+      a person's last (family) name. Synonym = Last Name, Surname.> The last or family
+      name of the person responsible for the conduct of the clinical trial or research
+      project
+    Req: 'Yes'
+    Term:
+    - Code: '2179591'
+      Definition: A means of identifying an individual by using a word or group of
+        words indicating a person's last (family) name. Synonym = Last Name, Surname.
+      Origin: caDSR
+      Value: Person Family/Last Name
+      Version: '2'
+    Type: String
+  lens_numerical_aperture:
+    Desc: The numerical aperture of the lens. Floating point value > 0.
+    Req: 'No'
+    Term:
+    - Code: '7788942'
+      Definition: A floating point numerical value describing the range of angles
+        over which the objective lens can accept or emit light.
+      Origin: caDSR
+      Value: Microscope Device Lens Numerical Aperture Float Value
+      Version: '1'
+    Type: String
+  license:
+    Desc: license under which this collection / dataset / study will be published;
+      Official or legal permission to do or own a specified thing.
+    Req: 'No'
+    Term:
+    - Code: '14902606'
+      Definition: The license format describing credit and use restrictions when granting
+        permission to share and/or distribute data collections.
+      Origin: caDSR
+      Value: Data Collection License Type
+      Version: '1'
+    Type: String
+  lot:
+    Desc: lot number from vendor
+    Req: 'No'
+    Term:
+    - Code: '14769695'
+      Definition: A textual description of the lot identifier assigned to a product
+        by the vendor used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Vendor Lot Number Text
+      Version: '1'
+    Type: String
+  md5sum:
+    Desc: MD5 hex digest for this file
+    Req: 'Yes'
+    Term:
+    - Code: '11556150'
+      Definition: A 32-character hexadecimal number that is computed on a file.
+      Origin: caDSR
+      Value: Data File MD5 Checksum Text
+      Version: '2'
+    Type: String
+  metal_isotope_element:
+    Desc: Element abbreviation
+    Req: 'No'
+    Term:
+    - Code: '14765198'
+      Definition: The words by which the chemical element containing a specific number
+        of neutrons and a specific atomic mass used in multiplex imaging is known.
+      Origin: caDSR
+      Value: Multiplex Imaging Isotope Abbreviation Name
+      Version: '1'
+    - Code: '14765201'
+      Definition: A sequence of characters used to identify the chemical element used
+        in multiplex imaging whose atoms all have the same atomic number.
+      Origin: caDSR
+      Value: Multiplex Imaging Isotope Element Number Identifier
+      Version: '1'
+    Type: String
+  metastasis_anatomic_site:
+    Req: 'No'
+    Term:
+    - Code: '15114457'
+      Definition: The location within the body where cancer has spread from one part
+        of the body (the organ in which it first appeared) to another secondary part
+        as captured in the Uberon identifier.
+      Origin: caDSR
+      Value: Disease Metastasis Anatomic Site Uberon Identifier
+      Version: '1'
+    Type: String
+  middle_name:
+    Desc: A means of identifying an individual by using a word or group of words indicating
+      a person's middle name.> The middle name of the person responsible for the conduct
+      of the clinical trial or research project.
+    Req: 'No'
+    Term:
+    - Code: '2179590'
+      Definition: A means of identifying an individual by using a word or group of
+        words indicating a person's middle name.
+      Origin: caDSR
+      Value: Person Middle Name
+      Version: '2'
+    Type: String
+  multiplex_image.multiplex_image_id:
+    Req: 'No'
+    Type: String
+  multiplex_image_id:
+    Req: 'No'
+    Type: String
+  nominal_magnification:
+    Desc: The magnification of the lens as specified by the manufacturer - i.e. '60'
+      is a 60X lens. floating point value > 1(no units)
+    Req: 'No'
+    Term:
+    - Code: '7788940'
+      Definition: A floating point numerical value describing the nominal magnification
+        of an optical instrument using a combination of lenses to produce an image.
+      Origin: caDSR
+      Value: Microscope Device Nominal Magnification Float Value
+      Version: '1'
+    Type: String
+  number_of_participants:
+    Desc: How many participants in the study
+    Req: 'Yes'
+    Term:
+    - Code: '11555662'
+      Definition: The number of participants in the study.
+      Origin: caDSR
+      Value: Research Activity Unique Subjects Count
+      Version: '1'
+    Type: String
+  objective:
+    Desc: An_objective_is an optical element that gathers light from an object being
+      observed and_focuses_the_light rays_from it to produce a_real image_of the object.
+    Req: 'No'
+    Term:
+    - Code: '7788935'
+      Definition: Text which describes the microscope's objective lens nearest to
+        the specimen being viewed that magnifies and projects the image of the specimen.
+      Origin: caDSR
+      Value: Microscope Device Objective Lens Text
+      Version: '1'
+    Type: String
+  oligo_barcode_lower_strand:
+    Desc: DNA barcode used for labeling
+    Req: 'No'
+    Term:
+    - Code: '14765208'
+      Definition: A textual description of the oligonucleotide barcode used in multiplex
+        imaging to label the non-coding strand in double-stranded DNA.
+      Origin: caDSR
+      Value: Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
+      Version: '1'
+    Type: String
+  oligo_barcode_upper_strand:
+    Desc: DNA barcode used for labeling
+    Req: 'No'
+    Term:
+    - Code: '14765205'
+      Definition: A textual description of the oligonucleotide barcode used in multiplex
+        imaging to label the coding strand in double-stranded DNA.
+      Origin: caDSR
+      Value: Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
+      Version: '1'
+    Type: String
+  organization_name:
+    Desc: The text that describes the distinguishable characteristics of a person
+      in a formal association with a group or organization.
+    Req: 'Yes'
+    Term:
+    - Code: '2152'
+      Definition: The formal name of the organization.
+      Origin: caDSR
+      Value: Organization Name
+      Version: '3'
+    Type: String
+  person_orcid:
+    Desc: A persistent unique digital identifier assigned to a person by the Open
+      Researcher and Contributor ID (ORCID) organization.> A persistent unique digital
+      identifier assigned to a principal investigator by the Open Researcher and Contributor
+      ID (ORCID) organization.
+    Req: 'No'
+    Term:
+    - Code: '10624734'
+      Definition: A persistent unique digital identifier assigned to a person by the
+        Open Researcher and Contributor ID (ORCID) organization.
+      Origin: caDSR
+      Value: Person ORCID Text
+      Version: '3'
+    Type: String
+  primary_diagnosis:
+    Desc: Text term used to describe the patient's histologic diagnosis, as described
+      by the World Health Organization's (WHO) International Classification of Diseases
+      for Oncology (ICD-O).
+    Req: 'Yes'
+    Term:
+    - Code: '6161032'
+      Definition: Text term used to describe the patient's histologic diagnosis, as
+        described by the World Health Organization's (WHO) International Classification
+        of Diseases for Oncology (ICD-O).
+      Origin: caDSR
+      Value: ICD-O Primary Disease Diagnosis Type
+      Version: '1'
+    Type: String
+  primary_site:
+    Desc: The text term used to describe the primary site of disease, as categorized
+      by the World Health Organization's (WHO) International Classification of Diseases
+      for Oncology (ICD-O). This categorization groups cases into general categories.
+      Reference tissue_or_organ_of_origin on the diagnosis node for more specific
+      primary sites of disease.
+    Req: 'Yes'
+    Term:
+    - Code: '6161019'
+      Definition: The text term used to describe the general location of the malignant
+        disease, as categorized by the World Health Organization's (WHO) International
+        Classification of Diseases for Oncology (ICD-O).
+      Origin: caDSR
+      Value: ICD-O Primary Anatomic Site Category
+      Version: '1'
+    Type: String
+  procedure.procedure_id:
+    Req: 'No'
+    Type: String
+  procedure_date:
+    Req: 'Yes'
+    Term:
+    - Code: '3434493'
+      Definition: The date of an imaging procedure.
+      Origin: caDSR
+      Value: Imaging Technique Occurrence Date
+      Version: '2'
+    Type: String
+  procedure_id:
+    Req: 'No'
+    Type: String
+  program.program_id:
+    Req: 'No'
+    Type: String
+  program_external_url:
+    Desc: The external url to which users should be directed in order to learn more
+      about the program.
+    Req: 'No'
+    Type: String
+  program_full_description:
+    Desc: A more detailed, multiple sentence description of the program.
+    Req: 'No'
+    Type: String
+  program_id:
+    Req: 'No'
+    Type: String
+  program_name:
+    Desc: The name of the program under which related studies will be grouped, in
+      full text and unabbreviated form, exactly as it will be displayed within the
+      UI.
+    Req: 'Yes'
+    Term:
+    - Code: '11444542'
+      Definition: "The\_narrative title\_used to refer to\_a broad\_framework\_(an\_\
+        administrative\_umbrella)\_of goals\_under which related\_projects or\_other\
+        \ research activities are grouped."
+      Origin: caDSR
+      Value: Research Activity Program Name Text
+      Version: '3'
+    Type: String
+  program_short_description:
+    Desc: An abbreviated, single sentence description of the program.
+    Req: 'No'
+    Type: String
+  program_short_name:
+    Desc: An acronym or abbreviated form of the title of a broad framework of goals
+      under which related projects or other research activities are grouped. Example
+      - CPTAC
+    Req: 'Yes'
+    Term:
+    - Code: '11459801'
+      Definition: "An acronym\_or abbreviated form of the title of\_a broad framework\
+        \ of goals under which\_related\_projects\_or other research activities\_\
+        are grouped."
+      Origin: caDSR
+      Value: Program Short Name Text
+      Version: '3'
+    Type: String
+  publication_title:
+    Desc: The full title of the publication stated exactly as it appears on the published
+      work.
+    Req: 'Yes'
+    Term:
+    - Code: '16078531'
+      Definition: The title for a published printed or electronic article.
+      Origin: caDSR
+      Value: Publication Title Text
+      Version: '1'
+    Type: String
+  publication_type:
+    Desc: In the DataCite Metadata Schema 4.6 (released December 2024), the following
+      publication-related resource types are listed.
+    Enum:
+    - resourceTypeGeneral
+    - Audiovisual
+    - Book
+    - BookChapter
+    - Collection
+    - ComputationalNotebook
+    - ConferencePaper
+    - ConferenceProceeding
+    - DataPaper
+    - Dataset
+    - Dissertation
+    - Event
+    - Image
+    - InteractiveResource
+    - Journal
+    - JournalArticle
+    - Model
+    - OutputManagementPlan
+    - PeerReview
+    - PhysicalObject
+    - Preprint
+    - Report
+    - Service
+    - Software
+    - Sound
+    - Standard
+    - Text
+    - Workflow
+    - Other
+    - Award
+    - Project
+    - ''
+    Req: 'Yes'
+  pyramid:
+    Desc: The data file contains an image pyramid
+    Req: 'No'
+    Term:
+    - Code: '7788945'
+      Definition: A response of true or false or to indicate if an image is a multi-resolution
+        representation allowing for analysis and manipulation of the image over a
+        range of spatial scales.
+      Origin: caDSR
+      Value: Image Processing Pyramid Representation True False Indicator
+      Version: '1'
+    Type: String
+  race:
+    Desc: An arbitrary classification of a taxonomic group that is a division of a
+      species. It usually arises as a consequence of geographical isolation within
+      a species and is characterized by shared heredity, physical attributes and behavior,
+      and in the case of humans, by common history, nationality, or geographic distribution.
+      The provided values are based on the categories defined by the U.S. Office of
+      Management and Business and used by the U.S. Census Bureau.
+    Req: 'Yes'
+    Term:
+    - Code: '2192199'
+      Definition: The text for reporting information about race based on the Office
+        of Management and Budget (OMB) categories.
+      Origin: caDSR
+      Value: Race Category Text
+      Version: '1'
+    Type: String
+  radiology.radiology_id:
+    Req: 'No'
+    Type: String
+  related_work_id:
+    Desc: primary key
+    Req: 'No'
+    Type: String
+  relationship_type:
+    Desc: A set of DOI relationship types based on the DataCite Metadata Schema.
+    Enum:
+    - IsCitedBy
+    - Cites
+    - IsSupplementTo
+    - IsSupplementedBy
+    - IsContinuedBy
+    - Continues
+    - Describes
+    - IsDescribedBy
+    - HasMetadata
+    - IsMetadataFor
+    - HasVersion
+    - IsVersionOf
+    - IsNewVersionOf
+    - IsPreviousVersionOf
+    - IsPartOf
+    - HasPart
+    - IsPublishedIn
+    - IsReferencedBy
+    - References
+    - IsDocumentedBy
+    - Documents
+    - IsCompiledBy
+    - Compiles
+    - IsVariantFormOf
+    - IsOriginalFormOf
+    - IsIdenticalTo
+    - IsReviewedBy
+    - Reviews
+    - IsDerivedFrom
+    - IsSourceOf
+    - IsRequiredBy
+    - Requires
+    - Obsoletes
+    - IsObsoletedBy
+    - IsCollectedBy
+    - Collects
+    - IsTranslationOf
+    - HasTranslation
+    Req: 'No'
+  resource_identifier:
+    Desc: Repositories where other publications/datasets are stored, e.g. GDC, PDC
+    Req: 'No'
+    Type: String
+  role:
+    Desc: The text that describes the distinguishable characteristics of the action
+      or activity assigned to.
+    Req: 'No'
+    Term:
+    - Code: '2201713'
+      Definition: The text that describes the distinguishable characteristics of the
+        action or activity assigned to or required or expected of a person in a formal
+        association with a group or organization.
+      Origin: caDSR
+      Value: Person Affiliation Role Text Type
+      Version: '2'
+    Type: String
+  ror_id:
+    Desc: The Research Organization Registry (ROR) is a global, community-led registry
+      of open persistent identifiers for research organizations. (https://ror.org/)
+    Req: 'No'
+    Type: String
+  rrid_identifier:
+    Desc: Research Resource Identifier
+    Req: 'No'
+    Term:
+    - Code: '14767247'
+      Definition: One or more characters used to identify a research resource.
+      Origin: caDSR
+      Value: Research Activity Research Resource Identifier
+      Version: '1'
+    Type: String
+  sex_at_birth:
+    Desc: A textual description of a person's sex at birth.
+    Req: 'Yes'
+    Term:
+    - Code: '7572817'
+      Definition: A textual description of a person's sex at birth.
+      Origin: caDSR
+      Value: Person Sex at Birth Category
+      Version: '3'
+    Type: String
+  staining_method:
+    Desc: Any of the various methods that use a dye, reagent, or other material for
+      producing coloration in tissues or microorganisms for microscopic examination.
+    Req: 'Yes'
+    Term:
+    - Code: '7789196'
+      Definition: The type of assay method or technology utilized to determine the
+        amount of a particular constituent in a sample or the biological properties
+        or activity of the sample.
+      Origin: caDSR
+      Value: Assay Technology Type
+      Version: '2'
+    Type: String
+  sub_cycle_number:
+    Desc: 'sub-cycle #'
+    Req: 'No'
+    Term:
+    - Code: '14765180'
+      Definition: A numerical value which captures the sub-cycle number during which
+        a reagent was used in multiplex imaging.
+      Origin: caDSR
+      Value: Multiplex Imaging Reagent Sub-Cycle Number Integer
+      Version: '1'
+    Type: String
+  subject.subject.id:
+    Req: 'No'
+    Type: String
+  subject.subject_id:
+    Req: 'No'
+    Type: String
+  subject_id:
+    Req: 'No'
+    Type: String
+  target_name:
+    Desc: short descriptive name (abbreviation) for this target (antigen)
+    Req: 'No'
+    Term:
+    - Code: '14765182'
+      Definition: The words by which the substance, generally a protein, that stimulates
+        the immune system and elicits an immune response used in multiplex imaging
+        is known.
+      Origin: caDSR
+      Value: Multiplex Imaging Target Antigen Name
+      Version: '1'
+    Type: String
+  test_result:
+    Desc: The text term used to describe the result of the molecular test. If the
+      test result was a numeric value see test_value.
+    Req: 'No'
+    Term:
+    - Code: '6142397'
+      Definition: The text term used to describe the result of the molecular test.
+      Origin: caDSR
+      Value: Molecular Laboratory Procedure Outcome
+      Version: '1'
+    Type: String
+  tissue_fixative:
+    Desc: A compound that preserves tissues and cells for microscopic study.
+    Req: 'Yes'
+    Term:
+    - Code: '65078'
+      Definition: the field to identify the type of fixative used to preserve a tissue
+        specimen.
+      Origin: caDSR
+      Value: Specimen Fixative Type
+      Version: '4'
+    Type: String
+  tumor_tissue_type:
+    Desc: Text that describes the kind of disease present in the tumor specimen as
+      related to a specific timepoint (add rows to select multiple values along with
+      timepoints)
+    Req: 'No'
+    Term:
+    - Code: '3288124'
+      Definition: Text that describes the kind of disease present in the tumor specimen
+        as related to a specific timepoint.
+      Origin: caDSR
+      Value: Tumor Tissue Disease Description Type
+      Version: '1'
+    Type: String
+  vital_status:
+    Desc: The survival state of the person registered on the protocol.
+    Req: 'Yes'
+    Term:
+    - Code: '2847330'
+      Definition: The response to a question that describes a participant's survival
+        status.
+      Origin: caDSR
+      Value: Participant Vital Status Type
+      Version: '1'
+    Type: String
+  working_distance:
+    Desc: The working distance of the lens, expressed as a floating point number.
+      Floating point > 0. Size needs to be specified in microns (um)
+    Req: 'No'
+    Term:
+    - Code: '7788943'
+      Definition: A floating point numerical value computed between the front end
+        of the objective lens and the specimen surface when the specimen is in focus.
+      Origin: caDSR
+      Value: Microscope Device Working Distance Float Value
+      Version: '1'
+    Type: String
+  year_of_publication:
+    Desc: The year in which the cited work was published.
+    Req: 'No'
+    Term:
+    - Code: '16081475'
+      Definition: The year in four digit format in which the printed or electronic
+        work was published.
+      Origin: caDSR
+      Value: Publication Year Date
+      Version: '1'
+    Type: String
