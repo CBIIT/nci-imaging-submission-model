@@ -1,0 +1,757 @@
+Terms:
+  ? ''
+  : Origin: null
+    Value: ''
+  Audiovisual:
+    Origin: null
+    Value: Audiovisual
+  Award:
+    Origin: null
+    Value: Award
+  Book:
+    Origin: null
+    Value: Book
+  BookChapter:
+    Origin: null
+    Value: BookChapter
+  Cites:
+    Origin: null
+    Value: Cites
+  Collection:
+    Origin: null
+    Value: Collection
+  Collects:
+    Origin: null
+    Value: Collects
+  Compiles:
+    Origin: null
+    Value: Compiles
+  ComputationalNotebook:
+    Origin: null
+    Value: ComputationalNotebook
+  ConferencePaper:
+    Origin: null
+    Value: ConferencePaper
+  ConferenceProceeding:
+    Origin: null
+    Value: ConferenceProceeding
+  Continues:
+    Origin: null
+    Value: Continues
+  DOI:
+    Code: '15915370'
+    Definition: A unique code used by publishers to identify a digital object, such
+      as a journal article, web document, or other item of intellectual property.
+    Origin: caDSR
+    Value: Publication Digital Object Identifier Text
+    Version: '1'
+  DataPaper:
+    Origin: null
+    Value: DataPaper
+  Dataset:
+    Origin: null
+    Value: Dataset
+  Describes:
+    Origin: null
+    Value: Describes
+  Dissertation:
+    Origin: null
+    Value: Dissertation
+  Documents:
+    Origin: null
+    Value: Documents
+  Event:
+    Origin: null
+    Value: Event
+  HasMetadata:
+    Origin: null
+    Value: HasMetadata
+  HasPart:
+    Origin: null
+    Value: HasPart
+  HasTranslation:
+    Origin: null
+    Value: HasTranslation
+  HasVersion:
+    Origin: null
+    Value: HasVersion
+  Image:
+    Origin: null
+    Value: Image
+  InteractiveResource:
+    Origin: null
+    Value: InteractiveResource
+  IsCitedBy:
+    Origin: null
+    Value: IsCitedBy
+  IsCollectedBy:
+    Origin: null
+    Value: IsCollectedBy
+  IsCompiledBy:
+    Origin: null
+    Value: IsCompiledBy
+  IsContinuedBy:
+    Origin: null
+    Value: IsContinuedBy
+  IsDerivedFrom:
+    Origin: null
+    Value: IsDerivedFrom
+  IsDescribedBy:
+    Origin: null
+    Value: IsDescribedBy
+  IsDocumentedBy:
+    Origin: null
+    Value: IsDocumentedBy
+  IsIdenticalTo:
+    Origin: null
+    Value: IsIdenticalTo
+  IsMetadataFor:
+    Origin: null
+    Value: IsMetadataFor
+  IsNewVersionOf:
+    Origin: null
+    Value: IsNewVersionOf
+  IsObsoletedBy:
+    Origin: null
+    Value: IsObsoletedBy
+  IsOriginalFormOf:
+    Origin: null
+    Value: IsOriginalFormOf
+  IsPartOf:
+    Origin: null
+    Value: IsPartOf
+  IsPreviousVersionOf:
+    Origin: null
+    Value: IsPreviousVersionOf
+  IsPublishedIn:
+    Origin: null
+    Value: IsPublishedIn
+  IsReferencedBy:
+    Origin: null
+    Value: IsReferencedBy
+  IsRequiredBy:
+    Origin: null
+    Value: IsRequiredBy
+  IsReviewedBy:
+    Origin: null
+    Value: IsReviewedBy
+  IsSourceOf:
+    Origin: null
+    Value: IsSourceOf
+  IsSupplementTo:
+    Origin: null
+    Value: IsSupplementTo
+  IsSupplementedBy:
+    Origin: null
+    Value: IsSupplementedBy
+  IsTranslationOf:
+    Origin: null
+    Value: IsTranslationOf
+  IsVariantFormOf:
+    Origin: null
+    Value: IsVariantFormOf
+  IsVersionOf:
+    Origin: null
+    Value: IsVersionOf
+  Journal:
+    Origin: null
+    Value: Journal
+  JournalArticle:
+    Origin: null
+    Value: JournalArticle
+  Modality:
+    Code: '2896064'
+    Definition: A system of categories for representing a specific manner, characteristic,
+      pattern of a data acquisition device used in an imaging event whether physical
+      or electronic.
+    Origin: caDSR
+    Value: Image Series Modality DICOM Modality Type
+    Version: '2'
+  Model:
+    Origin: null
+    Value: Model
+  NCBI Taxonomy ID:
+    Code: '10543100'
+    Definition: The unique numerical identifier of a subject's organismal classification
+      as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
+      standard nomenclature and classification repository.
+    Origin: caDSR
+    Value: Subject Taxonomy NCBI Identifier
+    Version: '2'
+  Obsoletes:
+    Origin: null
+    Value: Obsoletes
+  Other:
+    Origin: null
+    Value: Other
+  OutputManagementPlan:
+    Origin: null
+    Value: OutputManagementPlan
+  PeerReview:
+    Origin: null
+    Value: PeerReview
+  PhysicalObject:
+    Origin: null
+    Value: PhysicalObject
+  Preprint:
+    Origin: null
+    Value: Preprint
+  Project:
+    Origin: null
+    Value: Project
+  References:
+    Origin: null
+    Value: References
+  Report:
+    Origin: null
+    Value: Report
+  Requires:
+    Origin: null
+    Value: Requires
+  Reviews:
+    Origin: null
+    Value: Reviews
+  Service:
+    Origin: null
+    Value: Service
+  Software:
+    Origin: null
+    Value: Software
+  Sound:
+    Origin: null
+    Value: Sound
+  Standard:
+    Origin: null
+    Value: Standard
+  Text:
+    Origin: null
+    Value: Text
+  Workflow:
+    Origin: null
+    Value: Workflow
+  acquisition_method_type:
+    Code: '6626651'
+    Definition: Records the method of acquisition or source for the specimen under
+      consideration.
+    Origin: caDSR
+    Value: Biospecimen Acquisition Method Type
+    Version: '2'
+  adult_or_childhood_study:
+    Code: '11524549'
+    Definition: The identifiable class of the study participant based upon their age.
+    Origin: caDSR
+    Value: Subject Legal Adult Or Pediatric Study Participant Type
+    Version: '2'
+  age_at_diagnosis:
+    Code: '10609539'
+    Definition: The subject's age since birth at the time of diagnosis.
+    Origin: caDSR
+    Value: Subject Age at Diagnosis Integer
+    Version: '1'
+  antibody_name:
+    Code: '14765184'
+    Definition: The words by which the protein made by B lymphocytes in response to
+      a foreign substance (antigen) used in multiplex imaging is known.
+    Origin: caDSR
+    Value: Multiplex Imaging Antibody Name
+    Version: '1'
+  authorship:
+    Code: '16081468'
+    Definition: A list of authors cited for a published work.
+    Origin: caDSR
+    Value: Publication Citation Author List Text
+    Version: '1'
+  catalog_number:
+    Code: '14767261'
+    Definition: A textual description of the catalog identifier assigned to a product
+      by the vendor used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Vendor Catalog Number Text
+    Version: '1'
+  channel_id:
+    Code: '14765171'
+    Definition: A sequence of characters used to identify, name, or characterize the
+      OME TIFF channel used in multiplex imaging.
+    Origin: caDSR
+    Value: OME Tagged Image File Format Channel Identifier
+    Version: '1'
+  channel_metadata_filename:
+    Code: '7787678'
+    Definition: The full path name of the uploaded file containing channel-level metadata
+      describing the processes used to analyze the experimental data in a study.
+    Origin: caDSR
+    Value: Channel Analysis Metadata Electronic File Name Text
+    Version: '1'
+  channel_name:
+    Code: '14765172'
+    Definition: The words by which the OME TIFF channel used in multiplex imaging
+      is known.
+    Origin: caDSR
+    Value: OME Tagged Image File Format Channel Name
+    Version: '1'
+  clone:
+    Code: '14767258'
+    Definition: A sequence of characters used to identify a group of genetically identical
+      cells, organisms, or DNA molecules used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Clone Unique Identifier
+    Version: '1'
+  concentration:
+    Code: '14768386'
+    Definition: A numerical quantity which captures the measure of the amount of substance
+      present in a unit amount of mixture used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Final Concentration Number
+    Version: '1'
+  cycle_number:
+    Code: '14765176'
+    Definition: A numerical value which captures the cycle number during which a reagent
+      was used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Reagent Cycle Number Integer
+    Version: '1'
+  dataset_long_name:
+    Code: '11459810'
+    Definition: "The\_narrative title\_used as\_a\_textual\_label\_for\_a\_research\
+      \ data\_collection."
+    Origin: caDSR
+    Value: Study Administration Study Name Text
+    Version: '4'
+  dataset_short_name:
+    Code: '11459812'
+    Definition: "The acronym\_or\_abbreviated\_form of\_the\_title\_for a\_research\
+      \ data\_collection."
+    Origin: caDSR
+    Value: Study Administration Study Short Name Text
+    Version: '4'
+  de_identification_method_description:
+    Code: '14612655'
+    Definition: Text describing the manner of procedure or systematic course of actions
+      performed to remove text elements that would make data individually identifiable.
+    Origin: caDSR
+    Value: Deidentification Method Description Text
+    Version: '1'
+  de_identification_method_type:
+    Code: '14607284'
+    Definition: The type of procedure used to remove any text elements that would
+      make data individually identifiable.
+    Origin: caDSR
+    Value: Deidentification Method Type
+    Version: '1'
+  de_identification_software:
+    Code: '14612658'
+    Definition: Text describing the literal identifier of the software program used
+      to remove text elements that would make data individually identifiable.
+    Origin: caDSR
+    Value: Deidentification Software Name Text
+    Version: '1'
+  dilution:
+    Code: '14767270'
+    Definition: A numerical quantity which captures the concentration of  different
+      reagents used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Final Dilution Ratio Number
+    Version: '1'
+  email:
+    Code: '2517550'
+    Definition: The string of characters that represents the electronic mail address
+      of a person.
+    Origin: caDSR
+    Value: Person Email Address Text
+    Version: '1'
+  embedding_medium:
+    Code: '8028962'
+    Definition: The term which describes the method used to maintain the specimen
+      in a viable state.
+    Origin: caDSR
+    Value: Specimen Preservation Procedure Type
+    Version: '3'
+  emission_bandwidth:
+    Code: '14765193'
+    Definition: A numerical quantity which captures the nominal width of an emission
+      spectrum used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Emission Bandwidth Number
+    Version: '1'
+  emission_wavelength:
+    Code: '14767264'
+    Definition: A numerical quantity which captures the wavelength with the maximum
+      peak in an emission spectrum.
+    Origin: caDSR
+    Value: Assay Emission Wavelength Number
+    Version: '1'
+  ethnicity:
+    Code: '2192217'
+    Definition: The text for reporting information about ethnicity based on the Office
+      of Management and Budget (OMB) categories.
+    Origin: caDSR
+    Value: Ethnic Group Category Text
+    Version: '2'
+  excitation_bandwidth:
+    Code: '14765190'
+    Definition: A numerical quantity which captures the nominal width of an excitation
+      spectrum used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Excitation Bandwidth Number
+    Version: '1'
+  excitation_wavelength:
+    Code: '14765187'
+    Definition: A numerical quantity which captures the electromagnetic radiation
+      wavelength that causes peak excitation used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Excitation Wavelength Number
+    Version: '1'
+  file_description:
+    Code: '11280338'
+    Definition: A free text field that can be used to document the content and other
+      details about a data file that may not be captured elsewhere.
+    Origin: caDSR
+    Value: Data File Description Text
+    Version: '2'
+  file_name:
+    Code: '11284037'
+    Definition: The literal label for an electronic data file.
+    Origin: caDSR
+    Value: Data File Name Text
+    Version: '3'
+  file_size:
+    Code: '11479876'
+    Definition: The measure (in bytes) of how much space a data file takes up on a
+      storage medium.
+    Origin: caDSR
+    Value: Data File Size Integer
+    Version: '2'
+  file_type:
+    Code: '11416926'
+    Definition: A defined organization or layout representing and structuring data
+      in a computer file.
+    Origin: caDSR
+    Value: Data File Format Type
+    Version: '2'
+  first_name:
+    Code: '2179589'
+    Definition: A word or group of words indicating a person's first (personal or
+      given) name; the name that precedes the surname. Synonym = Given Name
+    Origin: caDSR
+    Value: Person Given/First Name
+    Version: '2'
+  fluorophore:
+    Code: '14767255'
+    Definition: A textual description of fluorescent antibodies, aptamers, peptides,
+      dyes, and similar detection reagents used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Fluorescent Dye Text
+    Version: '1'
+  funding_agency:
+    Code: '11524545'
+    Definition: The name of the funding source organization or sponsor.
+    Origin: caDSR
+    Value: Funding Agency Organization Name Text
+    Version: '2'
+  funding_source_program_name:
+    Code: '11524546'
+    Definition: The name of the program assigned by the funding agency.
+    Origin: caDSR
+    Value: Funding Agency Program Name Text
+    Version: '2'
+  grant_id:
+    Code: '3434057'
+    Definition: Unique alphanumeric Identifier of a grant funding resource used to
+      treat a patient on a study.
+    Origin: caDSR
+    Value: Grant Funding Identifier Number
+    Version: '2'
+  image_modality:
+    Code: '2896064'
+    Definition: A system of categories for representing a specific manner, characteristic,
+      pattern of a data acquisition device used in an imaging event whether physical
+      or electronic.
+    Origin: caDSR
+    Value: Image Series Modality DICOM Modality Type
+    Version: '2'
+  imaging_assay_type:
+    Code: '7789196'
+    Definition: The type of assay method or technology utilized to determine the amount
+      of a particular constituent in a sample or the biological properties or activity
+      of the sample.
+    Origin: caDSR
+    Value: Assay Technology Type
+    Version: '2'
+  immersion:
+    Code: '8058286'
+    Definition: Text specifying the kind of fluid used to fill the space between a
+      microscope's objective lens and the coverslip.
+    Origin: caDSR
+    Value: Microscope Device Immersion Medium Type
+    Version: '1'
+  institution_name:
+    Code: '1100'
+    Definition: the name of the organization entering patients on a clinical trial.
+    Origin: caDSR
+    Value: Institution Name
+    Version: '4'
+  journal_citation:
+    Code: '16081476'
+    Definition: A bibliographical reference to a cited journal article.
+    Origin: caDSR
+    Value: Publication Journal Citation Text
+    Version: '1'
+  lab_test_name:
+    Code: '6343328'
+    Definition: Descriptive name of the lab test or examination used to obtain the
+      measurement or finding. Any test normally performed by a clinical laboratory
+      is considered a lab test. This content is being reviewed for compliance with
+      Executive Order 14168 which mandates that gender should not be used as a replacement
+      for sex.
+    Origin: caDSR
+    Value: Lab Test or Examination Name
+    Version: '12'
+  last_name:
+    Code: '2179591'
+    Definition: A means of identifying an individual by using a word or group of words
+      indicating a person's last (family) name. Synonym = Last Name, Surname.
+    Origin: caDSR
+    Value: Person Family/Last Name
+    Version: '2'
+  lens_numerical_aperture:
+    Code: '7788942'
+    Definition: A floating point numerical value describing the range of angles over
+      which the objective lens can accept or emit light.
+    Origin: caDSR
+    Value: Microscope Device Lens Numerical Aperture Float Value
+    Version: '1'
+  license:
+    Code: '14902606'
+    Definition: The license format describing credit and use restrictions when granting
+      permission to share and/or distribute data collections.
+    Origin: caDSR
+    Value: Data Collection License Type
+    Version: '1'
+  lot:
+    Code: '14769695'
+    Definition: A textual description of the lot identifier assigned to a product
+      by the vendor used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Vendor Lot Number Text
+    Version: '1'
+  md5sum:
+    Code: '11556150'
+    Definition: A 32-character hexadecimal number that is computed on a file.
+    Origin: caDSR
+    Value: Data File MD5 Checksum Text
+    Version: '2'
+  metal_isotope_element:
+    Code: '14765201'
+    Definition: A sequence of characters used to identify the chemical element used
+      in multiplex imaging whose atoms all have the same atomic number.
+    Origin: caDSR
+    Value: Multiplex Imaging Isotope Element Number Identifier
+    Version: '1'
+  metastasis_anatomic_site:
+    Code: '15114457'
+    Definition: The location within the body where cancer has spread from one part
+      of the body (the organ in which it first appeared) to another secondary part
+      as captured in the Uberon identifier.
+    Origin: caDSR
+    Value: Disease Metastasis Anatomic Site Uberon Identifier
+    Version: '1'
+  middle_name:
+    Code: '2179590'
+    Definition: A means of identifying an individual by using a word or group of words
+      indicating a person's middle name.
+    Origin: caDSR
+    Value: Person Middle Name
+    Version: '2'
+  nominal_magnification:
+    Code: '7788940'
+    Definition: A floating point numerical value describing the nominal magnification
+      of an optical instrument using a combination of lenses to produce an image.
+    Origin: caDSR
+    Value: Microscope Device Nominal Magnification Float Value
+    Version: '1'
+  number_of_participants:
+    Code: '11555662'
+    Definition: The number of participants in the study.
+    Origin: caDSR
+    Value: Research Activity Unique Subjects Count
+    Version: '1'
+  objective:
+    Code: '7788935'
+    Definition: Text which describes the microscope's objective lens nearest to the
+      specimen being viewed that magnifies and projects the image of the specimen.
+    Origin: caDSR
+    Value: Microscope Device Objective Lens Text
+    Version: '1'
+  oligo_barcode_lower_strand:
+    Code: '14765208'
+    Definition: A textual description of the oligonucleotide barcode used in multiplex
+      imaging to label the non-coding strand in double-stranded DNA.
+    Origin: caDSR
+    Value: Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
+    Version: '1'
+  oligo_barcode_upper_strand:
+    Code: '14765205'
+    Definition: A textual description of the oligonucleotide barcode used in multiplex
+      imaging to label the coding strand in double-stranded DNA.
+    Origin: caDSR
+    Value: Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
+    Version: '1'
+  organization_name:
+    Code: '2152'
+    Definition: The formal name of the organization.
+    Origin: caDSR
+    Value: Organization Name
+    Version: '3'
+  person_orcid:
+    Code: '10624734'
+    Definition: A persistent unique digital identifier assigned to a person by the
+      Open Researcher and Contributor ID (ORCID) organization.
+    Origin: caDSR
+    Value: Person ORCID Text
+    Version: '3'
+  primary_diagnosis:
+    Code: '6161032'
+    Definition: Text term used to describe the patient's histologic diagnosis, as
+      described by the World Health Organization's (WHO) International Classification
+      of Diseases for Oncology (ICD-O).
+    Origin: caDSR
+    Value: ICD-O Primary Disease Diagnosis Type
+    Version: '1'
+  primary_site:
+    Code: '6161019'
+    Definition: The text term used to describe the general location of the malignant
+      disease, as categorized by the World Health Organization's (WHO) International
+      Classification of Diseases for Oncology (ICD-O).
+    Origin: caDSR
+    Value: ICD-O Primary Anatomic Site Category
+    Version: '1'
+  procedure_date:
+    Code: '3434493'
+    Definition: The date of an imaging procedure.
+    Origin: caDSR
+    Value: Imaging Technique Occurrence Date
+    Version: '2'
+  program_name:
+    Code: '11444542'
+    Definition: "The\_narrative title\_used to refer to\_a broad\_framework\_(an\_\
+      administrative\_umbrella)\_of goals\_under which related\_projects or\_other\
+      \ research activities are grouped."
+    Origin: caDSR
+    Value: Research Activity Program Name Text
+    Version: '3'
+  program_short_name:
+    Code: '11459801'
+    Definition: "An acronym\_or abbreviated form of the title of\_a broad framework\
+      \ of goals under which\_related\_projects\_or other research activities\_are\
+      \ grouped."
+    Origin: caDSR
+    Value: Program Short Name Text
+    Version: '3'
+  publication_title:
+    Code: '16078531'
+    Definition: The title for a published printed or electronic article.
+    Origin: caDSR
+    Value: Publication Title Text
+    Version: '1'
+  pyramid:
+    Code: '7788945'
+    Definition: A response of true or false or to indicate if an image is a multi-resolution
+      representation allowing for analysis and manipulation of the image over a range
+      of spatial scales.
+    Origin: caDSR
+    Value: Image Processing Pyramid Representation True False Indicator
+    Version: '1'
+  race:
+    Code: '2192199'
+    Definition: The text for reporting information about race based on the Office
+      of Management and Budget (OMB) categories.
+    Origin: caDSR
+    Value: Race Category Text
+    Version: '1'
+  resourceTypeGeneral:
+    Origin: null
+    Value: resourceTypeGeneral
+  role:
+    Code: '2201713'
+    Definition: The text that describes the distinguishable characteristics of the
+      action or activity assigned to or required or expected of a person in a formal
+      association with a group or organization.
+    Origin: caDSR
+    Value: Person Affiliation Role Text Type
+    Version: '2'
+  rrid_identifier:
+    Code: '14767247'
+    Definition: One or more characters used to identify a research resource.
+    Origin: caDSR
+    Value: Research Activity Research Resource Identifier
+    Version: '1'
+  sex_at_birth:
+    Code: '7572817'
+    Definition: A textual description of a person's sex at birth.
+    Origin: caDSR
+    Value: Person Sex at Birth Category
+    Version: '3'
+  staining_method:
+    Code: '7789196'
+    Definition: The type of assay method or technology utilized to determine the amount
+      of a particular constituent in a sample or the biological properties or activity
+      of the sample.
+    Origin: caDSR
+    Value: Assay Technology Type
+    Version: '2'
+  sub_cycle_number:
+    Code: '14765180'
+    Definition: A numerical value which captures the sub-cycle number during which
+      a reagent was used in multiplex imaging.
+    Origin: caDSR
+    Value: Multiplex Imaging Reagent Sub-Cycle Number Integer
+    Version: '1'
+  target_name:
+    Code: '14765182'
+    Definition: The words by which the substance, generally a protein, that stimulates
+      the immune system and elicits an immune response used in multiplex imaging is
+      known.
+    Origin: caDSR
+    Value: Multiplex Imaging Target Antigen Name
+    Version: '1'
+  test_result:
+    Code: '6142397'
+    Definition: The text term used to describe the result of the molecular test.
+    Origin: caDSR
+    Value: Molecular Laboratory Procedure Outcome
+    Version: '1'
+  tissue_fixative:
+    Code: '65078'
+    Definition: the field to identify the type of fixative used to preserve a tissue
+      specimen.
+    Origin: caDSR
+    Value: Specimen Fixative Type
+    Version: '4'
+  tumor_tissue_type:
+    Code: '3288124'
+    Definition: Text that describes the kind of disease present in the tumor specimen
+      as related to a specific timepoint.
+    Origin: caDSR
+    Value: Tumor Tissue Disease Description Type
+    Version: '1'
+  vital_status:
+    Code: '2847330'
+    Definition: The response to a question that describes a participant's survival
+      status.
+    Origin: caDSR
+    Value: Participant Vital Status Type
+    Version: '1'
+  working_distance:
+    Code: '7788943'
+    Definition: A floating point numerical value computed between the front end of
+      the objective lens and the specimen surface when the specimen is in focus.
+    Origin: caDSR
+    Value: Microscope Device Working Distance Float Value
+    Version: '1'
+  year_of_publication:
+    Code: '16081475'
+    Definition: The year in four digit format in which the printed or electronic work
+      was published.
+    Origin: caDSR
+    Value: Publication Year Date
+    Version: '1'

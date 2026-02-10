@@ -1,0 +1,3 @@
+# NCI Imaging Submission Model
+
+The NCI Imaging Submission model is graph-based wehre nodes correspond functionally to tables in a relational database.  Each node contains properties that represent columns, or fields, in the table, with relationships stored at the level of individual records.  This data model is intended to support submission of imaging metadata throuh the CRDC Data Submission Portal.

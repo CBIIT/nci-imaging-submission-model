@@ -1,0 +1,259 @@
+Handle: NCIISM
+Nodes:
+  Dataset:
+    Props:
+    - acknowledgements
+    - adult_or_childhood_study
+    - data_has_been_de-identified
+    - dataset_abstract
+    - dataset_description
+    - dataset_id
+    - dataset_long_name
+    - dataset_short_name
+    - de_identification_method_description
+    - de_identification_method_type
+    - de_identification_software
+    - funding_agency
+    - funding_source_program_name
+    - grant_id
+    - number_of_participants
+    - program.program_id
+    Tags:
+      assignment: core
+      category: study
+      class: primary
+      node: Dataset
+      nodeReq: true
+      template: 'Yes'
+  Diagnosis:
+    Props:
+    - age_at_diagnosis
+    - diagnosis_id
+    - metastasis_anatomic_site
+    - primary_diagnosis
+    - primary_site
+    - subject.subject.id
+    Tags:
+      assignment: core
+      category: case
+      class: primary
+      node: Diagnosis
+      nodeReq: true
+      template: 'Yes'
+  File:
+    Props:
+    - dataset.dataset_id
+    - file_description
+    - file_id
+    - file_name
+    - file_size
+    - file_type
+    - histopathology.histopathology_id
+    - license
+    - md5sum
+    - multiplex_image.multiplex_image_id
+    - procedure.procedure_id
+    - radiology.radiology_id
+    - subject.subject_id
+    Tags:
+      assignment: core
+      category: data file
+      class: primary
+      node: File
+      nodeReq: true
+      template: 'Yes'
+  Histopathology:
+    Props:
+    - acquisition_method_type
+    - embedding_medium
+    - histopathology_id
+    - immersion
+    - lens_numerical_aperture
+    - nominal_magnification
+    - objective
+    - staining_method
+    - tissue_fixative
+    - tumor_tissue_type
+    Tags:
+      assignment: core
+      category: data file
+      node: Histopathology
+      nodeReq: true
+      template: 'Yes'
+  Investigator:
+    Props:
+    - dataset.dataset_id
+    - email
+    - first_name
+    - investigator_id
+    - last_name
+    - middle_name
+    - organization_name
+    - person_orcid
+    - role
+    - ror_id
+    Tags:
+      assignment: core
+      category: administrative
+      class: primary
+      node: Investigator
+      nodeReq: true
+      template: 'Yes'
+  Multiplex_Channels:
+    Props:
+    - antibody_name
+    - catalog_number
+    - channel_id
+    - channel_name
+    - clone
+    - concentration
+    - cycle_number
+    - dilution
+    - emission_bandwidth
+    - emission_wavelength
+    - excitation_bandwidth
+    - excitation_wavelength
+    - fluorophore
+    - lot
+    - metal_isotope_element
+    - oligo_barcode_lower_strand
+    - oligo_barcode_upper_strand
+    - rrid_identifier
+    - sub_cycle_number
+    - target_name
+    Tags:
+      assignment: core
+      category: data file
+      node: Multiplex_Channels
+      nodeReq: true
+      template: 'Yes'
+  Multiplex_Imaging:
+    Props:
+    - acquisition_method_type
+    - channel_metadata_filename
+    - embedding_medium
+    - imaging_assay_type
+    - immersion
+    - lens_numerical_aperture
+    - multiplex_image_id
+    - nominal_magnification
+    - objective
+    - pyramid
+    - staining_method
+    - tissue_fixative
+    - tumor_tissue_type
+    - working_distance
+    Tags:
+      assignment: core
+      category: data file
+      node: Multiplex_Imaging
+      nodeReq: true
+      template: 'Yes'
+  Procedure:
+    Props:
+    - image_modality
+    - lab_test_name
+    - procedure_date
+    - procedure_id
+    - subject.subject_id
+    - test_result
+    Tags:
+      assignment: core
+      category: case
+      class: primary
+      node: Procedure
+      nodeReq: true
+      template: 'Yes'
+  Program:
+    Props:
+    - institution_name
+    - program_external_url
+    - program_full_description
+    - program_id
+    - program_name
+    - program_short_description
+    - program_short_name
+    Tags:
+      assignment: core
+      category: administrative
+      class: primary
+      node: Program
+      nodeReq: true
+      template: 'Yes'
+  Radiology:
+    Props:
+    - BodyPartExamined
+    - Manufacturer
+    - ManufacturerModelName
+    - Modality
+    - Patient_age_at_imaging
+    - PixelSpacing(mm)-Row
+    - Radiology_id
+    - SeriesDescription
+    - SliceThickness(mm)
+    - SoftwareVersions
+    - StudyDesc
+    - is_phantom
+    Tags:
+      assignment: core
+      category: data file
+      node: Radiology
+      nodeReq: true
+      template: 'Yes'
+  Related_Work:
+    Props:
+    - DOI
+    - DOI_version
+    - authorship
+    - dataset.dataset_id
+    - journal_citation
+    - publication_title
+    - publication_type
+    - related_work_id
+    - relationship_type
+    - resource_identifier
+    - year_of_publication
+    Tags:
+      assignment: core
+      category: administrative
+      class: primary
+      node: Related_Work
+      nodeReq: true
+      template: 'Yes'
+  Subject:
+    Props:
+    - NCBI Taxonomy ID
+    - dataset.dataset_id
+    - ethnicity
+    - race
+    - sex_at_birth
+    - subject_id
+    - vital_status
+    Tags:
+      assignment: core
+      category: case
+      class: primary
+      node: Subject
+      nodeReq: true
+      template: 'Yes'
+Relationships:
+  of_dataset:
+    Desc: Dataset reltaed information
+    Ends:
+    - Dst: Investigator
+      Props: null
+      Src: Dataset
+    Mul: one_to_many
+    Props: null
+  of_procedure:
+    Desc: Procudure related data
+    Ends:
+    - Dst: Diagnosis
+      Props: null
+      Src: Procedure
+    - Dst: Histopathology
+      Props: null
+      Src: Procedure
+    Mul: one_to_many
+    Props: null
+Version: 0.0.2
