@@ -237,10 +237,21 @@ Nodes:
       nodeReq: true
       template: 'Yes'
 Relationships:
+  has_channels:
+    Desc: Multiplex Imaging channels
+    Ends:
+    - Dst: Multiplex_Imaging
+      Props: null
+      Src: Multiplex_Channels
+    Mul: one_to_many
+    Props: null
   of_dataset:
     Desc: Dataset reltaed information
     Ends:
     - Dst: Investigator
+      Props: null
+      Src: Dataset
+    - Dst: Related_Work
       Props: null
       Src: Dataset
     Mul: one_to_many
@@ -251,7 +262,13 @@ Relationships:
     - Dst: Diagnosis
       Props: null
       Src: Procedure
+    - Dst: Radiology
+      Props: null
+      Src: Procedure
     - Dst: Histopathology
+      Props: null
+      Src: Procedure
+    - Dst: Multiplex_Imaging
       Props: null
       Src: Procedure
     Mul: one_to_many
