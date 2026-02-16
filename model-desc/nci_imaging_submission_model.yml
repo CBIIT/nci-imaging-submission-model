@@ -237,40 +237,72 @@ Nodes:
       nodeReq: true
       template: 'Yes'
 Relationships:
-  has_channels:
-    Desc: Multiplex Imaging channels
+  of_Dataset:
+    Desc: Obtained from node.property
     Ends:
-    - Dst: Multiplex_Imaging
-      Props: null
-      Src: Multiplex_Channels
-    Mul: one_to_many
-    Props: null
-  of_dataset:
-    Desc: Dataset reltaed information
-    Ends:
-    - Dst: Investigator
+    - Dst: Program
       Props: null
       Src: Dataset
-    - Dst: Related_Work
-      Props: null
-      Src: Dataset
-    Mul: one_to_many
+    Mul: Unknown
     Props: null
-  of_procedure:
-    Desc: Procudure related data
+  of_Diagnosis:
+    Desc: Obtained from node.property
     Ends:
-    - Dst: Diagnosis
+    - Dst: Subject
       Props: null
-      Src: Procedure
+      Src: Diagnosis
+    Mul: Unknown
+    Props: null
+  of_File:
+    Desc: Obtained from node.property
+    Ends:
+    - Dst: Subject
+      Props: null
+      Src: File
+    - Dst: Dataset
+      Props: null
+      Src: File
+    - Dst: Procedure
+      Props: null
+      Src: File
     - Dst: Radiology
       Props: null
-      Src: Procedure
+      Src: File
     - Dst: Histopathology
       Props: null
-      Src: Procedure
-    - Dst: Multiplex_Imaging
+      Src: File
+    Mul: Unknown
+    Props: null
+  of_Investigator:
+    Desc: Obtained from node.property
+    Ends:
+    - Dst: Dataset
+      Props: null
+      Src: Investigator
+    Mul: Unknown
+    Props: null
+  of_Procedure:
+    Desc: Obtained from node.property
+    Ends:
+    - Dst: Subject
       Props: null
       Src: Procedure
-    Mul: one_to_many
+    Mul: Unknown
+    Props: null
+  of_Related_Work:
+    Desc: Obtained from node.property
+    Ends:
+    - Dst: Dataset
+      Props: null
+      Src: Related_Work
+    Mul: Unknown
+    Props: null
+  of_Subject:
+    Desc: Obtained from node.property
+    Ends:
+    - Dst: Dataset
+      Props: null
+      Src: Subject
+    Mul: Unknown
     Props: null
 Version: 0.0.2
