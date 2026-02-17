@@ -260,7 +260,6 @@ PropDefinitions:
     Desc: Description of the process of removing potentially identifying data or data
       elements to render data into a form that does not identify individuals and where
       identification is not likely to take place.
-    Key: 'Yes'
     Req: 'No'
     Term:
     - Code: '14612655'
@@ -273,7 +272,6 @@ PropDefinitions:
     Type: String
   de_identification_method_type:
     Desc: General description of the de-identification method
-    Key: 'Yes'
     Req: 'No'
     Term:
     - Code: '14607284'
@@ -285,7 +283,6 @@ PropDefinitions:
     Type: String
   de_identification_software:
     Desc: Software that was used to de-identify the images (if used)
-    Key: 'Yes'
     Req: 'No'
     Term:
     - Code: '14612658'
@@ -904,7 +901,6 @@ PropDefinitions:
     Req: 'No'
   resource_identifier:
     Desc: Repositories where other publications/datasets are stored, e.g. GDC, PDC
-    Key: 'Yes'
     Req: 'No'
     Type: String
   role:
@@ -928,7 +924,6 @@ PropDefinitions:
     Type: String
   rrid_identifier:
     Desc: Research Resource Identifier
-    Key: 'Yes'
     Req: 'No'
     Term:
     - Code: '14767247'
