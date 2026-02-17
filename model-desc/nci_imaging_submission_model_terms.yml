@@ -2,12 +2,6 @@ Terms:
   ? ''
   : Origin: null
     Value: ''
-  Audiovisual:
-    Origin: null
-    Value: Audiovisual
-  Award:
-    Origin: null
-    Value: Award
   Book:
     Origin: null
     Value: Book
@@ -17,15 +11,6 @@ Terms:
   Cites:
     Origin: null
     Value: Cites
-  Collection:
-    Origin: null
-    Value: Collection
-  Collects:
-    Origin: null
-    Value: Collects
-  Compiles:
-    Origin: null
-    Value: Compiles
   ComputationalNotebook:
     Origin: null
     Value: ComputationalNotebook
@@ -35,9 +20,6 @@ Terms:
   ConferenceProceeding:
     Origin: null
     Value: ConferenceProceeding
-  Continues:
-    Origin: null
-    Value: Continues
   DOI:
     Code: '15915370'
     Definition: A unique code used by publishers to identify a digital object, such
@@ -51,111 +33,18 @@ Terms:
   Dataset:
     Origin: null
     Value: Dataset
-  Describes:
-    Origin: null
-    Value: Describes
   Dissertation:
     Origin: null
     Value: Dissertation
-  Documents:
-    Origin: null
-    Value: Documents
-  Event:
-    Origin: null
-    Value: Event
-  HasMetadata:
-    Origin: null
-    Value: HasMetadata
-  HasPart:
-    Origin: null
-    Value: HasPart
-  HasTranslation:
-    Origin: null
-    Value: HasTranslation
-  HasVersion:
-    Origin: null
-    Value: HasVersion
-  Image:
-    Origin: null
-    Value: Image
-  InteractiveResource:
-    Origin: null
-    Value: InteractiveResource
   IsCitedBy:
     Origin: null
     Value: IsCitedBy
-  IsCollectedBy:
-    Origin: null
-    Value: IsCollectedBy
-  IsCompiledBy:
-    Origin: null
-    Value: IsCompiledBy
-  IsContinuedBy:
-    Origin: null
-    Value: IsContinuedBy
   IsDerivedFrom:
     Origin: null
     Value: IsDerivedFrom
-  IsDescribedBy:
-    Origin: null
-    Value: IsDescribedBy
-  IsDocumentedBy:
-    Origin: null
-    Value: IsDocumentedBy
-  IsIdenticalTo:
-    Origin: null
-    Value: IsIdenticalTo
-  IsMetadataFor:
-    Origin: null
-    Value: IsMetadataFor
-  IsNewVersionOf:
-    Origin: null
-    Value: IsNewVersionOf
-  IsObsoletedBy:
-    Origin: null
-    Value: IsObsoletedBy
-  IsOriginalFormOf:
-    Origin: null
-    Value: IsOriginalFormOf
-  IsPartOf:
-    Origin: null
-    Value: IsPartOf
-  IsPreviousVersionOf:
-    Origin: null
-    Value: IsPreviousVersionOf
-  IsPublishedIn:
-    Origin: null
-    Value: IsPublishedIn
-  IsReferencedBy:
-    Origin: null
-    Value: IsReferencedBy
-  IsRequiredBy:
-    Origin: null
-    Value: IsRequiredBy
-  IsReviewedBy:
-    Origin: null
-    Value: IsReviewedBy
-  IsSourceOf:
-    Origin: null
-    Value: IsSourceOf
-  IsSupplementTo:
-    Origin: null
-    Value: IsSupplementTo
-  IsSupplementedBy:
-    Origin: null
-    Value: IsSupplementedBy
-  IsTranslationOf:
-    Origin: null
-    Value: IsTranslationOf
-  IsVariantFormOf:
-    Origin: null
-    Value: IsVariantFormOf
   IsVersionOf:
     Origin: null
     Value: IsVersionOf
-  Journal:
-    Origin: null
-    Value: Journal
   JournalArticle:
     Origin: null
     Value: JournalArticle
@@ -167,9 +56,6 @@ Terms:
     Origin: caDSR
     Value: Image Series Modality DICOM Modality Type
     Version: '2'
-  Model:
-    Origin: null
-    Value: Model
   NCBI Taxonomy ID:
     Code: '10543100'
     Definition: The unique numerical identifier of a subject's organismal classification
@@ -178,57 +64,15 @@ Terms:
     Origin: caDSR
     Value: Subject Taxonomy NCBI Identifier
     Version: '2'
-  Obsoletes:
-    Origin: null
-    Value: Obsoletes
-  Other:
-    Origin: null
-    Value: Other
-  OutputManagementPlan:
-    Origin: null
-    Value: OutputManagementPlan
-  PeerReview:
-    Origin: null
-    Value: PeerReview
-  PhysicalObject:
-    Origin: null
-    Value: PhysicalObject
   Preprint:
     Origin: null
     Value: Preprint
-  Project:
-    Origin: null
-    Value: Project
-  References:
-    Origin: null
-    Value: References
-  Report:
-    Origin: null
-    Value: Report
-  Requires:
-    Origin: null
-    Value: Requires
-  Reviews:
-    Origin: null
-    Value: Reviews
-  Service:
-    Origin: null
-    Value: Service
   Software:
     Origin: null
     Value: Software
-  Sound:
-    Origin: null
-    Value: Sound
   Standard:
     Origin: null
     Value: Standard
-  Text:
-    Origin: null
-    Value: Text
-  Workflow:
-    Origin: null
-    Value: Workflow
   acquisition_method_type:
     Code: '6626651'
     Definition: Records the method of acquisition or source for the specimen under
@@ -569,12 +413,6 @@ Terms:
     Origin: caDSR
     Value: Microscope Device Nominal Magnification Float Value
     Version: '1'
-  number_of_participants:
-    Code: '11555662'
-    Definition: The number of participants in the study.
-    Origin: caDSR
-    Value: Research Activity Unique Subjects Count
-    Version: '1'
   objective:
     Code: '7788935'
     Definition: Text which describes the microscope's objective lens nearest to the
@@ -647,12 +485,6 @@ Terms:
     Origin: caDSR
     Value: Program Short Name Text
     Version: '3'
-  publication_title:
-    Code: '16078531'
-    Definition: The title for a published printed or electronic article.
-    Origin: caDSR
-    Value: Publication Title Text
-    Version: '1'
   pyramid:
     Code: '7788945'
     Definition: A response of true or false or to indicate if an image is a multi-resolution
@@ -668,9 +500,6 @@ Terms:
     Origin: caDSR
     Value: Race Category Text
     Version: '1'
-  resourceTypeGeneral:
-    Origin: null
-    Value: resourceTypeGeneral
   role:
     Code: '2201713'
     Definition: The text that describes the distinguishable characteristics of the
@@ -727,6 +556,12 @@ Terms:
     Origin: caDSR
     Value: Specimen Fixative Type
     Version: '4'
+  title:
+    Code: '16078531'
+    Definition: The title for a published printed or electronic article.
+    Origin: caDSR
+    Value: Publication Title Text
+    Version: '1'
   tumor_tissue_type:
     Code: '3288124'
     Definition: Text that describes the kind of disease present in the tumor specimen

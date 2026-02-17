@@ -4,19 +4,14 @@ Nodes:
     Props:
     - acknowledgements
     - adult_or_childhood_study
-    - data_has_been_de-identified
     - dataset_abstract
     - dataset_description
     - dataset_id
     - dataset_long_name
     - dataset_short_name
-    - de_identification_method_description
-    - de_identification_method_type
-    - de_identification_software
     - funding_agency
     - funding_source_program_name
     - grant_id
-    - number_of_participants
     - program.program_id
     Tags:
       assignment: core
@@ -42,7 +37,11 @@ Nodes:
       template: 'Yes'
   File:
     Props:
+    - data_has_been_de-identified
     - dataset.dataset_id
+    - de_identification_method_description
+    - de_identification_method_type
+    - de_identification_software
     - file_description
     - file_id
     - file_name
@@ -207,11 +206,11 @@ Nodes:
     - authorship
     - dataset.dataset_id
     - journal_citation
-    - publication_title
     - publication_type
     - related_work_id
     - relationship_type
     - resource_identifier
+    - title
     - year_of_publication
     Tags:
       assignment: core
