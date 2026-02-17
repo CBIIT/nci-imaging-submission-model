@@ -123,7 +123,7 @@ PropDefinitions:
     Desc: A list of authors for the cited work. More specifically, for publications
       with no more than three authors, authorship quoted in full; for publications
       with more than three authors, authorship abbreviated to first author et al.
-    Req: 'Yes'
+    Req: 'No'
     Term:
     - Code: '16081468'
       Definition: A list of authors cited for a published work.
@@ -268,7 +268,7 @@ PropDefinitions:
     Type: String
   de_identification_method_type:
     Desc: General description of the de-identification method
-    Req: 'Yes'
+    Req: 'No'
     Term:
     - Code: '14607284'
       Definition: The type of procedure used to remove any text elements that would
@@ -689,16 +689,6 @@ PropDefinitions:
       Value: Microscope Device Nominal Magnification Float Value
       Version: '1'
     Type: String
-  number_of_participants:
-    Desc: How many participants in the study
-    Req: 'Yes'
-    Term:
-    - Code: '11555662'
-      Definition: The number of participants in the study.
-      Origin: caDSR
-      Value: Research Activity Unique Subjects Count
-      Version: '1'
-    Type: String
   objective:
     Desc: An_objective_is an optical element that gathers light from an object being
       observed and_focuses_the_light rays_from it to produce a_real image_of the object.
@@ -850,52 +840,22 @@ PropDefinitions:
       Value: Program Short Name Text
       Version: '3'
     Type: String
-  publication_title:
-    Desc: The full title of the publication stated exactly as it appears on the published
-      work.
-    Req: 'Yes'
-    Term:
-    - Code: '16078531'
-      Definition: The title for a published printed or electronic article.
-      Origin: caDSR
-      Value: Publication Title Text
-      Version: '1'
-    Type: String
   publication_type:
     Desc: In the DataCite Metadata Schema 4.6 (released December 2024), the following
       publication-related resource types are listed.
     Enum:
-    - resourceTypeGeneral
-    - Audiovisual
     - Book
     - BookChapter
-    - Collection
     - ComputationalNotebook
     - ConferencePaper
     - ConferenceProceeding
     - DataPaper
     - Dataset
     - Dissertation
-    - Event
-    - Image
-    - InteractiveResource
-    - Journal
     - JournalArticle
-    - Model
-    - OutputManagementPlan
-    - PeerReview
-    - PhysicalObject
     - Preprint
-    - Report
-    - Service
     - Software
-    - Sound
     - Standard
-    - Text
-    - Workflow
-    - Other
-    - Award
-    - Project
     - ''
     Req: 'Yes'
   pyramid:
@@ -938,42 +898,8 @@ PropDefinitions:
     Enum:
     - IsCitedBy
     - Cites
-    - IsSupplementTo
-    - IsSupplementedBy
-    - IsContinuedBy
-    - Continues
-    - Describes
-    - IsDescribedBy
-    - HasMetadata
-    - IsMetadataFor
-    - HasVersion
     - IsVersionOf
-    - IsNewVersionOf
-    - IsPreviousVersionOf
-    - IsPartOf
-    - HasPart
-    - IsPublishedIn
-    - IsReferencedBy
-    - References
-    - IsDocumentedBy
-    - Documents
-    - IsCompiledBy
-    - Compiles
-    - IsVariantFormOf
-    - IsOriginalFormOf
-    - IsIdenticalTo
-    - IsReviewedBy
-    - Reviews
     - IsDerivedFrom
-    - IsSourceOf
-    - IsRequiredBy
-    - Requires
-    - Obsoletes
-    - IsObsoletedBy
-    - IsCollectedBy
-    - Collects
-    - IsTranslationOf
-    - HasTranslation
     Req: 'No'
   resource_identifier:
     Desc: Repositories where other publications/datasets are stored, e.g. GDC, PDC
@@ -1083,6 +1009,17 @@ PropDefinitions:
       Origin: caDSR
       Value: Specimen Fixative Type
       Version: '4'
+    Type: String
+  title:
+    Desc: The full title of the publication stated exactly as it appears on the published
+      work.
+    Req: 'No'
+    Term:
+    - Code: '16078531'
+      Definition: The title for a published printed or electronic article.
+      Origin: caDSR
+      Value: Publication Title Text
+      Version: '1'
     Type: String
   tumor_tissue_type:
     Desc: Text that describes the kind of disease present in the tumor specimen as
