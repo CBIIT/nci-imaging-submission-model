@@ -12,7 +12,6 @@ Nodes:
     - funding_agency
     - funding_source_program_name
     - grant_id
-    - program.program_id
     Tags:
       assignment: core
       category: study
@@ -27,7 +26,6 @@ Nodes:
     - metastasis_anatomic_site
     - primary_diagnosis
     - primary_site
-    - subject.subject.id
     Tags:
       assignment: core
       category: case
@@ -38,7 +36,6 @@ Nodes:
   File:
     Props:
     - data_has_been_de-identified
-    - dataset.dataset_id
     - de_identification_method_description
     - de_identification_method_type
     - de_identification_software
@@ -47,13 +44,8 @@ Nodes:
     - file_name
     - file_size
     - file_type
-    - histopathology.histopathology_id
     - license
     - md5sum
-    - multiplex_image.multiplex_image_id
-    - procedure.procedure_id
-    - radiology.radiology_id
-    - subject.subject_id
     Tags:
       assignment: core
       category: data file
@@ -81,7 +73,7 @@ Nodes:
       template: 'Yes'
   Investigator:
     Props:
-    - dataset.dataset_id
+    - author_order
     - email
     - first_name
     - investigator_id
@@ -154,7 +146,6 @@ Nodes:
     - lab_test_name
     - procedure_date
     - procedure_id
-    - subject.subject_id
     - test_result
     Tags:
       assignment: core
@@ -204,7 +195,6 @@ Nodes:
     - DOI
     - DOI_version
     - authorship
-    - dataset.dataset_id
     - journal_citation
     - publication_type
     - related_work_id
@@ -222,7 +212,6 @@ Nodes:
   Subject:
     Props:
     - NCBI Taxonomy ID
-    - dataset.dataset_id
     - ethnicity
     - race
     - sex_at_birth
