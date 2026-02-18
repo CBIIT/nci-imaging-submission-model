@@ -225,6 +225,14 @@ Nodes:
       nodeReq: true
       template: 'Yes'
 Relationships:
+  has_channels:
+    Desc: Multiplex Imaging channels
+    Ends:
+    - Dst: Multiplex_Imaging
+      Props: null
+      Src: Multiplex_Channels
+    Mul: one_to_many
+    Props: null
   of_Dataset:
     Desc: Obtained from node.property
     Ends:
