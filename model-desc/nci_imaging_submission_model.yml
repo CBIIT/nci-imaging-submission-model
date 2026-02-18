@@ -293,4 +293,12 @@ Relationships:
       Src: Subject
     Mul: Unknown
     Props: null
+  of_procedure:
+    Desc: Procudure related data
+    Ends:
+    - Dst: Multiplex_Imaging
+      Props: null
+      Src: Procedure
+    Mul: one_to_many
+    Props: null
 Version: 0.0.2
