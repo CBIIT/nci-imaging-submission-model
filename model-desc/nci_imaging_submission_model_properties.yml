@@ -36,7 +36,7 @@ PropDefinitions:
       Value: Image Series Modality DICOM Modality Type
       Version: '2'
     Type: string
-  NCBI Taxonomy ID:
+  NCBI_Taxonomy_ID:
     Desc: A label provided by NCBI Taxonomy Database (https://www.ncbi.nlm.nih.gov/taxonomy/),
       which uniquely identifies group or category, at any level, in a system for classifying
       plants or animals (including humans) providing ranked categories for the classification
@@ -54,17 +54,19 @@ PropDefinitions:
   Patient_age_at_imaging:
     Req: 'No'
     Type: string
-  PixelSpacing(mm)-Row:
+  PixelSpacing_Row:
+    Desc: mm
     Req: 'No'
     Type: string
   Radiology_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   SeriesDescription:
     Req: 'No'
     Type: string
-  SliceThickness(mm):
+  SliceThickness:
+    Desc: mm
     Req: 'No'
     Type: string
   SoftwareVersions:
@@ -205,7 +207,7 @@ PropDefinitions:
       Value: Multiplex Imaging Reagent Cycle Number Integer
       Version: '1'
     Type: string
-  data_has_been_de-identified:
+  data_has_been_de_identified:
     Desc: Flag
     Req: 'Yes'
     Type: string
@@ -219,7 +221,7 @@ PropDefinitions:
     Type: string
   dataset_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   dataset_long_name:
     Desc: descriptive title for the collection/ dataset
@@ -281,7 +283,7 @@ PropDefinitions:
     Type: string
   diagnosis_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   dilution:
     Desc: Final dilution ratio used in experiment
@@ -297,7 +299,7 @@ PropDefinitions:
   email:
     Desc: The string of characters that represents the electronic mail address of
       a person.
-    Req: 'Yes'
+    Req: 'No'
     Term:
     - Code: '2517550'
       Definition: The string of characters that represents the electronic mail address
@@ -483,7 +485,7 @@ PropDefinitions:
     Type: string
   histopathology_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   image_modality:
     Req: 'Yes'
@@ -531,7 +533,7 @@ PropDefinitions:
     Type: string
   investigator_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   is_phantom:
     Req: 'Yes'
@@ -665,7 +667,7 @@ PropDefinitions:
     Type: string
   multiplex_image_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   nominal_magnification:
     Desc: The magnification of the lens as specified by the manufacturer - i.e. '60'
@@ -779,7 +781,7 @@ PropDefinitions:
     Type: string
   procedure_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   program_external_url:
     Desc: The external url to which users should be directed in order to learn more
@@ -792,7 +794,7 @@ PropDefinitions:
     Type: string
   program_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   program_name:
     Desc: The name of the program under which related studies will be grouped, in
@@ -875,7 +877,7 @@ PropDefinitions:
   related_work_id:
     Desc: primary key
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   relationship_type:
     Desc: A set of DOI relationship types based on the DataCite Metadata Schema.
@@ -955,7 +957,7 @@ PropDefinitions:
     Type: string
   subject_id:
     Key: 'True'
-    Req: 'No'
+    Req: 'Yes'
     Type: string
   target_name:
     Desc: short descriptive name (abbreviation) for this target (antigen)
