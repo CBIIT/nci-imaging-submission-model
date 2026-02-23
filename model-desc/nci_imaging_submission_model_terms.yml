@@ -33,6 +33,9 @@ Terms:
   Dataset:
     Origin: null
     Value: Dataset
+  Describes:
+    Origin: null
+    Value: Describes
   Dissertation:
     Origin: null
     Value: Dissertation
@@ -42,6 +45,9 @@ Terms:
   IsDerivedFrom:
     Origin: null
     Value: IsDerivedFrom
+  IsDescribedBy:
+    Origin: null
+    Value: IsDescribedBy
   IsVersionOf:
     Origin: null
     Value: IsVersionOf
@@ -118,13 +124,6 @@ Terms:
       OME TIFF channel used in multiplex imaging.
     Origin: caDSR
     Value: OME Tagged Image File Format Channel Identifier
-    Version: '1'
-  channel_metadata_filename:
-    Code: '7787678'
-    Definition: The full path name of the uploaded file containing channel-level metadata
-      describing the processes used to analyze the experimental data in a study.
-    Origin: caDSR
-    Value: Channel Analysis Metadata Electronic File Name Text
     Version: '1'
   channel_name:
     Code: '14765172'

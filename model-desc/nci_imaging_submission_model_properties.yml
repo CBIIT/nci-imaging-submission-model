@@ -160,19 +160,6 @@ PropDefinitions:
       Value: OME Tagged Image File Format Channel Identifier
       Version: '1'
     Type: String
-  channel_metadata_filename:
-    Desc: File name of uploaded companion CSV file containing channel-level metadata
-      details
-    Req: 'Yes'
-    Term:
-    - Code: '7787678'
-      Definition: The full path name of the uploaded file containing channel-level
-        metadata describing the processes used to analyze the experimental data in
-        a study.
-      Origin: caDSR
-      Value: Channel Analysis Metadata Electronic File Name Text
-      Version: '1'
-    Type: String
   channel_name:
     Desc: Channel label for each channel in this image must match the corresponding
       field in the OME-TIFF header
@@ -485,7 +472,6 @@ PropDefinitions:
     Type: String
   grant_id:
     Desc: Grant or contract identifier
-    Key: 'True'
     Req: 'No'
     Term:
     - Code: '3434057'
@@ -898,7 +884,9 @@ PropDefinitions:
     - Cites
     - IsVersionOf
     - IsDerivedFrom
-    Req: 'No'
+    - Describes
+    - IsDescribedBy
+    Req: 'Yes'
   resource_identifier:
     Desc: Repositories where other publications/datasets are stored, e.g. GDC, PDC
     Req: 'No'
@@ -919,7 +907,6 @@ PropDefinitions:
   ror_id:
     Desc: The Research Organization Registry (ROR) is a global, community-led registry
       of open persistent identifiers for research organizations. (https://ror.org/)
-    Key: 'True'
     Req: 'No'
     Type: String
   rrid_identifier:
