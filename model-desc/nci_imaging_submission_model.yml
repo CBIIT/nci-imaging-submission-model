@@ -230,7 +230,7 @@ Relationships:
     - Dst: Dataset
       Props: null
       Src: Program
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_Diagnosis:
     Desc: Data of Diagnosis
@@ -238,7 +238,7 @@ Relationships:
     - Dst: Diagnosis
       Props: null
       Src: Procedure
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_File:
     Desc: Data of File
@@ -255,7 +255,7 @@ Relationships:
     - Dst: File
       Props: null
       Src: Multiplex_Imaging
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_Investigator:
     Desc: Data of Investigator
@@ -263,7 +263,7 @@ Relationships:
     - Dst: Investigator
       Props: null
       Src: Dataset
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_Multiplex_Imaging:
     Desc: Data of Multiplex_Imaging
@@ -271,7 +271,7 @@ Relationships:
     - Dst: Multiplex_Imaging
       Props: null
       Src: Multiplex_Channels
-    Mul: many-to-one
+    Mul: many_to_one
     Props: null
   of_Procedure:
     Desc: Data of Procedure
@@ -279,7 +279,7 @@ Relationships:
     - Dst: Procedure
       Props: null
       Src: Subject
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_Related_Work:
     Desc: Data of Related_Work
@@ -287,7 +287,7 @@ Relationships:
     - Dst: Related_Work
       Props: null
       Src: Dataset
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
   of_Subject:
     Desc: Data of Subject
@@ -295,6 +295,6 @@ Relationships:
     - Dst: Subject
       Props: null
       Src: Dataset
-    Mul: one-to-many
+    Mul: one_to_many
     Props: null
 Version: 0.0.2
