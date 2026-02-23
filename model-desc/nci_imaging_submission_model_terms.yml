@@ -466,7 +466,7 @@ Terms:
     Code: '3434493'
     Definition: The date of an imaging procedure.
     Origin: caDSR
-    Value: Imaging Technique Occurrence Date
+    Value: Imaging Procedure Occurrence Date
     Version: '2'
   program_name:
     Code: '11444542'
