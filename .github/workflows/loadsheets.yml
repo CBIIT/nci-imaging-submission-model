@@ -20,9 +20,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install bento-mdf
           pip install pandas
-      - name: Root path
-        run: pwd
-        working-directory: submissiondocs
+      #- name: Root path
+      #  run: pwd
+      #  working-directory: submissiondocs
       - name: Delete existing files
         run: rm *.tsv
         working-directory: submissiondocs
