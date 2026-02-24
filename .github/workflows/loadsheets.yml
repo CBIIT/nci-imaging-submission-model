@@ -1,8 +1,9 @@
 name: LoadSheetGeneration
 on:
   push:
-    - develop
-    - main
+    branches:
+      - develop
+      - main
 env:
   MDFDIR: ./nci-imaging-submission-model/model-desc
   SHEETDIR: ./nci-imaging-submission-model/submissiondocs
