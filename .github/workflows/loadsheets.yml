@@ -22,9 +22,12 @@ jobs:
           pip install panda
       - name: Root path
         run: pwd
+        working_directory: submissiondocs
       - name: Delete existing files
         #run: rm $WORKINGDIR/$SHEETDIR/*
-        run: rm $GITHUB_WORKSPACE/$SHEETDIR/*
+        #run: rm $GITHUB_WORKSPACE/$SHEETDIR/*
+        run: rm *.tsv
+        working-directory: submissiondocs
       - name: Run LoadSheetGeneration
         #run: python3 ./src/generateSubmissionSheets.py -m $WORKINGDIR/$MDFDIR -s $WORKINGDIR/$SHEETDIR
         run: python3 ./src/generateSubmissionSheets.py -m $GITHUB_WORKSPACE/$MDFDIR -s $$GITHUB_WORKSPACE/$SHEETDIR
@@ -35,4 +38,4 @@ jobs:
           git add ./$SHEETDIR/*
           git commit -m "$COMMIT"
           git push
-        working-directory: ${{ env.WORKINGDIR }}
+        working-directory: ${{ GITHUB_WORKSPACE }}
