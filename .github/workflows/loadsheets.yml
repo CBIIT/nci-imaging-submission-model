@@ -22,7 +22,7 @@ jobs:
           pip install panda
       - name: Root path
         run: pwd
-        working_directory: submissiondocs
+        working-directory: submissiondocs
       - name: Delete existing files
         #run: rm $WORKINGDIR/$SHEETDIR/*
         #run: rm $GITHUB_WORKSPACE/$SHEETDIR/*
@@ -38,4 +38,4 @@ jobs:
           git add ./$SHEETDIR/*
           git commit -m "$COMMIT"
           git push
-        working-directory: ${{ GITHUB_WORKSPACE }}
+        working-directory: $GITHUB_WORKSPACE
