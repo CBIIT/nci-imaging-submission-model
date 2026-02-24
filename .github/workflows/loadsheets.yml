@@ -15,6 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v6
       - name: Install_dependencies
         run: |
           python -m pip install --upgrade pip
@@ -30,7 +31,8 @@ jobs:
         working-directory: submissiondocs
       - name: Run LoadSheetGeneration
         #run: python3 ./src/generateSubmissionSheets.py -m $WORKINGDIR/$MDFDIR -s $WORKINGDIR/$SHEETDIR
-        run: python3 ./src/generateSubmissionSheets.py -m $GITHUB_WORKSPACE/$MDFDIR -s $$GITHUB_WORKSPACE/$SHEETDIR
+        run: python3 generateSubmissionSheets.py -m $GITHUB_WORKSPACE/$MDFDIR -s $$GITHUB_WORKSPACE/$SHEETDIR
+        working-directory: src
       - name: Commit and push
         run: |
           git config --global user.name "$USER_NAME"
