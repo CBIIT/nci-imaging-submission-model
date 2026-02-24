@@ -20,6 +20,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install bento-mdf
           pip install pandas
+      - name: Root path
+        run: pwd
       - name: Delete existing files
         run: rm $WORKINGDIR/$SHEETDIR/*
       - name: Run LoadSheetGeneration
