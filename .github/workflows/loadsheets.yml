@@ -1,0 +1,38 @@
+name: LoadSheetGeneration
+on:
+  push:
+    branches:
+      - develop
+      - main
+env:
+  MDFDIR: model-desc
+  SHEETDIR: submissiondocs
+  USER_NAME: 'Todd Pihl'
+  USER_EMAIL: 'todd.pihl@gmail.com'
+  COMMIT: 'Automated Load Sheet Generation'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install_dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install bento-mdf
+          pip install pandas
+      - name: Root path
+        run: pwd
+        working-directory: submissiondocs
+      - name: Delete existing files
+        run: rm *.tsv
+        working-directory: submissiondocs
+      - name: Run LoadSheetGeneration
+        run: python3 generateSubmissionSheets.py -m $GITHUB_WORKSPACE/$MDFDIR -s $GITHUB_WORKSPACE/$SHEETDIR
+        working-directory: src
+      - name: Commit and push
+        run: |
+          git config --global user.name "$USER_NAME"
+          git config --global user.email "$USER_EMAIL"
+          git add $GITHUB_WORKSPACE/$SHEETDIR/*.tsv
+          git commit -m "$COMMIT"
+          git push
