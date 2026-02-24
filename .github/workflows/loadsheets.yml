@@ -1,0 +1,33 @@
+name: LoadSheetGeneration
+on:
+  push:
+    - develop
+    - main
+env:
+  MDFDIR: ./nci-imaging-submission-model/model-desc
+  SHEETDIR: ./nci-imaging-submission-model/submissiondocs
+  WORKINGDIR: ./nci-imaging-submission-model
+  USER_NAME: 'Todd Pihl'
+  USER_EMAIL: 'todd.pihl@gmail.com'
+  COMMIT: 'Automated Load Sheet Generation'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install_dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r bento-mdf
+          pip install -r pandas
+      - name: Delete existing files
+        run: rm $WORKINGDIR/$SHEETDIR/*
+      - name: Run LoadSheetGeneration
+        run: python3 ./src/generateSubmissionSheets.py
+      - name: Commit and push
+        run: |
+          git config --global user.name "$USER_NAME"
+          git config --global user.email "$USER_EMAIL"
+          git add ./$SHEETDIR/*
+          git commit -m "$COMMIT"
+          git push
+        working-directory: ${{ env.WORKINGDIR }}
