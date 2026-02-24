@@ -47,7 +47,6 @@ def main(args):
     mdffiles = []
     for x in os.listdir(args.mdfdir):
         if x.endswith(".yml"):
-            #mdffiles.append(x)
             mdffiles.append(f"{args.mdfdir}/{x}")
 
     # Create the model object

@@ -7,7 +7,6 @@ on:
 env:
   MDFDIR: model-desc
   SHEETDIR: submissiondocs
-  #WORKINGDIR: ./nci-imaging-submission-model
   USER_NAME: 'Todd Pihl'
   USER_EMAIL: 'todd.pihl@gmail.com'
   COMMIT: 'Automated Load Sheet Generation'
@@ -25,12 +24,9 @@ jobs:
         run: pwd
         working-directory: submissiondocs
       - name: Delete existing files
-        #run: rm $WORKINGDIR/$SHEETDIR/*
-        #run: rm $GITHUB_WORKSPACE/$SHEETDIR/*
         run: rm *.tsv
         working-directory: submissiondocs
       - name: Run LoadSheetGeneration
-        #run: python3 ./src/generateSubmissionSheets.py -m $WORKINGDIR/$MDFDIR -s $WORKINGDIR/$SHEETDIR
         run: python3 generateSubmissionSheets.py -m $GITHUB_WORKSPACE/$MDFDIR -s $GITHUB_WORKSPACE/$SHEETDIR
         working-directory: src
       - name: Commit and push
@@ -40,4 +36,3 @@ jobs:
           git add $GITHUB_WORKSPACE/$SHEETDIR/*.tsv
           git commit -m "$COMMIT"
           git push
-        #working-directory: $GITHUB_WORKSPACE
