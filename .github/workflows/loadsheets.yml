@@ -23,7 +23,7 @@ jobs:
       - name: Root path
         run: pwd
       - name: Delete existing files
-        run: rm $WORKINGDIR/$SHEETDIR/*
+        run: rm $SHEETDIR/*
       - name: Run LoadSheetGeneration
         run: python3 ./src/generateSubmissionSheets.py -m $WORKINGDIR/$MDFDIR -s $WORKINGDIR/$SHEETDIR
       - name: Commit and push
