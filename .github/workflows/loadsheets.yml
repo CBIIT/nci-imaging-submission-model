@@ -35,9 +35,9 @@ jobs:
         working-directory: src
       - name: Commit and push
         run: |
-          git config user.name "$USER_NAME"
-          git config user.email "$USER_EMAIL"
+          git config --global user.name "$USER_NAME"
+          git config --global user.email "$USER_EMAIL"
           git add $GITHUB_WORKSPACE/$SHEETDIR/*.tsv
           git commit -m "$COMMIT"
           git push
-        working-directory: $GITHUB_WORKSPACE
+        #working-directory: $GITHUB_WORKSPACE
