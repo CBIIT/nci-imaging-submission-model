@@ -1,80 +1,4 @@
 PropDefinitions:
-  BodyPartExamined:
-    Req: 'Yes'
-    Type: string
-  DOI:
-    Desc: Where applicable, the digital object identifier for the cited work, by which
-      it can be permanently identified, and linked to via the internet.This property
-      is used as the key via which to identify the correct records during data updates.
-    Req: 'Yes'
-    Term:
-    - Code: '15915370'
-      Definition: A unique code used by publishers to identify a digital object, such
-        as a journal article, web document, or other item of intellectual property.
-      Origin: caDSR
-      Value: Publication Digital Object Identifier Text
-      Version: '1'
-    Type: string
-  DOI_version:
-    Req: 'No'
-    Type: string
-  Manufacturer:
-    Req: 'No'
-    Type: string
-  ManufacturerModelName:
-    Req: 'No'
-    Type: string
-  Modality:
-    Desc: Imaging modality
-    Req: 'Yes'
-    Term:
-    - Code: '2896064'
-      Definition: A system of categories for representing a specific manner, characteristic,
-        pattern of a data acquisition device used in an imaging event whether physical
-        or electronic.
-      Origin: caDSR
-      Value: Image Series Modality DICOM Modality Type
-      Version: '2'
-    Type: string
-  NCBI_Taxonomy_ID:
-    Desc: A label provided by NCBI Taxonomy Database (https://www.ncbi.nlm.nih.gov/taxonomy/),
-      which uniquely identifies group or category, at any level, in a system for classifying
-      plants or animals (including humans) providing ranked categories for the classification
-      of organisms according to their suspected evolutionary relationships.
-    Req: 'Yes'
-    Term:
-    - Code: '10543100'
-      Definition: The unique numerical identifier of a subject's organismal classification
-        as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
-        standard nomenclature and classification repository.
-      Origin: caDSR
-      Value: Subject Taxonomy NCBI Identifier
-      Version: '2'
-    Type: string
-  Patient_age_at_imaging:
-    Req: 'No'
-    Type: string
-  PixelSpacing_Row:
-    Desc: mm
-    Req: 'No'
-    Type: string
-  Radiology_id:
-    Key: 'True'
-    Req: 'Yes'
-    Type: string
-  SeriesDescription:
-    Req: 'No'
-    Type: string
-  SliceThickness:
-    Desc: mm
-    Req: 'No'
-    Type: string
-  SoftwareVersions:
-    Req: 'No'
-    Type: string
-  StudyDesc:
-    Req: 'No'
-    Type: string
   acknowledgements:
     Desc: additional acknowledgments
     Req: 'No'
@@ -137,6 +61,9 @@ PropDefinitions:
       Origin: caDSR
       Value: Publication Citation Author List Text
       Version: '1'
+    Type: string
+  bodypartexamined:
+    Req: 'Yes'
     Type: string
   catalog_number:
     Desc: catalog number from vendor
@@ -295,6 +222,15 @@ PropDefinitions:
       Origin: caDSR
       Value: Multiplex Imaging Final Dilution Ratio Number
       Version: '1'
+    Type: string
+  doi:
+    Desc: Where applicable, the digital object identifier for the cited work, by which
+      it can be permanently identified, and linked to via the internet.This property
+      is used as the key via which to identify the correct records during data updates.
+    Req: 'Yes'
+    Type: string
+  doi_version:
+    Req: 'No'
     Type: string
   email:
     Desc: The string of characters that represents the electronic mail address of
@@ -614,6 +550,12 @@ PropDefinitions:
       Value: Multiplex Imaging Vendor Lot Number Text
       Version: '1'
     Type: string
+  manufacturer:
+    Req: 'No'
+    Type: string
+  manufacturermodelname:
+    Req: 'No'
+    Type: string
   md5sum:
     Desc: MD5 hex digest for this file
     Req: 'Yes'
@@ -665,8 +607,19 @@ PropDefinitions:
       Value: Person Middle Name
       Version: '2'
     Type: string
+  modality:
+    Desc: Imaging modality
+    Req: 'Yes'
+    Type: string
   multiplex_image_id:
     Key: 'True'
+    Req: 'Yes'
+    Type: string
+  ncbi_taxonomy_id:
+    Desc: A label provided by NCBI Taxonomy Database (https://www.ncbi.nlm.nih.gov/taxonomy/),
+      which uniquely identifies group or category, at any level, in a system for classifying
+      plants or animals (including humans) providing ranked categories for the classification
+      of organisms according to their suspected evolutionary relationships.
     Req: 'Yes'
     Type: string
   nominal_magnification:
@@ -726,6 +679,9 @@ PropDefinitions:
       Value: Organization Name
       Version: '3'
     Type: string
+  patient_age_at_imaging:
+    Req: 'No'
+    Type: string
   person_orcid:
     Desc: A persistent unique digital identifier assigned to a person by the Open
       Researcher and Contributor ID (ORCID) organization.> A persistent unique digital
@@ -739,6 +695,10 @@ PropDefinitions:
       Origin: caDSR
       Value: Person ORCID Text
       Version: '3'
+    Type: string
+  pixelspacing_row:
+    Desc: mm
+    Req: 'No'
     Type: string
   primary_diagnosis:
     Desc: Text term used to describe the patient's histologic diagnosis, as described
@@ -874,6 +834,10 @@ PropDefinitions:
       Value: Race Category Text
       Version: '1'
     Type: string
+  radiology_id:
+    Key: 'True'
+    Req: 'Yes'
+    Type: string
   related_work_id:
     Desc: primary key
     Key: 'True'
@@ -921,6 +885,9 @@ PropDefinitions:
       Value: Research Activity Research Resource Identifier
       Version: '1'
     Type: string
+  seriesdescription:
+    Req: 'No'
+    Type: string
   sex_at_birth:
     Desc: A textual description of a person's sex at birth.
     Req: 'Yes'
@@ -930,6 +897,13 @@ PropDefinitions:
       Origin: caDSR
       Value: Person Sex at Birth Category
       Version: '3'
+    Type: string
+  slicethickness:
+    Desc: mm
+    Req: 'No'
+    Type: string
+  softwareversions:
+    Req: 'No'
     Type: string
   staining_method:
     Desc: Any of the various methods that use a dye, reagent, or other material for
@@ -943,6 +917,9 @@ PropDefinitions:
       Origin: caDSR
       Value: Assay Technology Type
       Version: '2'
+    Type: string
+  studydesc:
+    Req: 'No'
     Type: string
   sub_cycle_number:
     Desc: 'sub-cycle #'

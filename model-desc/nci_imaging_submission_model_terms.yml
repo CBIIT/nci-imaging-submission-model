@@ -20,13 +20,6 @@ Terms:
   ConferenceProceeding:
     Origin: null
     Value: ConferenceProceeding
-  DOI:
-    Code: '15915370'
-    Definition: A unique code used by publishers to identify a digital object, such
-      as a journal article, web document, or other item of intellectual property.
-    Origin: caDSR
-    Value: Publication Digital Object Identifier Text
-    Version: '1'
   DataPaper:
     Origin: null
     Value: DataPaper
@@ -54,22 +47,6 @@ Terms:
   JournalArticle:
     Origin: null
     Value: JournalArticle
-  Modality:
-    Code: '2896064'
-    Definition: A system of categories for representing a specific manner, characteristic,
-      pattern of a data acquisition device used in an imaging event whether physical
-      or electronic.
-    Origin: caDSR
-    Value: Image Series Modality DICOM Modality Type
-    Version: '2'
-  NCBI_Taxonomy_ID:
-    Code: '10543100'
-    Definition: The unique numerical identifier of a subject's organismal classification
-      as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
-      standard nomenclature and classification repository.
-    Origin: caDSR
-    Value: Subject Taxonomy NCBI Identifier
-    Version: '2'
   Preprint:
     Origin: null
     Value: Preprint
