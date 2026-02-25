@@ -1,6 +1,6 @@
 Handle: NCIISM
 Nodes:
-  Dataset:
+  dataset:
     Props:
     - acknowledgements
     - adult_or_childhood_study
@@ -17,9 +17,9 @@ Nodes:
       category: study
       class: primary
       node: Dataset
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Diagnosis:
+  diagnosis:
     Props:
     - age_at_diagnosis
     - diagnosis_id
@@ -31,9 +31,9 @@ Nodes:
       category: case
       class: primary
       node: Diagnosis
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  File:
+  file:
     Props:
     - data_has_been_de_identified
     - de_identification_method_description
@@ -51,9 +51,9 @@ Nodes:
       category: data file
       class: primary
       node: File
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Histopathology:
+  histopathology:
     Props:
     - acquisition_method_type
     - embedding_medium
@@ -69,9 +69,9 @@ Nodes:
       assignment: core
       category: data file
       node: Histopathology
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Investigator:
+  investigator:
     Props:
     - author_order
     - email
@@ -88,9 +88,9 @@ Nodes:
       category: administrative
       class: primary
       node: Investigator
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Multiplex_Channels:
+  multiplex_channels:
     Props:
     - antibody_name
     - catalog_number
@@ -116,9 +116,9 @@ Nodes:
       assignment: core
       category: data file
       node: Multiplex_Channels
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Multiplex_Imaging:
+  multiplex_imaging:
     Props:
     - acquisition_method_type
     - embedding_medium
@@ -137,9 +137,9 @@ Nodes:
       assignment: core
       category: data file
       node: Multiplex_Imaging
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Procedure:
+  procedure:
     Props:
     - image_modality
     - lab_test_name
@@ -151,9 +151,9 @@ Nodes:
       category: case
       class: primary
       node: Procedure
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Program:
+  program:
     Props:
     - institution_name
     - program_external_url
@@ -167,33 +167,33 @@ Nodes:
       category: administrative
       class: primary
       node: Program
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Radiology:
+  radiology:
     Props:
-    - BodyPartExamined
-    - Manufacturer
-    - ManufacturerModelName
-    - Modality
-    - Patient_age_at_imaging
-    - PixelSpacing_Row
-    - Radiology_id
-    - SeriesDescription
-    - SliceThickness
-    - SoftwareVersions
-    - StudyDesc
+    - bodypartexamined
     - is_phantom
+    - manufacturer
+    - manufacturermodelname
+    - modality
+    - patient_age_at_imaging
+    - pixelspacing_row
+    - radiology_id
+    - seriesdescription
+    - slicethickness
+    - softwareversions
+    - studydesc
     Tags:
       assignment: core
       category: data file
       node: Radiology
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Related_Work:
+  related_work:
     Props:
-    - DOI
-    - DOI_version
     - authorship
+    - doi
+    - doi_version
     - journal_citation
     - publication_type
     - related_work_id
@@ -206,12 +206,12 @@ Nodes:
       category: administrative
       class: primary
       node: Related_Work
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
-  Subject:
+  subject:
     Props:
-    - NCBI_Taxonomy_ID
     - ethnicity
+    - ncbi_taxonomy_id
     - race
     - sex_at_birth
     - subject_id
@@ -221,72 +221,72 @@ Nodes:
       category: case
       class: primary
       node: Subject
-      nodeReq: true
+      nodereq: true
       template: 'Yes'
 Relationships:
-  of_Dataset:
-    Desc: Data of Dataset
+  of_dataset:
+    Desc: Data of dataset
     Ends:
-    - Dst: Dataset
+    - Dst: dataset
       Props: null
-      Src: Subject
-    - Dst: Dataset
+      Src: subject
+    - Dst: dataset
       Props: null
-      Src: Investigator
-    - Dst: Dataset
+      Src: investigator
+    - Dst: dataset
       Props: null
-      Src: Related_Work
+      Src: related_work
     Mul: many_to_one
     Props: null
-  of_Multiplex_Channels:
-    Desc: Data of Multiplex_Channels
+  of_multiplex_channels:
+    Desc: Data of multiplex_channels
     Ends:
-    - Dst: Multiplex_Channels
+    - Dst: multiplex_channels
       Props: null
-      Src: Multiplex_Imaging
+      Src: multiplex_imaging
     Mul: one_to_many
     Props: null
-  of_Multiplex_Imaging:
-    Desc: Data of Multiplex_Imaging
+  of_multiplex_imaging:
+    Desc: Data of multiplex_imaging
     Ends:
-    - Dst: Multiplex_Imaging
+    - Dst: multiplex_imaging
       Props: null
-      Src: File
+      Src: file
     Mul: many_to_one
     Props: null
-  of_Procedure:
-    Desc: Data of Procedure
+  of_procedure:
+    Desc: Data of procedure
     Ends:
-    - Dst: Procedure
+    - Dst: procedure
       Props: null
-      Src: File
-    - Dst: Procedure
+      Src: file
+    - Dst: procedure
       Props: null
-      Src: Diagnosis
+      Src: diagnosis
     Mul: many_to_one
     Props: null
-  of_Program:
-    Desc: Data of Program
+  of_program:
+    Desc: Data of program
     Ends:
-    - Dst: Program
+    - Dst: program
       Props: null
-      Src: Dataset
+      Src: dataset
     Mul: many_to_one
     Props: null
-  of_Radiology:
-    Desc: Data of Radiology
+  of_radiology:
+    Desc: Data of radiology
     Ends:
-    - Dst: Radiology
+    - Dst: radiology
       Props: null
-      Src: File
+      Src: file
     Mul: many_to_one
     Props: null
-  of_Subject:
-    Desc: Data of Subject
+  of_subject:
+    Desc: Data of subject
     Ends:
-    - Dst: Subject
+    - Dst: subject
       Props: null
-      Src: Procedure
+      Src: procedure
     Mul: many_to_one
     Props: null
-Version: 0.0.2
+Version: 0.0.3
