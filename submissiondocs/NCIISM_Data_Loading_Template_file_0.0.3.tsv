@@ -1,0 +1,1 @@
+type	radiology.radiology_id	procedure.procedure_id	multiplex_imaging.multiplex_image_id	data_has_been_de_identified	de_identification_method_description	de_identification_method_type	de_identification_software	file_description	file_id	file_name	file_size	file_type	license	md5sum
