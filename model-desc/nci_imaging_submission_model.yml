@@ -1,6 +1,14 @@
 Handle: NCIISM
+Version: 0.0.4
 Nodes:
   dataset:
+    Tags:
+      node: Dataset
+      nodereq: true
+      category: study
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - acknowledgements
     - adult_or_childhood_study
@@ -12,28 +20,28 @@ Nodes:
     - funding_agency
     - funding_source_program_name
     - grant_id
-    Tags:
-      assignment: core
-      category: study
-      class: primary
-      node: Dataset
-      nodereq: true
-      template: 'Yes'
   diagnosis:
+    Tags:
+      node: Diagnosis
+      nodereq: true
+      category: case
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - age_at_diagnosis
     - diagnosis_id
     - metastasis_anatomic_site
     - primary_diagnosis
     - primary_site
-    Tags:
-      assignment: core
-      category: case
-      class: primary
-      node: Diagnosis
-      nodereq: true
-      template: 'Yes'
   file:
+    Tags:
+      node: File
+      nodereq: true
+      category: data file
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - data_has_been_de_identified
     - de_identification_method_description
@@ -46,14 +54,13 @@ Nodes:
     - file_type
     - license
     - md5sum
-    Tags:
-      assignment: core
-      category: data file
-      class: primary
-      node: File
-      nodereq: true
-      template: 'Yes'
   histopathology:
+    Tags:
+      node: Histopathology
+      nodereq: true
+      category: data file
+      assignment: core
+      template: 'Yes'
     Props:
     - acquisition_method_type
     - embedding_medium
@@ -65,13 +72,14 @@ Nodes:
     - staining_method
     - tissue_fixative
     - tumor_tissue_type
-    Tags:
-      assignment: core
-      category: data file
-      node: Histopathology
-      nodereq: true
-      template: 'Yes'
   investigator:
+    Tags:
+      node: Investigator
+      nodereq: true
+      category: administrative
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - author_order
     - email
@@ -83,14 +91,13 @@ Nodes:
     - person_orcid
     - role
     - ror_id
-    Tags:
-      assignment: core
-      category: administrative
-      class: primary
-      node: Investigator
-      nodereq: true
-      template: 'Yes'
   multiplex_channels:
+    Tags:
+      node: Multiplex_Channels
+      nodereq: true
+      category: data file
+      assignment: core
+      template: 'Yes'
     Props:
     - antibody_name
     - catalog_number
@@ -112,13 +119,13 @@ Nodes:
     - rrid_identifier
     - sub_cycle_number
     - target_name
-    Tags:
-      assignment: core
-      category: data file
-      node: Multiplex_Channels
-      nodereq: true
-      template: 'Yes'
   multiplex_imaging:
+    Tags:
+      node: Multiplex_Imaging
+      nodereq: true
+      category: data file
+      assignment: core
+      template: 'Yes'
     Props:
     - acquisition_method_type
     - embedding_medium
@@ -133,27 +140,29 @@ Nodes:
     - tissue_fixative
     - tumor_tissue_type
     - working_distance
-    Tags:
-      assignment: core
-      category: data file
-      node: Multiplex_Imaging
-      nodereq: true
-      template: 'Yes'
   procedure:
+    Tags:
+      node: Procedure
+      nodereq: true
+      category: case
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - image_modality
     - lab_test_name
     - procedure_date
     - procedure_id
     - test_result
-    Tags:
-      assignment: core
-      category: case
-      class: primary
-      node: Procedure
-      nodereq: true
-      template: 'Yes'
+    - test_value
   program:
+    Tags:
+      node: Program
+      nodereq: true
+      category: administrative
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - institution_name
     - program_external_url
@@ -162,34 +171,34 @@ Nodes:
     - program_name
     - program_short_description
     - program_short_name
-    Tags:
-      assignment: core
-      category: administrative
-      class: primary
-      node: Program
-      nodereq: true
-      template: 'Yes'
   radiology:
-    Props:
-    - bodypartexamined
-    - is_phantom
-    - manufacturer
-    - manufacturermodelname
-    - modality
-    - patient_age_at_imaging
-    - pixelspacing_row
-    - radiology_id
-    - seriesdescription
-    - slicethickness
-    - softwareversions
-    - studydesc
     Tags:
-      assignment: core
-      category: data file
       node: Radiology
       nodereq: true
+      category: data file
+      assignment: core
       template: 'Yes'
+    Props:
+    - body_part_examined
+    - is_phantom
+    - manufacturer
+    - manufacturer_model_name
+    - modality
+    - patient_age_at_imaging
+    - pixel_spacing_row
+    - radiology_id
+    - series_description
+    - slice_thickness
+    - software_versions
+    - study_description
   related_work:
+    Tags:
+      node: Related_Work
+      nodereq: true
+      category: administrative
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - authorship
     - doi
@@ -201,14 +210,14 @@ Nodes:
     - resource_identifier
     - title
     - year_of_publication
-    Tags:
-      assignment: core
-      category: administrative
-      class: primary
-      node: Related_Work
-      nodereq: true
-      template: 'Yes'
   subject:
+    Tags:
+      node: Subject
+      nodereq: true
+      category: case
+      assignment: core
+      template: 'Yes'
+      class: primary
     Props:
     - ethnicity
     - ncbi_taxonomy_id
@@ -216,77 +225,77 @@ Nodes:
     - sex_at_birth
     - subject_id
     - vital_status
-    Tags:
-      assignment: core
-      category: case
-      class: primary
-      node: Subject
-      nodereq: true
-      template: 'Yes'
 Relationships:
-  of_dataset:
-    Desc: Data of dataset
-    Ends:
-    - Dst: dataset
-      Props: null
-      Src: subject
-    - Dst: dataset
-      Props: null
-      Src: investigator
-    - Dst: dataset
-      Props: null
-      Src: related_work
-    Mul: many_to_one
-    Props: null
-  of_multiplex_channels:
-    Desc: Data of multiplex_channels
-    Ends:
-    - Dst: multiplex_channels
-      Props: null
-      Src: multiplex_imaging
-    Mul: one_to_many
-    Props: null
-  of_multiplex_imaging:
-    Desc: Data of multiplex_imaging
-    Ends:
-    - Dst: multiplex_imaging
-      Props: null
-      Src: file
-    Mul: many_to_one
-    Props: null
-  of_procedure:
-    Desc: Data of procedure
-    Ends:
-    - Dst: procedure
-      Props: null
-      Src: file
-    - Dst: procedure
-      Props: null
-      Src: diagnosis
-    Mul: many_to_one
-    Props: null
   of_program:
+    Mul: many_to_one
     Desc: Data of program
-    Ends:
-    - Dst: program
-      Props: null
-      Src: dataset
-    Mul: many_to_one
     Props: null
-  of_radiology:
-    Desc: Data of radiology
     Ends:
-    - Dst: radiology
+    - Src: dataset
+      Dst: program
       Props: null
-      Src: file
+  of_dataset:
     Mul: many_to_one
+    Desc: Data of dataset
     Props: null
+    Ends:
+    - Src: subject
+      Dst: dataset
+      Props: null
+    - Src: investigator
+      Dst: dataset
+      Props: null
+    - Src: related_work
+      Dst: dataset
+      Props: null
   of_subject:
-    Desc: Data of subject
-    Ends:
-    - Dst: subject
-      Props: null
-      Src: procedure
     Mul: many_to_one
+    Desc: Data of subject
     Props: null
-Version: 0.0.3
+    Ends:
+    - Src: procedure
+      Dst: subject
+      Props: null
+  of_procedure:
+    Mul: many_to_one
+    Desc: Data of procedure
+    Props: null
+    Ends:
+    - Src: file
+      Dst: procedure
+      Props: null
+    - Src: diagnosis
+      Dst: procedure
+      Props: null
+  of_radiology:
+    Mul: many_to_one
+    Desc: Data of radiology
+    Props: null
+    Ends:
+    - Src: file
+      Dst: radiology
+      Props: null
+  of_histopathology:
+    Mul: many_to_one
+    Desc: Data of histopathology
+    Props: null
+    Ends:
+    - Src: file
+      Dst: histopathology
+      Props: null
+  of_multiplex_imaging:
+    Mul: many_to_one
+    Desc: Data of multiplex_imaging
+    Props: null
+    Ends:
+    - Src: file
+      Dst: multiplex_imaging
+      Props: null
+  of_multiplex_channels:
+    Mul: one_to_many
+    Desc: Data of multiplex_channels
+    Props: null
+    Ends:
+    - Src: multiplex_imaging
+      Dst: multiplex_channels
+      Props: null
