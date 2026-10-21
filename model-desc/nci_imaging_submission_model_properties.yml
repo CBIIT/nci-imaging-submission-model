@@ -3,25 +3,33 @@ PropDefinitions:
     Term:
     - Value: Research Activity Acknowledgements Text
       Origin: caDSR
-      Definition: Systematic investigation into a subject in order to discover facts,
-        establish or revise a theory, or develop a plan of action based on the facts
-        discovered.:A branch of knowledge.:The words of something written.
+      Definition: The formal confirmation or recognition of accomplishment or contribution.
       Version: '1'
       Code: '17284354'
     Desc: additional acknowledgments
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Research Activity Acknowledgements Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17284354'
   adult_or_childhood_study:
     Term:
-    - Value: Study Administration Legal Adult Or Pediatric Study Type
+    - Value: Subject Legal Adult Or Pediatric Study Participant Type
       Origin: caDSR
-      Definition: The identifiable class of the study participants based upon their
+      Definition: The identifiable class of the study participant based upon their
         age.
-      Version: '3'
+      Version: '2'
       Code: '11524549'
     Desc: Study participants are adult, pediatric, or other
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Subject Legal Adult Or Pediatric Study Participant Type
+      Origin: caDSR
+      Version: '2'
+      Code: '11524549'
   dataset_abstract:
     Term:
     - Value: Study Administration Dataset Abstract Text
@@ -32,7 +40,12 @@ PropDefinitions:
       Code: '17279144'
     Desc: Short description that will identify the dataset on public pages
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Dataset Abstract Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17279144'
   dataset_description:
     Term:
     - Value: Study Administration Dataset Description Text
@@ -42,7 +55,12 @@ PropDefinitions:
       Code: '17279143'
     Desc: Description of the collection / dataset / study
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Dataset Description Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17279143'
   dataset_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -51,9 +69,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   dataset_long_name:
     Term:
     - Value: Study Administration Dataset Name Text
@@ -63,7 +86,12 @@ PropDefinitions:
       Code: '17279141'
     Desc: descriptive title for the collection/ dataset
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Dataset Name Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17279141'
   dataset_short_name:
     Term:
     - Value: Study Administration Dataset Short Name Text
@@ -74,7 +102,12 @@ PropDefinitions:
       Code: '17279142'
     Desc: abbreviated title for the collection/ dataset
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Dataset Short Name Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17279142'
   funding_agency:
     Term:
     - Value: Study Administration Funding Agency Organization Name
@@ -84,7 +117,12 @@ PropDefinitions:
       Code: '16002760'
     Desc: Funding agency of the requestor study
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Funding Agency Organization Name
+      Origin: caDSR
+      Version: '1'
+      Code: '16002760'
   funding_source_program_name:
     Term:
     - Value: Study Administration Funding Agency Program Name
@@ -94,7 +132,12 @@ PropDefinitions:
       Code: '16002776'
     Desc: The funding source organization/sponsor
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Funding Agency Program Name
+      Origin: caDSR
+      Version: '1'
+      Code: '16002776'
   grant_id:
     Term:
     - Value: Study Administration Grant Funding Number Identifier
@@ -104,7 +147,12 @@ PropDefinitions:
       Code: '16002823'
     Desc: Grant or contract identifier
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Grant Funding Number Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '16002823'
   age_at_diagnosis:
     Term:
     - Value: Subject Age in Days at Diagnosis Count
@@ -114,7 +162,12 @@ PropDefinitions:
       Code: '15019300'
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Subject Age in Days at Diagnosis Count
+      Origin: caDSR
+      Version: '1'
+      Code: '15019300'
   diagnosis_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -123,9 +176,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   metastasis_anatomic_site:
     Term:
     - Value: Disease Metastasis Anatomic Site Uberon Identifier
@@ -135,8 +193,14 @@ PropDefinitions:
         as captured in the Uberon identifier.
       Version: '1'
       Code: '15114457'
+    Desc: nan
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Disease Metastasis Anatomic Site Uberon Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '15114457'
   primary_diagnosis:
     Term:
     - Value: Disease Primary Diagnosis NCI Thesaurus Text
@@ -150,7 +214,12 @@ PropDefinitions:
       in the Disease or Diagnosis (C2991) branch of the National Cancer Institute
       Thesaurus (NCIt) hierarchy tree.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Disease Primary Diagnosis NCI Thesaurus Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14905532'
   primary_site:
     Term:
     - Value: Disease Primary Site Uberon Identifier
@@ -162,21 +231,28 @@ PropDefinitions:
     Desc: The location within the body from where the disease of interest originated
       as captured in the Uberon identifier.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Disease Primary Site Uberon Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14883047'
   data_has_been_de_identified:
     Term:
     - Value: Data File Deidentified Indicator
       Origin: caDSR
-      Definition: A data file stored as an electronic record.:Removal of text elements
-        that would make data individually identifiable.:An event, entity or condition
-        that typically characterizes a prescribed environment or situation and determines
-        or aids in determining whether certain stated circumstances exist or criteria
-        are satisfied.
+      Definition: A response to indicate whether or not information that would make
+        data individually identifiable has been removed.
       Version: '1'
       Code: '17087977'
     Desc: Flag
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Deidentified Indicator
+      Origin: caDSR
+      Version: '1'
+      Code: '17087977'
   de_identification_method_description:
     Term:
     - Value: Deidentification Method Description Text
@@ -190,7 +266,12 @@ PropDefinitions:
       elements to render data into a form that does not identify individuals and where
       identification is not likely to take place.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Deidentification Method Description Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14612655'
   de_identification_method_type:
     Term:
     - Value: Data File Deidentification Method Type
@@ -201,7 +282,12 @@ PropDefinitions:
       Code: '14576319'
     Desc: General description of the de-identification method
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Deidentification Method Type
+      Origin: caDSR
+      Version: '1'
+      Code: '14576319'
   de_identification_software:
     Term:
     - Value: Deidentification Software Name Text
@@ -212,7 +298,12 @@ PropDefinitions:
       Code: '14612658'
     Desc: Software that was used to de-identify the images (if used)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Deidentification Software Name Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14612658'
   file_description:
     Term:
     - Value: Data File Description Text
@@ -223,7 +314,12 @@ PropDefinitions:
       Code: '11280338'
     Desc: Human-readable description of file
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Description Text
+      Origin: caDSR
+      Version: '2'
+      Code: '11280338'
   file_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -235,8 +331,12 @@ PropDefinitions:
     Desc: A file identifier generated by CRDC Submission Portal. This property is
       not included in the downloaded submission template
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   file_name:
     Term:
     - Value: Data File Name Text
@@ -246,7 +346,12 @@ PropDefinitions:
       Code: '11284037'
     Desc: Name of file
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Name Text
+      Origin: caDSR
+      Version: '3'
+      Code: '11284037'
   file_size:
     Term:
     - Value: Data File Size Integer
@@ -257,7 +362,12 @@ PropDefinitions:
       Code: '11479876'
     Desc: File size in bytes
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Size Integer
+      Origin: caDSR
+      Version: '2'
+      Code: '11479876'
   file_type:
     Term:
     - Value: Data File Format Type
@@ -268,7 +378,12 @@ PropDefinitions:
       Code: '11416926'
     Desc: File type from enumerated list
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Format Type
+      Origin: caDSR
+      Version: '2'
+      Code: '11416926'
   license:
     Term:
     - Value: Data File Dataset License Type
@@ -280,7 +395,12 @@ PropDefinitions:
     Desc: license under which this collection / dataset / study will be published;
       Official or legal permission to do or own a specified thing.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File Dataset License Type
+      Origin: caDSR
+      Version: '1'
+      Code: '14902606'
   md5sum:
     Term:
     - Value: Data File MD5 Checksum Text
@@ -290,7 +410,12 @@ PropDefinitions:
       Code: '11556150'
     Desc: MD5 hex digest for this file
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Data File MD5 Checksum Text
+      Origin: caDSR
+      Version: '2'
+      Code: '11556150'
   acquisition_method_type:
     Term:
     - Value: Biospecimen Acquisition Method Type
@@ -301,7 +426,12 @@ PropDefinitions:
       Code: '6626651'
     Desc: Records the method of acquisition or source for the specimen under consideration
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Biospecimen Acquisition Method Type
+      Origin: caDSR
+      Version: '2'
+      Code: '6626651'
   embedding_medium:
     Term:
     - Value: Specimen Preservation Procedure Type
@@ -313,7 +443,12 @@ PropDefinitions:
     Desc: The term which describes the medium used to maintain the specimen in a viable
       state.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Specimen Preservation Procedure Type
+      Origin: caDSR
+      Version: '3'
+      Code: '8028962'
   histopathology_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -322,9 +457,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   immersion:
     Term:
     - Value: Imaging Procedure Microscope Immersion Medium Type
@@ -335,7 +475,12 @@ PropDefinitions:
       Code: '8058286'
     Desc: Immersion medium
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Procedure Microscope Immersion Medium Type
+      Origin: caDSR
+      Version: '2'
+      Code: '8058286'
   lens_numerical_aperture:
     Term:
     - Value: Equipment Microscope Lens Numerical Aperture Float Value
@@ -346,7 +491,12 @@ PropDefinitions:
       Code: '7788942'
     Desc: The numerical aperture of the lens. Floating point value > 0.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Microscope Lens Numerical Aperture Float Value
+      Origin: caDSR
+      Version: '2'
+      Code: '7788942'
   nominal_magnification:
     Term:
     - Value: Equipment Microscope Nominal Magnification Float Value
@@ -358,7 +508,12 @@ PropDefinitions:
     Desc: The magnification of the lens as specified by the manufacturer - i.e. '60'
       is a 60X lens. floating point value > 1(no units)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Microscope Nominal Magnification Float Value
+      Origin: caDSR
+      Version: '2'
+      Code: '7788940'
   objective:
     Term:
     - Value: Equipment Microscope Objective Lens Text
@@ -370,7 +525,12 @@ PropDefinitions:
     Desc: An_objective_is an optical element that gathers light from an object being
       observed and_focuses_the_light rays_from it to produce a_real image_of the object.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Microscope Objective Lens Text
+      Origin: caDSR
+      Version: '2'
+      Code: '7788935'
   staining_method:
     Term:
     - Value: Specimen Staining Method Type
@@ -381,7 +541,12 @@ PropDefinitions:
     Desc: Any of the various methods that use a dye, reagent, or other material for
       producing coloration in tissues or microorganisms for microscopic examination.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Specimen Staining Method Type
+      Origin: caDSR
+      Version: '1'
+      Code: '16964049'
   tissue_fixative:
     Term:
     - Value: Specimen Preservation Procedure Medium Type
@@ -392,7 +557,12 @@ PropDefinitions:
       Code: '16323957'
     Desc: A compound that preserves tissues and cells for microscopic study.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Specimen Preservation Procedure Medium Type
+      Origin: caDSR
+      Version: '1'
+      Code: '16323957'
   tumor_tissue_type:
     Term:
     - Value: Tumor Classification Category
@@ -405,20 +575,27 @@ PropDefinitions:
       related to a specific timepoint (add rows to select multiple values along with
       timepoints)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Tumor Classification Category
+      Origin: caDSR
+      Version: '1'
+      Code: '12922545'
   author_order:
     Term:
     - Value: Publication Author Display Order Integer
       Origin: caDSR
-      Definition: A printed or electronic work offered for distribution.:The writer
-        of a book, article, or other text._The sequence or position of a component
-        in a list.:A number with no fractional part, including the negative and positive
-        numbers as well as zero.
+      Definition: The sequence or position of the author in a list.
       Version: '1'
       Code: '17090270'
     Desc: Indicates the order in which the authors of the dataset should be listed
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Author Display Order Integer
+      Origin: caDSR
+      Version: '1'
+      Code: '17090270'
   email:
     Term:
     - Value: Person Email Address Text
@@ -430,7 +607,12 @@ PropDefinitions:
     Desc: The string of characters that represents the electronic mail address of
       a person.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Email Address Text
+      Origin: caDSR
+      Version: '1'
+      Code: '2517550'
   first_name:
     Term:
     - Value: Person Given/First Name
@@ -444,7 +626,12 @@ PropDefinitions:
       given name of the person responsible for the conduct of the clinical trial or
       research project.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Given/First Name
+      Origin: caDSR
+      Version: '2'
+      Code: '2179589'
   investigator_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -453,9 +640,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   last_name:
     Term:
     - Value: Person Family/Last Name
@@ -469,7 +661,12 @@ PropDefinitions:
       name of the person responsible for the conduct of the clinical trial or research
       project
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Family/Last Name
+      Origin: caDSR
+      Version: '2'
+      Code: '2179591'
   middle_name:
     Term:
     - Value: Person Middle Name
@@ -482,7 +679,12 @@ PropDefinitions:
       a person's middle name.> The middle name of the person responsible for the conduct
       of the clinical trial or research project.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Middle Name
+      Origin: caDSR
+      Version: '2'
+      Code: '2179590'
   organization_name:
     Term:
     - Value: Research Activity Organization Name
@@ -490,9 +692,14 @@ PropDefinitions:
       Definition: A textual identifier for an organization.
       Version: '1'
       Code: '17090221'
-    Desc: 'Name of the organization for which the investigator works. '
+    Desc: Name of the organization for which the investigator works.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Research Activity Organization Name
+      Origin: caDSR
+      Version: '1'
+      Code: '17090221'
   person_orcid:
     Term:
     - Value: Person ORCID Text
@@ -506,7 +713,12 @@ PropDefinitions:
       identifier assigned to a principal investigator by the Open Researcher and Contributor
       ID (ORCID) organization.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person ORCID Text
+      Origin: caDSR
+      Version: '3'
+      Code: '10624734'
   role:
     Term:
     - Value: Person Affiliation Role Text Type
@@ -519,7 +731,12 @@ PropDefinitions:
     Desc: The text that describes the distinguishable characteristics of the action
       or activity assigned to.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Affiliation Role Text Type
+      Origin: caDSR
+      Version: '2'
+      Code: '2201713'
   ror_id:
     Term:
     - Value: Study Administration Research Organization Registry Identifier
@@ -531,7 +748,12 @@ PropDefinitions:
     Desc: The Research Organization Registry (ROR) is a global, community-led registry
       of open persistent identifiers for research organizations. (https://ror.org/)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Research Organization Registry Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '17090260'
   antibody_name:
     Term:
     - Value: Assay Antibody Name
@@ -541,7 +763,12 @@ PropDefinitions:
       Code: '16964035'
     Desc: short descriptive name for this antibody
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Assay Antibody Name
+      Origin: caDSR
+      Version: '1'
+      Code: '16964035'
   catalog_number:
     Term:
     - Value: Imaging Multiplexed Imaging Vendor Catalog Number Text
@@ -552,7 +779,12 @@ PropDefinitions:
       Code: '14767261'
     Desc: catalog number from vendor
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplexed Imaging Vendor Catalog Number Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14767261'
   channel_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -564,8 +796,12 @@ PropDefinitions:
     Desc: The unique channel identifier for each channel in this image must match
       the corresponding field in the OME-TIFF header
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   channel_name:
     Term:
     - Value: Imaging OME Tagged Image File Format Channel Name
@@ -583,7 +819,12 @@ PropDefinitions:
     Desc: Channel label for each channel in this image must match the corresponding
       field in the OME-TIFF header
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging OME Tagged Image File Format Channel Name
+      Origin: caDSR
+      Version: '1'
+      Code: '14765172'
   clone:
     Term:
     - Value: Imaging Multiplex Imaging Clone Unique Identifier
@@ -594,7 +835,12 @@ PropDefinitions:
       Code: '14767258'
     Desc: Unique clone identifier
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Clone Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14767258'
   concentration:
     Term:
     - Value: Imaging Multiplex Imaging Final Concentration Number
@@ -605,7 +851,12 @@ PropDefinitions:
       Code: '14768386'
     Desc: Final concentration used in experiment
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Final Concentration Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14768386'
   cycle_number:
     Term:
     - Value: Imaging Multiplex Imaging Reagent Cycle Number Integer
@@ -616,7 +867,12 @@ PropDefinitions:
       Code: '14765176'
     Desc: 'the cycle # in which the co-listed reagent(s) was(were) used'
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Reagent Cycle Number Integer
+      Origin: caDSR
+      Version: '1'
+      Code: '14765176'
   dilution:
     Term:
     - Value: Imaging Multiplex Imaging Final Dilution Ratio Number
@@ -627,7 +883,12 @@ PropDefinitions:
       Code: '14767270'
     Desc: Final dilution ratio used in experiment
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Final Dilution Ratio Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14767270'
   emission_bandwidth:
     Term:
     - Value: Imaging Multiplex Imaging Emission Bandwidth Number
@@ -638,7 +899,12 @@ PropDefinitions:
       Code: '14765193'
     Desc: nominal width of emission spectrum (nm)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Emission Bandwidth Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14765193'
   emission_wavelength:
     Term:
     - Value: Imaging Multiplex Imaging Emission Wavelength Number
@@ -649,7 +915,12 @@ PropDefinitions:
       Code: '14767264'
     Desc: center/peak of the emission spectrum (nm)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Emission Wavelength Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14767264'
   excitation_bandwidth:
     Term:
     - Value: Imaging Multiplex Imaging Excitation Bandwidth Number
@@ -660,7 +931,12 @@ PropDefinitions:
       Code: '14765190'
     Desc: nominal width of excitation spectrum (nm)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Excitation Bandwidth Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14765190'
   excitation_wavelength:
     Term:
     - Value: Imaging Multiplex Imaging Excitation Wavelength Number
@@ -671,7 +947,12 @@ PropDefinitions:
       Code: '14765187'
     Desc: center/peak of the excitation spectrum (nm)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Excitation Wavelength Number
+      Origin: caDSR
+      Version: '1'
+      Code: '14765187'
   fluorophore:
     Term:
     - Value: Imaging Multiplex Imaging Fluorescent Dye Text
@@ -682,7 +963,12 @@ PropDefinitions:
       Code: '14767255'
     Desc: Fluorescent dye label
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Fluorescent Dye Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14767255'
   lot:
     Term:
     - Value: Imaging Multiplex Imaging Vendor Lot Number Text
@@ -693,7 +979,12 @@ PropDefinitions:
       Code: '14769695'
     Desc: lot number from vendor
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Vendor Lot Number Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14769695'
   metal_isotope_element:
     Term:
     - Value: Imaging Multiplexed Imaging Isotope Abbreviation Name
@@ -702,15 +993,14 @@ PropDefinitions:
         of neutrons and a specific atomic mass used in multiplex imaging is known.
       Version: '1'
       Code: '14765198'
-    - Value: Imaging Multiplex Imaging Isotope Element Identifier
-      Origin: caDSR
-      Definition: A sequence of characters used to identify the chemical element used
-        in multiplex imaging whose atoms all have the same atomic number.
-      Version: '1'
-      Code: '14765201'
     Desc: Element abbreviation
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplexed Imaging Isotope Abbreviation Name
+      Origin: caDSR
+      Version: '1'
+      Code: '14765198'
   oligo_barcode_lower_strand:
     Term:
     - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
@@ -721,7 +1011,12 @@ PropDefinitions:
       Code: '14765208'
     Desc: DNA barcode used for labeling
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14765208'
   oligo_barcode_upper_strand:
     Term:
     - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
@@ -732,7 +1027,12 @@ PropDefinitions:
       Code: '14765205'
     Desc: DNA barcode used for labeling
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
+      Origin: caDSR
+      Version: '1'
+      Code: '14765205'
   rrid_identifier:
     Term:
     - Value: Research Activity Resource Identifier
@@ -744,7 +1044,12 @@ PropDefinitions:
       Code: '14767247'
     Desc: Research Resource Identifier
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Research Activity Resource Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14767247'
   sub_cycle_number:
     Term:
     - Value: Imaging Multiplex Imaging Reagent Sub-Cycle Number Integer
@@ -755,7 +1060,12 @@ PropDefinitions:
       Code: '14765180'
     Desc: 'sub-cycle #'
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Reagent Sub-Cycle Number Integer
+      Origin: caDSR
+      Version: '1'
+      Code: '14765180'
   target_name:
     Term:
     - Value: Imaging Multiplex Imaging Target Antigen Name
@@ -767,7 +1077,12 @@ PropDefinitions:
       Code: '14765182'
     Desc: short descriptive name (abbreviation) for this target (antigen)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Multiplex Imaging Target Antigen Name
+      Origin: caDSR
+      Version: '1'
+      Code: '14765182'
   imaging_assay_type:
     Term:
     - Value: Assay Type
@@ -779,7 +1094,12 @@ PropDefinitions:
       Code: '7789196'
     Desc: Type of imaging assay
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Assay Type
+      Origin: caDSR
+      Version: '2'
+      Code: '7789196'
   multiplex_image_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -788,9 +1108,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   pyramid:
     Term:
     - Value: Imaging Pyramid Representation True False Indicator
@@ -802,7 +1127,12 @@ PropDefinitions:
       Code: '7788945'
     Desc: The data file contains an image pyramid
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Pyramid Representation True False Indicator
+      Origin: caDSR
+      Version: '2'
+      Code: '7788945'
   working_distance:
     Term:
     - Value: Imaging Procedure Microscope Device Working Distance Float Value
@@ -819,7 +1149,12 @@ PropDefinitions:
     Desc: The working distance of the lens, expressed as a floating point number.
       Floating point > 0. Size needs to be specified in microns (um)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Procedure Microscope Device Working Distance Float Value
+      Origin: caDSR
+      Version: '2'
+      Code: '7788943'
   image_modality:
     Term:
     - Value: Imaging DICOM Modality Type
@@ -829,8 +1164,14 @@ PropDefinitions:
         or electronic.
       Version: '2'
       Code: '12137353'
+    Desc: nan
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging DICOM Modality Type
+      Origin: caDSR
+      Version: '2'
+      Code: '12137353'
   lab_test_name:
     Term:
     - Value: Laboratory Procedure Test Name
@@ -842,7 +1183,12 @@ PropDefinitions:
       or finding. Any test normally performed by a clinical laboratory is considered
       a lab test.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Laboratory Procedure Test Name
+      Origin: caDSR
+      Version: '1'
+      Code: '13569486'
   procedure_date:
     Term:
     - Value: Imaging Procedure Occurrence Date
@@ -850,8 +1196,14 @@ PropDefinitions:
       Definition: The date of an imaging procedure.
       Version: '2'
       Code: '3434493'
+    Desc: nan
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Procedure Occurrence Date
+      Origin: caDSR
+      Version: '2'
+      Code: '3434493'
   procedure_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -860,9 +1212,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   test_result:
     Term:
     - Value: Laboratory Procedure Test Result Text
@@ -875,7 +1232,12 @@ PropDefinitions:
     Desc: The text term used to describe the result of the molecular test. If the
       test result was a numeric value see test_value.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Laboratory Procedure Test Result Text
+      Origin: caDSR
+      Version: '1'
+      Code: '13362271'
   test_value:
     Term:
     - Value: Laboratory Procedure Test Result Float
@@ -886,49 +1248,60 @@ PropDefinitions:
       Code: '13336306'
     Desc: If the test result was a numeric value see test_value.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Laboratory Procedure Test Result Float
+      Origin: caDSR
+      Version: '1'
+      Code: '13336306'
   institution_name:
     Term:
     - Value: Study Administration Institution Name
       Origin: caDSR
-      Definition: A study-level administrative activity that is essential to the efficient
-        and/or effective coordination and execution of a clinical or research study
-        and is independent of a study subject.:The buildings and organizations where
-        healthcare services are provided.:The words or language units by which a thing
-        is known.
+      Definition: The words by which an established society, corporation, foundation
+        or other organization founded and united for a specific purpose is known.
       Version: '1'
       Code: '17087567'
     Desc: TBD
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Institution Name
+      Origin: caDSR
+      Version: '1'
+      Code: '17087567'
   program_external_url:
     Term:
     - Value: Study Administration Program External URL Text
       Origin: caDSR
-      Definition: A study-level administrative activity that is essential to the efficient
-        and/or effective coordination and execution of a clinical or research study
-        and is independent of a study subject.:A URL address for a research program
-        or study that is accessible by those outside the host institution.:Text; the
-        words of something written.
+      Definition: The URL address for a research program or study that is accessible
+        by those outside the host institution.
       Version: '1'
       Code: '17087631'
     Desc: The external url to which users should be directed in order to learn more
       about the program.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Program External URL Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17087631'
   program_full_description:
     Term:
     - Value: Study Administration Program Full Description Text
       Origin: caDSR
-      Definition: A study-level administrative activity that is essential to the efficient
-        and/or effective coordination and execution of a clinical or research study
-        and is independent of a study subject.:An unabridged description of a research
-        program or study.:The words of something written.
+      Definition: An unabridged description of a research program or study.
       Version: '1'
       Code: '17087562'
     Desc: A more detailed, multiple sentence description of the program.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Program Full Description Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17087562'
   program_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -937,9 +1310,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   program_name:
     Term:
     - Value: Study Administration Program Name
@@ -951,20 +1329,27 @@ PropDefinitions:
       full text and unabbreviated form, exactly as it will be displayed within the
       UI.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Program Name
+      Origin: caDSR
+      Version: '1'
+      Code: '15846335'
   program_short_description:
     Term:
     - Value: Study Administration Program Short Description Text
       Origin: caDSR
-      Definition: A study-level administrative activity that is essential to the efficient
-        and/or effective coordination and execution of a clinical or research study
-        and is independent of a study subject.:An abbreviated description of a research
-        program or study.:The words of something written.
+      Definition: An abbreviated description of a research program or study.
       Version: '1'
       Code: '17087559'
     Desc: An abbreviated, single sentence description of the program.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Program Short Description Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17087559'
   program_short_name:
     Term:
     - Value: Study Administration Program Short Name
@@ -976,7 +1361,12 @@ PropDefinitions:
       under which related projects or other research activities are grouped. Example
       - CPTAC
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Study Administration Program Short Name
+      Origin: caDSR
+      Version: '1'
+      Code: '15846845'
   body_part_examined:
     Term:
     - Value: Disease Body Part Examined Anatomic Site Uberon Identifier
@@ -987,7 +1377,12 @@ PropDefinitions:
       Code: '14883072'
     Desc: Text description of the part of the body examined. DICOM tag (0018,0015)
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Disease Body Part Examined Anatomic Site Uberon Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14883072'
   is_phantom:
     Term:
     - Value: Imaging Quality Control Subject Indicator
@@ -1004,7 +1399,12 @@ PropDefinitions:
     Desc: The subject may or may not be a phantom / quality control subject. DICOM
       tag (0010,0200)
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Quality Control Subject Indicator
+      Origin: caDSR
+      Version: '1'
+      Code: '17088525'
   manufacturer:
     Term:
     - Value: Equipment Manufacturer Name
@@ -1015,7 +1415,12 @@ PropDefinitions:
     Desc: Manufacturer of the equipment that produced the Composite Instances. DICOM
       tag (0008,0070)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Manufacturer Name
+      Origin: caDSR
+      Version: '1'
+      Code: '16065939'
   manufacturer_model_name:
     Term:
     - Value: Equipment Model Name
@@ -1027,7 +1432,12 @@ PropDefinitions:
     Desc: Manufacturer's model name of the equipment that produced the Composite Instances.
       DICOM tag (0008,1090)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Model Name
+      Origin: caDSR
+      Version: '1'
+      Code: '16072578'
   modality:
     Term:
     - Value: Imaging DICOM Modality Type
@@ -1040,17 +1450,30 @@ PropDefinitions:
     Desc: Type of device, process or method that originally acquired or produced the
       data used to create the Instances in this Series. DICOM tag (0008,0060)
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging DICOM Modality Type
+      Origin: caDSR
+      Version: '2'
+      Code: '12137353'
   patient_age_at_imaging:
     Term:
-    - Value: Subject Age in Days at Imaging Count
+    - Value: Subject Age at Imaging Count
       Origin: caDSR
-      Definition: The age in days of the subject at the time of imaging.
-      Version: '2'
+      Definition: A matter or an individual that is observed, analyzed, examined,
+        investigated, experimented upon, or/and treated in the course of a particular
+        study.:The age of an individual at the time of an imaging test.:To determine
+        the number or amount of something; the result of this activity.
+      Version: '1'
       Code: '12307007'
     Desc: Age of the Patient at the time of imaging. Example values 063Y, 049Y
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Subject Age at Imaging Count
+      Origin: caDSR
+      Version: '1'
+      Code: '12307007'
   pixel_spacing_row:
     Term:
     - Value: Imaging Pixel Spacing Float or Fixed-point Millimeter Number
@@ -1063,7 +1486,12 @@ PropDefinitions:
       by a numeric pair - adjacent row spacing (delimiter) adjacent column spacing
       in mm. DICOM attribute (0028,0030)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Pixel Spacing Float or Fixed-point Millimeter Number
+      Origin: caDSR
+      Version: '3'
+      Code: '2903393'
   radiology_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -1072,9 +1500,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   series_description:
     Term:
     - Value: Imaging Series Description Text
@@ -1085,7 +1518,12 @@ PropDefinitions:
       Code: '16253922'
     Desc: Description of the Series. DICOM tag (0008,103E)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Series Description Text
+      Origin: caDSR
+      Version: '1'
+      Code: '16253922'
   slice_thickness:
     Term:
     - Value: Imaging Slice Thickness Float or Fixed-point Millimeter Number
@@ -1099,7 +1537,12 @@ PropDefinitions:
       Code: '3113185'
     Desc: Nominal slice thickness, in mm. DICOM tag (0018,0050)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Slice Thickness Float or Fixed-point Millimeter Number
+      Origin: caDSR
+      Version: '3'
+      Code: '3113185'
   software_versions:
     Term:
     - Value: Equipment Software Version Text
@@ -1111,7 +1554,12 @@ PropDefinitions:
     Desc: Manufacturer's designation of software version of the equipment that produced
       the Composite Instances. DICOM tag (0018,1020)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Equipment Software Version Text
+      Origin: caDSR
+      Version: '1.2'
+      Code: '2413278'
   study_description:
     Term:
     - Value: Imaging Study Description Text
@@ -1123,7 +1571,12 @@ PropDefinitions:
     Desc: Institution-generated description or classification of the Study performed.
       DICOM tag (0008,1030)
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Imaging Study Description Text
+      Origin: caDSR
+      Version: '3'
+      Code: '2182389'
   authorship:
     Term:
     - Value: Publication Citation Author List Text
@@ -1135,7 +1588,12 @@ PropDefinitions:
       with no more than three authors, authorship quoted in full; for publications
       with more than three authors, authorship abbreviated to first author et al.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Citation Author List Text
+      Origin: caDSR
+      Version: '1'
+      Code: '16081468'
   doi:
     Term:
     - Value: Publication Digital Object Identifier Text
@@ -1145,10 +1603,15 @@ PropDefinitions:
       Version: '1'
       Code: '15915370'
     Desc: Where applicable, the digital object identifier for the cited work, by which
-      it can be permanently identified, and linked to via the internet.This property
+      it can be permanently identified, and linked to via the internet.<br>This property
       is used as the key via which to identify the correct records during data updates.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Digital Object Identifier Text
+      Origin: caDSR
+      Version: '1'
+      Code: '15915370'
   doi_version:
     Term:
     - Value: Publication Digital Object Identifier Version Text
@@ -1156,8 +1619,14 @@ PropDefinitions:
       Definition: The version of the DOI.
       Version: '1'
       Code: '17090342'
+    Desc: nan
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Digital Object Identifier Version Text
+      Origin: caDSR
+      Version: '1'
+      Code: '17090342'
   journal_citation:
     Term:
     - Value: Publication Journal Citation Text
@@ -1169,23 +1638,28 @@ PropDefinitions:
       of the citation itself in terms of journal volume number, part number where
       applicable, and page numbers.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Journal Citation Text
+      Origin: caDSR
+      Version: '1'
+      Code: '16081476'
   publication_type:
     Term:
     - Value: Publication Document Type
       Origin: caDSR
-      Definition: A printed or electronic work offered for distribution.:A physical
-        object, or electronic counterpart, that is characterized by containing writing
-        which is meant to be human-readable._Something distinguishable as an identifiable
-        class based on common qualities.:A physical object, or electronic counterpart,
-        that is characterized by containing writing which is meant to be human-readable._Something
-        distinguishable as an identifiable class based on common qualities.
+      Definition: The kind of printed or electronic work offered for distribution.
       Version: '1'
       Code: '16698383'
     Desc: In the DataCite Metadata Schema 4.6 (released December 2024), the following
       publication-related resource types are listed.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Document Type
+      Origin: caDSR
+      Version: '1'
+      Code: '16698383'
   related_work_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -1196,8 +1670,12 @@ PropDefinitions:
       Code: '14822135'
     Desc: primary key
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   relationship_type:
     Term:
     - Value: Publication DOI Relationship Type
@@ -1207,7 +1685,12 @@ PropDefinitions:
       Code: '17090347'
     Desc: A set of DOI relationship types based on the DataCite Metadata Schema.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication DOI Relationship Type
+      Origin: caDSR
+      Version: '1'
+      Code: '17090347'
   resource_identifier:
     Term:
     - Value: Research Activity Resource Identifier
@@ -1222,7 +1705,12 @@ PropDefinitions:
       tools and databases. https://www.rrids.org/   Repositories where other publications/datasets
       are stored, e.g. GDC, PDC
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Research Activity Resource Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14767247'
   title:
     Term:
     - Value: Publication Title Text
@@ -1233,7 +1721,12 @@ PropDefinitions:
     Desc: The full title of the publication stated exactly as it appears on the published
       work.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Title Text
+      Origin: caDSR
+      Version: '1'
+      Code: '16078531'
   year_of_publication:
     Term:
     - Value: Publication Year Date
@@ -1244,7 +1737,12 @@ PropDefinitions:
       Code: '16081475'
     Desc: The year in which the cited work was published.
     Req: 'No'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Publication Year Date
+      Origin: caDSR
+      Version: '1'
+      Code: '16081475'
   ethnicity:
     Term:
     - Value: Ethnic Group Category Text
@@ -1258,7 +1756,12 @@ PropDefinitions:
       values are based on the categories defined by the U.S. Office of Management
       and Business and used by the U.S. Census Bureau.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Ethnic Group Category Text
+      Origin: caDSR
+      Version: '2'
+      Code: '2192217'
   ncbi_taxonomy_id:
     Term:
     - Value: Subject Taxonomy NCBI Identifier
@@ -1273,7 +1776,12 @@ PropDefinitions:
       plants or animals (including humans) providing ranked categories for the classification
       of organisms according to their suspected evolutionary relationships.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Subject Taxonomy NCBI Identifier
+      Origin: caDSR
+      Version: '2'
+      Code: '10543100'
   race:
     Term:
     - Value: Race Category Text
@@ -1289,7 +1797,12 @@ PropDefinitions:
       The provided values are based on the categories defined by the U.S. Office of
       Management and Business and used by the U.S. Census Bureau.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Race Category Text
+      Origin: caDSR
+      Version: '1'
+      Code: '2192199'
   sex_at_birth:
     Term:
     - Value: Person Sex at Birth Category
@@ -1299,7 +1812,12 @@ PropDefinitions:
       Code: '7572817'
     Desc: A textual description of a person's sex at birth.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Person Sex at Birth Category
+      Origin: caDSR
+      Version: '3'
+      Code: '7572817'
   subject_id:
     Term:
     - Value: Data Record Link Unique Identifier
@@ -1308,9 +1826,14 @@ PropDefinitions:
         related records.
       Version: '1'
       Code: '14822135'
+    Desc: nan
     Req: 'Yes'
-    Key: 'True'
-    Type: string
+    Key: 'Yes'
+    Enum:
+    - Value: Data Record Link Unique Identifier
+      Origin: caDSR
+      Version: '1'
+      Code: '14822135'
   vital_status:
     Term:
     - Value: Participant Vital Status Type
@@ -1321,4 +1844,9 @@ PropDefinitions:
       Code: '2847330'
     Desc: The survival state of the person registered on the protocol.
     Req: 'Yes'
-    Type: string
+    Key: 'No'
+    Enum:
+    - Value: Participant Vital Status Type
+      Origin: caDSR
+      Version: '1'
+      Code: '2847330'
