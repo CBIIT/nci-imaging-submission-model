@@ -3,6 +3,7 @@ PropDefinitions:
     Term:
     - Value: Research Activity Acknowledgements Text
       Origin: caDSR
+      Definition: The formal confirmation or recognition of accomplishment or contribution.
       Version: '1'
       Code: 17284354
     Desc: additional acknowledgments
@@ -17,6 +18,8 @@ PropDefinitions:
     Term:
     - Value: Subject Legal Adult Or Pediatric Study Participant Type
       Origin: caDSR
+      Definition: The identifiable class of the study participant based upon their
+        age.
       Version: '2'
       Code: 11524549
     Desc: Study participants are adult, pediatric, or other
@@ -31,6 +34,8 @@ PropDefinitions:
     Term:
     - Value: Study Administration Dataset Abstract Text
       Origin: caDSR
+      Definition: A written summary of the important points of a collection of related
+        data records.
       Version: '1'
       Code: 17279144
     Desc: Short description that will identify the dataset on public pages
@@ -45,6 +50,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Dataset Description Text
       Origin: caDSR
+      Definition: A written explanation of a collection of related data records.
       Version: '1'
       Code: 17279143
     Desc: Description of the collection / dataset / study
@@ -59,6 +65,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -73,6 +81,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Dataset Name Text
       Origin: caDSR
+      Definition: Words that describe a collection of related data records.
       Version: '1'
       Code: 17279141
     Desc: descriptive title for the collection/ dataset
@@ -87,6 +96,8 @@ PropDefinitions:
     Term:
     - Value: Study Administration Dataset Short Name Text
       Origin: caDSR
+      Definition: The acronym or abbreviated form of the name of a collection of related
+        data records.
       Version: '1'
       Code: 17279142
     Desc: abbreviated title for the collection/ dataset
@@ -101,6 +112,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Funding Agency Organization Name
       Origin: caDSR
+      Definition: The name of the funding source organization or sponsor.
       Version: '1'
       Code: 16002760
     Desc: Funding agency of the requestor study
@@ -115,6 +127,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Funding Agency Program Name
       Origin: caDSR
+      Definition: The name of the program assigned by the funding agency.
       Version: '1'
       Code: 16002776
     Desc: The funding source organization/sponsor
@@ -129,6 +142,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Grant Funding Number Identifier
       Origin: caDSR
+      Definition: One or more characters used to identify a grant.
       Version: '1'
       Code: 16002823
     Desc: Grant or contract identifier
@@ -143,6 +157,7 @@ PropDefinitions:
     Term:
     - Value: Subject Age in Days at Diagnosis Count
       Origin: caDSR
+      Definition: The age in days of the subject at the time of diagnosis.
       Version: '1'
       Code: 15019300
     Desc: Age at the time of diagnosis expressed in number of days since birth.
@@ -157,6 +172,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -171,6 +188,9 @@ PropDefinitions:
     Term:
     - Value: Disease Metastasis Anatomic Site Uberon Identifier
       Origin: caDSR
+      Definition: The location within the body where cancer has spread from one part
+        of the body (the organ in which it first appeared) to another secondary part
+        as captured in the Uberon identifier.
       Version: '1'
       Code: 15114457
     Desc: nan
@@ -185,6 +205,9 @@ PropDefinitions:
     Term:
     - Value: Disease Primary Diagnosis NCI Thesaurus Text
       Origin: caDSR
+      Definition: A term describing the main condition for evaluation and treatment
+        as captured in the Disease or Diagnosis (C2991) branch of the National Cancer
+        Institute Thesaurus (NCIt) hierarchy tree.
       Version: '1'
       Code: 14905532
     Desc: A term describing the main condition for evaluation and treatment as captured
@@ -201,6 +224,8 @@ PropDefinitions:
     Term:
     - Value: Disease Primary Site Uberon Identifier
       Origin: caDSR
+      Definition: The location within the body from where the disease of interest
+        originated as captured in the Uberon identifier.
       Version: '1'
       Code: 14883047
     Desc: The location within the body from where the disease of interest originated
@@ -216,6 +241,8 @@ PropDefinitions:
     Term:
     - Value: Data File Deidentified Indicator
       Origin: caDSR
+      Definition: A response to indicate whether or not information that would make
+        data individually identifiable has been removed.
       Version: '1'
       Code: 17087977
     Desc: Flag
@@ -230,6 +257,9 @@ PropDefinitions:
     Term:
     - Value: Deidentification Method Description Text
       Origin: caDSR
+      Definition: Text describing the manner of procedure or systematic course of
+        actions performed to remove text elements that would make data individually
+        identifiable.
       Version: '1'
       Code: 14612655
     Desc: Description of the process of removing potentially identifying data or data
@@ -246,6 +276,8 @@ PropDefinitions:
     Term:
     - Value: Data File Deidentification Method Type
       Origin: caDSR
+      Definition: The type of procedure used to remove text elements that would make
+        data individually identifiable in an electronic record.
       Version: '1'
       Code: 14576319
     Desc: General description of the de-identification method
@@ -260,6 +292,8 @@ PropDefinitions:
     Term:
     - Value: Deidentification Software Name Text
       Origin: caDSR
+      Definition: Text describing the literal identifier of the software program used
+        to remove text elements that would make data individually identifiable.
       Version: '1'
       Code: 14612658
     Desc: Software that was used to de-identify the images (if used)
@@ -274,6 +308,8 @@ PropDefinitions:
     Term:
     - Value: Data File Description Text
       Origin: caDSR
+      Definition: A free text field that can be used to document the content and other
+        details about a data file that may not be captured elsewhere.
       Version: '2'
       Code: 11280338
     Desc: Human-readable description of file
@@ -288,6 +324,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: A file identifier generated by CRDC Submission Portal. This property is
@@ -303,6 +341,7 @@ PropDefinitions:
     Term:
     - Value: Data File Name Text
       Origin: caDSR
+      Definition: The literal label for an electronic data file.
       Version: '3'
       Code: 11284037
     Desc: Name of file
@@ -317,6 +356,8 @@ PropDefinitions:
     Term:
     - Value: Data File Size Integer
       Origin: caDSR
+      Definition: The measure (in bytes) of how much space a data file takes up on
+        a storage medium.
       Version: '2'
       Code: 11479876
     Desc: File size in bytes
@@ -331,6 +372,8 @@ PropDefinitions:
     Term:
     - Value: Data File Format Type
       Origin: caDSR
+      Definition: A defined organization or layout representing and structuring data
+        in a computer file.
       Version: '2'
       Code: 11416926
     Desc: File type from enumerated list
@@ -345,6 +388,8 @@ PropDefinitions:
     Term:
     - Value: Data File Dataset License Type
       Origin: caDSR
+      Definition: The license format describing credit and use restrictions when granting
+        permission to share and/or distribute data collections.
       Version: '1'
       Code: 14902606
     Desc: license under which this collection / dataset / study will be published;
@@ -360,6 +405,7 @@ PropDefinitions:
     Term:
     - Value: Data File MD5 Checksum Text
       Origin: caDSR
+      Definition: A 32-character hexadecimal number that is computed on a file.
       Version: '2'
       Code: 11556150
     Desc: MD5 hex digest for this file
@@ -374,6 +420,8 @@ PropDefinitions:
     Term:
     - Value: Biospecimen Acquisition Method Type
       Origin: caDSR
+      Definition: Records the method of acquisition or source for the specimen under
+        consideration.
       Version: '2'
       Code: 6626651
     Desc: Records the method of acquisition or source for the specimen under consideration
@@ -388,6 +436,8 @@ PropDefinitions:
     Term:
     - Value: Specimen Preservation Procedure Type
       Origin: caDSR
+      Definition: The term which describes the method used to maintain the specimen
+        in a viable state.
       Version: '3'
       Code: 8028962
     Desc: The term which describes the medium used to maintain the specimen in a viable
@@ -403,6 +453,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -417,6 +469,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Procedure Microscope Immersion Medium Type
       Origin: caDSR
+      Definition: Text specifying the kind of fluid used to fill the space between
+        a microscope's objective lens and the coverslip.
       Version: '2'
       Code: 8058286
     Desc: Immersion medium
@@ -431,6 +485,8 @@ PropDefinitions:
     Term:
     - Value: Equipment Microscope Lens Numerical Aperture Float Value
       Origin: caDSR
+      Definition: A floating point numerical value describing the range of angles
+        over which the objective lens can accept or emit light.
       Version: '2'
       Code: 7788942
     Desc: The numerical aperture of the lens. Floating point value > 0.
@@ -445,6 +501,8 @@ PropDefinitions:
     Term:
     - Value: Equipment Microscope Nominal Magnification Float Value
       Origin: caDSR
+      Definition: A floating point numerical value describing the nominal magnification
+        of an optical instrument using a combination of lenses to produce an image.
       Version: '2'
       Code: 7788940
     Desc: The magnification of the lens as specified by the manufacturer - i.e. '60'
@@ -460,6 +518,8 @@ PropDefinitions:
     Term:
     - Value: Equipment Microscope Objective Lens Text
       Origin: caDSR
+      Definition: Text which describes the microscope's objective lens nearest to
+        the specimen being viewed that magnifies and projects the image of the specimen.
       Version: '2'
       Code: 7788935
     Desc: An_objective_is an optical element that gathers light from an object being
@@ -475,6 +535,7 @@ PropDefinitions:
     Term:
     - Value: Specimen Staining Method Type
       Origin: caDSR
+      Definition: The type of method used to perform the staining.
       Version: '1'
       Code: 16964049
     Desc: Any of the various methods that use a dye, reagent, or other material for
@@ -490,6 +551,8 @@ PropDefinitions:
     Term:
     - Value: Specimen Preservation Procedure Medium Type
       Origin: caDSR
+      Definition: The kind of substance holding another substance in solution or suspension
+        to maintain a specimen in a viable state.
       Version: '1'
       Code: 16323957
     Desc: A compound that preserves tissues and cells for microscopic study.
@@ -504,6 +567,8 @@ PropDefinitions:
     Term:
     - Value: Tumor Classification Category
       Origin: caDSR
+      Definition: The classification of a tumor at a particular time based primarily
+        on histopathological characteristics.
       Version: '1'
       Code: 12922545
     Desc: Text that describes the kind of disease present in the tumor specimen as
@@ -520,6 +585,7 @@ PropDefinitions:
     Term:
     - Value: Publication Author Display Order Integer
       Origin: caDSR
+      Definition: The sequence or position of the author in a list.
       Version: '1'
       Code: 17090270
     Desc: Indicates the order in which the authors of the dataset should be listed
@@ -534,6 +600,8 @@ PropDefinitions:
     Term:
     - Value: Person Email Address Text
       Origin: caDSR
+      Definition: The string of characters that represents the electronic mail address
+        of a person.
       Version: '1'
       Code: 2517550
     Desc: The string of characters that represents the electronic mail address of
@@ -549,6 +617,8 @@ PropDefinitions:
     Term:
     - Value: Person Given/First Name
       Origin: caDSR
+      Definition: A word or group of words indicating a person's first (personal or
+        given) name; the name that precedes the surname. Synonym = Given Name
       Version: '2'
       Code: 2179589
     Desc: A word or group of words indicating a person's first (personal or given)
@@ -566,6 +636,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -580,6 +652,8 @@ PropDefinitions:
     Term:
     - Value: Person Family/Last Name
       Origin: caDSR
+      Definition: A means of identifying an individual by using a word or group of
+        words indicating a person's last (family) name. Synonym = Last Name, Surname.
       Version: '2'
       Code: 2179591
     Desc: A means of identifying an individual by using a word or group of words indicating
@@ -597,6 +671,8 @@ PropDefinitions:
     Term:
     - Value: Person Middle Name
       Origin: caDSR
+      Definition: A means of identifying an individual by using a word or group of
+        words indicating a person's middle name.
       Version: '2'
       Code: 2179590
     Desc: A means of identifying an individual by using a word or group of words indicating
@@ -613,6 +689,7 @@ PropDefinitions:
     Term:
     - Value: Research Activity Organization Name
       Origin: caDSR
+      Definition: A textual identifier for an organization.
       Version: '1'
       Code: 17090221
     Desc: Name of the organization for which the investigator works.
@@ -627,6 +704,8 @@ PropDefinitions:
     Term:
     - Value: Person ORCID Text
       Origin: caDSR
+      Definition: A persistent unique digital identifier assigned to a person by the
+        Open Researcher and Contributor ID (ORCID) organization.
       Version: '3'
       Code: 10624734
     Desc: A persistent unique digital identifier assigned to a person by the Open
@@ -644,6 +723,9 @@ PropDefinitions:
     Term:
     - Value: Person Affiliation Role Text Type
       Origin: caDSR
+      Definition: The text that describes the distinguishable characteristics of the
+        action or activity assigned to or required or expected of a person in a formal
+        association with a group or organization.
       Version: '2'
       Code: 2201713
     Desc: The text that describes the distinguishable characteristics of the action
@@ -659,6 +741,8 @@ PropDefinitions:
     Term:
     - Value: Study Administration Research Organization Registry Identifier
       Origin: caDSR
+      Definition: A Research Organization Registry ID (ROR ID) is a unique digital
+        identifier created by the ROR used to identify research and funding organizations.
       Version: '1'
       Code: 17090260
     Desc: The Research Organization Registry (ROR) is a global, community-led registry
@@ -674,6 +758,7 @@ PropDefinitions:
     Term:
     - Value: Assay Antibody Name
       Origin: caDSR
+      Definition: Words that describe the name of the antibody.
       Version: '1'
       Code: 16964035
     Desc: short descriptive name for this antibody
@@ -688,6 +773,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplexed Imaging Vendor Catalog Number Text
       Origin: caDSR
+      Definition: A textual description of the catalog identifier assigned to a product
+        by the vendor used in multiplex imaging.
       Version: '1'
       Code: 14767261
     Desc: catalog number from vendor
@@ -702,6 +789,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: The unique channel identifier for each channel in this image must match
@@ -717,6 +806,14 @@ PropDefinitions:
     Term:
     - Value: Imaging OME Tagged Image File Format Channel Name
       Origin: caDSR
+      Definition: Any technology or method that aids in the visualization of any biological
+        process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
+        or therapy.:A tagged image file format (TIFF) image file format that contains
+        an Open Microscopy Environment (OME) XML metadata block in the file header
+        for storing microscopy information (pixels and metadata) using the OME Data
+        Model._An independent acquisition scheme, i.e., a route or conduit through
+        which flows data consisting of one particular measurement using one particular
+        parameter.:The words or language units by which a thing is known.
       Version: '1'
       Code: 14765172
     Desc: Channel label for each channel in this image must match the corresponding
@@ -732,6 +829,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Clone Unique Identifier
       Origin: caDSR
+      Definition: A sequence of characters used to identify a group of genetically
+        identical cells, organisms, or DNA molecules used in multiplex imaging.
       Version: '1'
       Code: 14767258
     Desc: Unique clone identifier
@@ -746,6 +845,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Final Concentration Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the measure of the amount of
+        substance present in a unit amount of mixture used in multiplex imaging.
       Version: '1'
       Code: 14768386
     Desc: Final concentration used in experiment
@@ -760,6 +861,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Reagent Cycle Number Integer
       Origin: caDSR
+      Definition: A numerical value which captures the cycle number during which a
+        reagent was used in multiplex imaging.
       Version: '1'
       Code: 14765176
     Desc: 'the cycle # in which the co-listed reagent(s) was(were) used'
@@ -774,6 +877,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Final Dilution Ratio Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the concentration of  different
+        reagents used in multiplex imaging.
       Version: '1'
       Code: 14767270
     Desc: Final dilution ratio used in experiment
@@ -788,6 +893,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Emission Bandwidth Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the nominal width of an emission
+        spectrum used in multiplex imaging.
       Version: '1'
       Code: 14765193
     Desc: nominal width of emission spectrum (nm)
@@ -802,6 +909,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Emission Wavelength Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the wavelength with the maximum
+        peak in an emission spectrum.
       Version: '1'
       Code: 14767264
     Desc: center/peak of the emission spectrum (nm)
@@ -816,6 +925,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Excitation Bandwidth Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the nominal width of an excitation
+        spectrum used in multiplex imaging.
       Version: '1'
       Code: 14765190
     Desc: nominal width of excitation spectrum (nm)
@@ -830,6 +941,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Excitation Wavelength Number
       Origin: caDSR
+      Definition: A numerical quantity which captures the electromagnetic radiation
+        wavelength that causes peak excitation used in multiplex imaging.
       Version: '1'
       Code: 14765187
     Desc: center/peak of the excitation spectrum (nm)
@@ -844,6 +957,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Fluorescent Dye Text
       Origin: caDSR
+      Definition: A textual description of fluorescent antibodies, aptamers, peptides,
+        dyes, and similar detection reagents used in multiplex imaging.
       Version: '1'
       Code: 14767255
     Desc: Fluorescent dye label
@@ -858,6 +973,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Vendor Lot Number Text
       Origin: caDSR
+      Definition: A textual description of the lot identifier assigned to a product
+        by the vendor used in multiplex imaging.
       Version: '1'
       Code: 14769695
     Desc: lot number from vendor
@@ -872,6 +989,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplexed Imaging Isotope Abbreviation Name
       Origin: caDSR
+      Definition: The words by which the chemical element containing a specific number
+        of neutrons and a specific atomic mass used in multiplex imaging is known.
       Version: '1'
       Code: 14765198
     Desc: Element abbreviation
@@ -886,6 +1005,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
       Origin: caDSR
+      Definition: A textual description of the oligonucleotide barcode used in multiplex
+        imaging to label the non-coding strand in double-stranded DNA.
       Version: '1'
       Code: 14765208
     Desc: DNA barcode used for labeling
@@ -900,6 +1021,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
       Origin: caDSR
+      Definition: A textual description of the oligonucleotide barcode used in multiplex
+        imaging to label the coding strand in double-stranded DNA.
       Version: '1'
       Code: 14765205
     Desc: DNA barcode used for labeling
@@ -914,6 +1037,9 @@ PropDefinitions:
     Term:
     - Value: Research Activity Resource Identifier
       Origin: caDSR
+      Definition: A Research Resource Identifier (RRID) is a unique identifier for
+        referencing a research resource such as organisms, antibodies, plasmids, cell
+        lines, software tools and databases.
       Version: '1'
       Code: 14767247
     Desc: Research Resource Identifier
@@ -928,6 +1054,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Reagent Sub-Cycle Number Integer
       Origin: caDSR
+      Definition: A numerical value which captures the sub-cycle number during which
+        a reagent was used in multiplex imaging.
       Version: '1'
       Code: 14765180
     Desc: 'sub-cycle #'
@@ -942,6 +1070,9 @@ PropDefinitions:
     Term:
     - Value: Imaging Multiplex Imaging Target Antigen Name
       Origin: caDSR
+      Definition: The words by which the substance, generally a protein, that stimulates
+        the immune system and elicits an immune response used in multiplex imaging
+        is known.
       Version: '1'
       Code: 14765182
     Desc: short descriptive name (abbreviation) for this target (antigen)
@@ -956,6 +1087,9 @@ PropDefinitions:
     Term:
     - Value: Assay Type
       Origin: caDSR
+      Definition: The type of assay method or technology utilized to determine the
+        amount of a particular constituent in a sample or the biological properties
+        or activity of the sample.
       Version: '2'
       Code: 7789196
     Desc: Type of imaging assay
@@ -970,6 +1104,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -984,6 +1120,9 @@ PropDefinitions:
     Term:
     - Value: Imaging Pyramid Representation True False Indicator
       Origin: caDSR
+      Definition: A response of true or false or to indicate if an image is a multi-resolution
+        representation allowing for analysis and manipulation of the image over a
+        range of spatial scales.
       Version: '2'
       Code: 7788945
     Desc: The data file contains an image pyramid
@@ -998,6 +1137,13 @@ PropDefinitions:
     Term:
     - Value: Imaging Procedure Microscope Device Working Distance Float Value
       Origin: caDSR
+      Definition: Any technology or method that aids in the visualization of any biological
+        process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
+        or therapy.:An optical instrument that uses a combination of lenses to produce
+        magnified images of very small objects_The distance between the front end
+        of the objective lens and the specimen surface when the specimen is in focus.:A
+        number that can have its decimal point in any position._A numerical quantity
+        measured or assigned or computed.
       Version: '2'
       Code: 7788943
     Desc: The working distance of the lens, expressed as a floating point number.
@@ -1013,6 +1159,9 @@ PropDefinitions:
     Term:
     - Value: Imaging DICOM Modality Type
       Origin: caDSR
+      Definition: A system of categories for representing a specific manner, characteristic,
+        pattern of a data acquisition device used in an imaging event whether physical
+        or electronic.
       Version: '2'
       Code: 12137353
     Desc: nan
@@ -1027,6 +1176,7 @@ PropDefinitions:
     Term:
     - Value: Laboratory Procedure Test Name
       Origin: caDSR
+      Definition: The words by which the laboratory assessment is known.
       Version: '1'
       Code: 13569486
     Desc: Descriptive name of the lab test or examination used to obtain the measurement
@@ -1043,6 +1193,7 @@ PropDefinitions:
     Term:
     - Value: Imaging Procedure Occurrence Date
       Origin: caDSR
+      Definition: The date of an imaging procedure.
       Version: '2'
       Code: 3434493
     Desc: nan
@@ -1057,6 +1208,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -1071,6 +1224,9 @@ PropDefinitions:
     Term:
     - Value: Laboratory Procedure Test Result Text
       Origin: caDSR
+      Definition: A textual description of the outcome of any procedure that involves
+        testing or manipulating a sample of blood, urine, or other body substance
+        in a laboratory setting.
       Version: '1'
       Code: 13362271
     Desc: The text term used to describe the result of the molecular test. If the
@@ -1086,6 +1242,8 @@ PropDefinitions:
     Term:
     - Value: Laboratory Procedure Test Result Float
       Origin: caDSR
+      Definition: The numeric value of the blood, urine, or other body substance laboratory
+        test being recorded.
       Version: '1'
       Code: 13336306
     Desc: If the test result was a numeric value see test_value.
@@ -1100,6 +1258,8 @@ PropDefinitions:
     Term:
     - Value: Study Administration Institution Name
       Origin: caDSR
+      Definition: The words by which an established society, corporation, foundation
+        or other organization founded and united for a specific purpose is known.
       Version: '1'
       Code: 17087567
     Desc: TBD
@@ -1114,6 +1274,8 @@ PropDefinitions:
     Term:
     - Value: Study Administration Program External URL Text
       Origin: caDSR
+      Definition: The URL address for a research program or study that is accessible
+        by those outside the host institution.
       Version: '1'
       Code: 17087631
     Desc: The external url to which users should be directed in order to learn more
@@ -1129,6 +1291,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Program Full Description Text
       Origin: caDSR
+      Definition: An unabridged description of a research program or study.
       Version: '1'
       Code: 17087562
     Desc: A more detailed, multiple sentence description of the program.
@@ -1143,6 +1306,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -1157,6 +1322,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Program Name
       Origin: caDSR
+      Definition: The name applied to a research program.
       Version: '1'
       Code: 15846335
     Desc: The name of the program under which related studies will be grouped, in
@@ -1173,6 +1339,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Program Short Description Text
       Origin: caDSR
+      Definition: An abbreviated description of a research program or study.
       Version: '1'
       Code: 17087559
     Desc: An abbreviated, single sentence description of the program.
@@ -1187,6 +1354,7 @@ PropDefinitions:
     Term:
     - Value: Study Administration Program Short Name
       Origin: caDSR
+      Definition: The shortened name applied to a research program.
       Version: '1'
       Code: 15846845
     Desc: An acronym or abbreviated form of the title of a broad framework of goals
@@ -1203,6 +1371,8 @@ PropDefinitions:
     Term:
     - Value: Disease Body Part Examined Anatomic Site Uberon Identifier
       Origin: caDSR
+      Definition: The location within the body that was inspected or evaluated as
+        captured in the Uberon identifier.
       Version: '1'
       Code: 14883072
     Desc: Text description of the part of the body examined. DICOM tag (0018,0015)
@@ -1217,6 +1387,13 @@ PropDefinitions:
     Term:
     - Value: Imaging Quality Control Subject Indicator
       Origin: caDSR
+      Definition: Any technology or method that aids in the visualization of any biological
+        process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
+        or therapy.:Set of measurements and inspections taken to verify that performance
+        of equipment and procedures remains within specified limits._A matter or an
+        individual that is observed, analyzed, examined, investigated, experimented
+        upon, or/and treated in the course of a particular study.:The preferred Value
+        Domain to indicate a question with permissible values of yes/no.
       Version: '1'
       Code: 17088525
     Desc: The subject may or may not be a phantom / quality control subject. DICOM
@@ -1232,6 +1409,7 @@ PropDefinitions:
     Term:
     - Value: Equipment Manufacturer Name
       Origin: caDSR
+      Definition: The name of the entity that produces the equipment.
       Version: '1'
       Code: 16065939
     Desc: Manufacturer of the equipment that produced the Composite Instances. DICOM
@@ -1247,6 +1425,8 @@ PropDefinitions:
     Term:
     - Value: Equipment Model Name
       Origin: caDSR
+      Definition: The name that describes the equipment used to perform a non-sequencing
+        diagnostic, therapeutic or research activity.
       Version: '1'
       Code: 16072578
     Desc: Manufacturer's model name of the equipment that produced the Composite Instances.
@@ -1262,6 +1442,9 @@ PropDefinitions:
     Term:
     - Value: Imaging DICOM Modality Type
       Origin: caDSR
+      Definition: A system of categories for representing a specific manner, characteristic,
+        pattern of a data acquisition device used in an imaging event whether physical
+        or electronic.
       Version: '2'
       Code: 12137353
     Desc: Type of device, process or method that originally acquired or produced the
@@ -1277,6 +1460,10 @@ PropDefinitions:
     Term:
     - Value: Subject Age at Imaging Count
       Origin: caDSR
+      Definition: A matter or an individual that is observed, analyzed, examined,
+        investigated, experimented upon, or/and treated in the course of a particular
+        study.:The age of an individual at the time of an imaging test.:To determine
+        the number or amount of something; the result of this activity.
       Version: '1'
       Code: 12307007
     Desc: Age of the Patient at the time of imaging. Example values 063Y, 049Y
@@ -1291,6 +1478,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Pixel Spacing Float or Fixed-point Millimeter Number
       Origin: caDSR
+      Definition: Physical distance between the center of each pixel in an image measured
+        in mm.
       Version: '3'
       Code: 2903393
     Desc: Physical distance in the Patient between the center of each pixel, specified
@@ -1307,6 +1496,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -1321,6 +1512,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Series Description Text
       Origin: caDSR
+      Definition: Text description that represents a collection of images with a common
+        element.
       Version: '1'
       Code: 16253922
     Desc: Description of the Series. DICOM tag (0008,103E)
@@ -1335,6 +1528,11 @@ PropDefinitions:
     Term:
     - Value: Imaging Slice Thickness Float or Fixed-point Millimeter Number
       Origin: caDSR
+      Definition: 'Any technology or method that aids in the visualization of any
+        biological process, cell, tissue or organ for use in screening, diagnosis,
+        surgical procedures or therapy.:The dimension between two surfaces of an imaging
+        plane.:DS MM: A string of characters representing either a fixed point number
+        or a floating point number measured in millimeters.'
       Version: '3'
       Code: 3113185
     Desc: Nominal slice thickness, in mm. DICOM tag (0018,0050)
@@ -1349,6 +1547,8 @@ PropDefinitions:
     Term:
     - Value: Equipment Software Version Text
       Origin: caDSR
+      Definition: One or more characters which describe a specific form or variant
+        of data and/or instructions stored in the computer.
       Version: '1.2'
       Code: 2413278
     Desc: Manufacturer's designation of software version of the equipment that produced
@@ -1364,6 +1564,8 @@ PropDefinitions:
     Term:
     - Value: Imaging Study Description Text
       Origin: caDSR
+      Definition: Text which describes the radiographic technique used to evaluate
+        a specific anatomic location for a specific purpose.
       Version: '3'
       Code: 2182389
     Desc: Institution-generated description or classification of the Study performed.
@@ -1379,6 +1581,7 @@ PropDefinitions:
     Term:
     - Value: Publication Citation Author List Text
       Origin: caDSR
+      Definition: A list of authors cited for a published work.
       Version: '1'
       Code: 16081468
     Desc: A list of authors for the cited work. More specifically, for publications
@@ -1395,6 +1598,8 @@ PropDefinitions:
     Term:
     - Value: Publication Digital Object Identifier Text
       Origin: caDSR
+      Definition: A unique code used by publishers to identify a digital object, such
+        as a journal article, web document, or other item of intellectual property.
       Version: '1'
       Code: 15915370
     Desc: Where applicable, the digital object identifier for the cited work, by which
@@ -1411,6 +1616,7 @@ PropDefinitions:
     Term:
     - Value: Publication Digital Object Identifier Version Text
       Origin: caDSR
+      Definition: The version of the DOI.
       Version: '1'
       Code: 17090342
     Desc: nan
@@ -1425,6 +1631,7 @@ PropDefinitions:
     Term:
     - Value: Publication Journal Citation Text
       Origin: caDSR
+      Definition: A bibliographical reference to a cited journal article.
       Version: '1'
       Code: 16081476
     Desc: The name of the journal in which the cited work was published, inclusive
@@ -1441,6 +1648,7 @@ PropDefinitions:
     Term:
     - Value: Publication Document Type
       Origin: caDSR
+      Definition: The kind of printed or electronic work offered for distribution.
       Version: '1'
       Code: 16698383
     Desc: In the DataCite Metadata Schema 4.6 (released December 2024), the following
@@ -1456,6 +1664,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: primary key
@@ -1470,6 +1680,7 @@ PropDefinitions:
     Term:
     - Value: Publication DOI Relationship Type
       Origin: caDSR
+      Definition: A set of DOI relationship types based on the DataCite Metadata Schema.
       Version: '1'
       Code: 17090347
     Desc: A set of DOI relationship types based on the DataCite Metadata Schema.
@@ -1484,6 +1695,9 @@ PropDefinitions:
     Term:
     - Value: Research Activity Resource Identifier
       Origin: caDSR
+      Definition: A Research Resource Identifier (RRID) is a unique identifier for
+        referencing a research resource such as organisms, antibodies, plasmids, cell
+        lines, software tools and databases.
       Version: '1'
       Code: 14767247
     Desc: A Research Resource Identifier (RRID) is a unique identifier for referencing
@@ -1501,6 +1715,7 @@ PropDefinitions:
     Term:
     - Value: Publication Title Text
       Origin: caDSR
+      Definition: The title for a published printed or electronic article.
       Version: '1'
       Code: 16078531
     Desc: The full title of the publication stated exactly as it appears on the published
@@ -1516,6 +1731,8 @@ PropDefinitions:
     Term:
     - Value: Publication Year Date
       Origin: caDSR
+      Definition: The year in four digit format in which the printed or electronic
+        work was published.
       Version: '1'
       Code: 16081475
     Desc: The year in which the cited work was published.
@@ -1530,6 +1747,8 @@ PropDefinitions:
     Term:
     - Value: Ethnic Group Category Text
       Origin: caDSR
+      Definition: The text for reporting information about ethnicity based on the
+        Office of Management and Budget (OMB) categories.
       Version: '2'
       Code: 2192217
     Desc: An individual's self-described social and cultural grouping, specifically
@@ -1547,6 +1766,9 @@ PropDefinitions:
     Term:
     - Value: Subject Taxonomy NCBI Identifier
       Origin: caDSR
+      Definition: The unique numerical identifier of a subject's organismal classification
+        as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
+        standard nomenclature and classification repository.
       Version: '2'
       Code: 10543100
     Desc: A label provided by NCBI Taxonomy Database (https://www.ncbi.nlm.nih.gov/taxonomy/),
@@ -1564,6 +1786,8 @@ PropDefinitions:
     Term:
     - Value: Race Category Text
       Origin: caDSR
+      Definition: The text for reporting information about race based on the Office
+        of Management and Budget (OMB) categories.
       Version: '1'
       Code: 2192199
     Desc: An arbitrary classification of a taxonomic group that is a division of a
@@ -1583,6 +1807,7 @@ PropDefinitions:
     Term:
     - Value: Person Sex at Birth Category
       Origin: caDSR
+      Definition: A textual description of a person's sex at birth.
       Version: '3'
       Code: 7572817
     Desc: A textual description of a person's sex at birth.
@@ -1597,6 +1822,8 @@ PropDefinitions:
     Term:
     - Value: Data Record Link Unique Identifier
       Origin: caDSR
+      Definition: A unique sequence of characters used to identify a linkage between
+        related records.
       Version: '1'
       Code: 14822135
     Desc: nan
@@ -1611,6 +1838,8 @@ PropDefinitions:
     Term:
     - Value: Participant Vital Status Type
       Origin: caDSR
+      Definition: The response to a question that describes a participant's survival
+        status.
       Version: '1'
       Code: 2847330
     Desc: The survival state of the person registered on the protocol.
