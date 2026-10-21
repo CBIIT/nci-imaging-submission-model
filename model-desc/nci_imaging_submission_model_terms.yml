@@ -3,554 +3,554 @@ Terms:
     Value: Research Activity Acknowledgements Text
     Origin: caDSR
     Version: '1'
-    Code: 17284354
+    Code: '17284354'
   acquisition_method_type:
     Value: Biospecimen Acquisition Method Type
     Origin: caDSR
     Version: '2'
-    Code: 6626651
+    Code: '6626651'
   adult_or_childhood_study:
     Value: Subject Legal Adult Or Pediatric Study Participant Type
     Origin: caDSR
     Version: '2'
-    Code: 11524549
+    Code: '11524549'
   age_at_diagnosis:
     Value: Subject Age in Days at Diagnosis Count
     Origin: caDSR
     Version: '1'
-    Code: 15019300
+    Code: '15019300'
   antibody_name:
     Value: Assay Antibody Name
     Origin: caDSR
     Version: '1'
-    Code: 16964035
+    Code: '16964035'
   author_order:
     Value: Publication Author Display Order Integer
     Origin: caDSR
     Version: '1'
-    Code: 17090270
+    Code: '17090270'
   authorship:
     Value: Publication Citation Author List Text
     Origin: caDSR
     Version: '1'
-    Code: 16081468
+    Code: '16081468'
   body_part_examined:
     Value: Disease Body Part Examined Anatomic Site Uberon Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14883072
+    Code: '14883072'
   catalog_number:
     Value: Imaging Multiplexed Imaging Vendor Catalog Number Text
     Origin: caDSR
     Version: '1'
-    Code: 14767261
+    Code: '14767261'
   channel_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   channel_name:
     Value: Imaging OME Tagged Image File Format Channel Name
     Origin: caDSR
     Version: '1'
-    Code: 14765172
+    Code: '14765172'
   clone:
     Value: Imaging Multiplex Imaging Clone Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14767258
+    Code: '14767258'
   concentration:
     Value: Imaging Multiplex Imaging Final Concentration Number
     Origin: caDSR
     Version: '1'
-    Code: 14768386
+    Code: '14768386'
   cycle_number:
     Value: Imaging Multiplex Imaging Reagent Cycle Number Integer
     Origin: caDSR
     Version: '1'
-    Code: 14765176
+    Code: '14765176'
   data_has_been_de_identified:
     Value: Data File Deidentified Indicator
     Origin: caDSR
     Version: '1'
-    Code: 17087977
+    Code: '17087977'
   dataset_abstract:
     Value: Study Administration Dataset Abstract Text
     Origin: caDSR
     Version: '1'
-    Code: 17279144
+    Code: '17279144'
   dataset_description:
     Value: Study Administration Dataset Description Text
     Origin: caDSR
     Version: '1'
-    Code: 17279143
+    Code: '17279143'
   dataset_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   dataset_long_name:
     Value: Study Administration Dataset Name Text
     Origin: caDSR
     Version: '1'
-    Code: 17279141
+    Code: '17279141'
   dataset_short_name:
     Value: Study Administration Dataset Short Name Text
     Origin: caDSR
     Version: '1'
-    Code: 17279142
+    Code: '17279142'
   de_identification_method_description:
     Value: Deidentification Method Description Text
     Origin: caDSR
     Version: '1'
-    Code: 14612655
+    Code: '14612655'
   de_identification_method_type:
     Value: Data File Deidentification Method Type
     Origin: caDSR
     Version: '1'
-    Code: 14576319
+    Code: '14576319'
   de_identification_software:
     Value: Deidentification Software Name Text
     Origin: caDSR
     Version: '1'
-    Code: 14612658
+    Code: '14612658'
   diagnosis_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   dilution:
     Value: Imaging Multiplex Imaging Final Dilution Ratio Number
     Origin: caDSR
     Version: '1'
-    Code: 14767270
+    Code: '14767270'
   doi:
     Value: Publication Digital Object Identifier Text
     Origin: caDSR
     Version: '1'
-    Code: 15915370
+    Code: '15915370'
   doi_version:
     Value: Publication Digital Object Identifier Version Text
     Origin: caDSR
     Version: '1'
-    Code: 17090342
+    Code: '17090342'
   email:
     Value: Person Email Address Text
     Origin: caDSR
     Version: '1'
-    Code: 2517550
+    Code: '2517550'
   embedding_medium:
     Value: Specimen Preservation Procedure Type
     Origin: caDSR
     Version: '3'
-    Code: 8028962
+    Code: '8028962'
   emission_bandwidth:
     Value: Imaging Multiplex Imaging Emission Bandwidth Number
     Origin: caDSR
     Version: '1'
-    Code: 14765193
+    Code: '14765193'
   emission_wavelength:
     Value: Imaging Multiplex Imaging Emission Wavelength Number
     Origin: caDSR
     Version: '1'
-    Code: 14767264
+    Code: '14767264'
   ethnicity:
     Value: Ethnic Group Category Text
     Origin: caDSR
     Version: '2'
-    Code: 2192217
+    Code: '2192217'
   excitation_bandwidth:
     Value: Imaging Multiplex Imaging Excitation Bandwidth Number
     Origin: caDSR
     Version: '1'
-    Code: 14765190
+    Code: '14765190'
   excitation_wavelength:
     Value: Imaging Multiplex Imaging Excitation Wavelength Number
     Origin: caDSR
     Version: '1'
-    Code: 14765187
+    Code: '14765187'
   file_description:
     Value: Data File Description Text
     Origin: caDSR
     Version: '2'
-    Code: 11280338
+    Code: '11280338'
   file_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   file_name:
     Value: Data File Name Text
     Origin: caDSR
     Version: '3'
-    Code: 11284037
+    Code: '11284037'
   file_size:
     Value: Data File Size Integer
     Origin: caDSR
     Version: '2'
-    Code: 11479876
+    Code: '11479876'
   file_type:
     Value: Data File Format Type
     Origin: caDSR
     Version: '2'
-    Code: 11416926
+    Code: '11416926'
   first_name:
     Value: Person Given/First Name
     Origin: caDSR
     Version: '2'
-    Code: 2179589
+    Code: '2179589'
   fluorophore:
     Value: Imaging Multiplex Imaging Fluorescent Dye Text
     Origin: caDSR
     Version: '1'
-    Code: 14767255
+    Code: '14767255'
   funding_agency:
     Value: Study Administration Funding Agency Organization Name
     Origin: caDSR
     Version: '1'
-    Code: 16002760
+    Code: '16002760'
   funding_source_program_name:
     Value: Study Administration Funding Agency Program Name
     Origin: caDSR
     Version: '1'
-    Code: 16002776
+    Code: '16002776'
   grant_id:
     Value: Study Administration Grant Funding Number Identifier
     Origin: caDSR
     Version: '1'
-    Code: 16002823
+    Code: '16002823'
   histopathology_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   image_modality:
     Value: Imaging DICOM Modality Type
     Origin: caDSR
     Version: '2'
-    Code: 12137353
+    Code: '12137353'
   imaging_assay_type:
     Value: Assay Type
     Origin: caDSR
     Version: '2'
-    Code: 7789196
+    Code: '7789196'
   immersion:
     Value: Imaging Procedure Microscope Immersion Medium Type
     Origin: caDSR
     Version: '2'
-    Code: 8058286
+    Code: '8058286'
   institution_name:
     Value: Study Administration Institution Name
     Origin: caDSR
     Version: '1'
-    Code: 17087567
+    Code: '17087567'
   investigator_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   is_phantom:
     Value: Imaging Quality Control Subject Indicator
     Origin: caDSR
     Version: '1'
-    Code: 17088525
+    Code: '17088525'
   journal_citation:
     Value: Publication Journal Citation Text
     Origin: caDSR
     Version: '1'
-    Code: 16081476
+    Code: '16081476'
   lab_test_name:
     Value: Laboratory Procedure Test Name
     Origin: caDSR
     Version: '1'
-    Code: 13569486
+    Code: '13569486'
   last_name:
     Value: Person Family/Last Name
     Origin: caDSR
     Version: '2'
-    Code: 2179591
+    Code: '2179591'
   lens_numerical_aperture:
     Value: Equipment Microscope Lens Numerical Aperture Float Value
     Origin: caDSR
     Version: '2'
-    Code: 7788942
+    Code: '7788942'
   license:
     Value: Data File Dataset License Type
     Origin: caDSR
     Version: '1'
-    Code: 14902606
+    Code: '14902606'
   lot:
     Value: Imaging Multiplex Imaging Vendor Lot Number Text
     Origin: caDSR
     Version: '1'
-    Code: 14769695
+    Code: '14769695'
   manufacturer:
     Value: Equipment Manufacturer Name
     Origin: caDSR
     Version: '1'
-    Code: 16065939
+    Code: '16065939'
   manufacturer_model_name:
     Value: Equipment Model Name
     Origin: caDSR
     Version: '1'
-    Code: 16072578
+    Code: '16072578'
   md5sum:
     Value: Data File MD5 Checksum Text
     Origin: caDSR
     Version: '2'
-    Code: 11556150
+    Code: '11556150'
   metal_isotope_element:
     Value: Imaging Multiplexed Imaging Isotope Abbreviation Name
     Origin: caDSR
     Version: '1'
-    Code: 14765198
+    Code: '14765198'
   metastasis_anatomic_site:
     Value: Disease Metastasis Anatomic Site Uberon Identifier
     Origin: caDSR
     Version: '1'
-    Code: 15114457
+    Code: '15114457'
   middle_name:
     Value: Person Middle Name
     Origin: caDSR
     Version: '2'
-    Code: 2179590
+    Code: '2179590'
   modality:
     Value: Imaging DICOM Modality Type
     Origin: caDSR
     Version: '2'
-    Code: 12137353
+    Code: '12137353'
   multiplex_image_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   ncbi_taxonomy_id:
     Value: Subject Taxonomy NCBI Identifier
     Origin: caDSR
     Version: '2'
-    Code: 10543100
+    Code: '10543100'
   nominal_magnification:
     Value: Equipment Microscope Nominal Magnification Float Value
     Origin: caDSR
     Version: '2'
-    Code: 7788940
+    Code: '7788940'
   objective:
     Value: Equipment Microscope Objective Lens Text
     Origin: caDSR
     Version: '2'
-    Code: 7788935
+    Code: '7788935'
   oligo_barcode_lower_strand:
     Value: Imaging Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
     Origin: caDSR
     Version: '1'
-    Code: 14765208
+    Code: '14765208'
   oligo_barcode_upper_strand:
     Value: Imaging Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
     Origin: caDSR
     Version: '1'
-    Code: 14765205
+    Code: '14765205'
   organization_name:
     Value: Research Activity Organization Name
     Origin: caDSR
     Version: '1'
-    Code: 17090221
+    Code: '17090221'
   patient_age_at_imaging:
     Value: Subject Age at Imaging Count
     Origin: caDSR
     Version: '1'
-    Code: 12307007
+    Code: '12307007'
   person_orcid:
     Value: Person ORCID Text
     Origin: caDSR
     Version: '3'
-    Code: 10624734
+    Code: '10624734'
   pixel_spacing_row:
     Value: Imaging Pixel Spacing Float or Fixed-point Millimeter Number
     Origin: caDSR
     Version: '3'
-    Code: 2903393
+    Code: '2903393'
   primary_diagnosis:
     Value: Disease Primary Diagnosis NCI Thesaurus Text
     Origin: caDSR
     Version: '1'
-    Code: 14905532
+    Code: '14905532'
   primary_site:
     Value: Disease Primary Site Uberon Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14883047
+    Code: '14883047'
   procedure_date:
     Value: Imaging Procedure Occurrence Date
     Origin: caDSR
     Version: '2'
-    Code: 3434493
+    Code: '3434493'
   procedure_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   program_external_url:
     Value: Study Administration Program External URL Text
     Origin: caDSR
     Version: '1'
-    Code: 17087631
+    Code: '17087631'
   program_full_description:
     Value: Study Administration Program Full Description Text
     Origin: caDSR
     Version: '1'
-    Code: 17087562
+    Code: '17087562'
   program_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   program_name:
     Value: Study Administration Program Name
     Origin: caDSR
     Version: '1'
-    Code: 15846335
+    Code: '15846335'
   program_short_description:
     Value: Study Administration Program Short Description Text
     Origin: caDSR
     Version: '1'
-    Code: 17087559
+    Code: '17087559'
   program_short_name:
     Value: Study Administration Program Short Name
     Origin: caDSR
     Version: '1'
-    Code: 15846845
+    Code: '15846845'
   publication_type:
     Value: Publication Document Type
     Origin: caDSR
     Version: '1'
-    Code: 16698383
+    Code: '16698383'
   pyramid:
     Value: Imaging Pyramid Representation True False Indicator
     Origin: caDSR
     Version: '2'
-    Code: 7788945
+    Code: '7788945'
   race:
     Value: Race Category Text
     Origin: caDSR
     Version: '1'
-    Code: 2192199
+    Code: '2192199'
   radiology_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   related_work_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   relationship_type:
     Value: Publication DOI Relationship Type
     Origin: caDSR
     Version: '1'
-    Code: 17090347
+    Code: '17090347'
   resource_identifier:
     Value: Research Activity Resource Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14767247
+    Code: '14767247'
   role:
     Value: Person Affiliation Role Text Type
     Origin: caDSR
     Version: '2'
-    Code: 2201713
+    Code: '2201713'
   ror_id:
     Value: Study Administration Research Organization Registry Identifier
     Origin: caDSR
     Version: '1'
-    Code: 17090260
+    Code: '17090260'
   rrid_identifier:
     Value: Research Activity Resource Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14767247
+    Code: '14767247'
   series_description:
     Value: Imaging Series Description Text
     Origin: caDSR
     Version: '1'
-    Code: 16253922
+    Code: '16253922'
   sex_at_birth:
     Value: Person Sex at Birth Category
     Origin: caDSR
     Version: '3'
-    Code: 7572817
+    Code: '7572817'
   slice_thickness:
     Value: Imaging Slice Thickness Float or Fixed-point Millimeter Number
     Origin: caDSR
     Version: '3'
-    Code: 3113185
+    Code: '3113185'
   software_versions:
     Value: Equipment Software Version Text
     Origin: caDSR
     Version: '1.2'
-    Code: 2413278
+    Code: '2413278'
   staining_method:
     Value: Specimen Staining Method Type
     Origin: caDSR
     Version: '1'
-    Code: 16964049
+    Code: '16964049'
   study_description:
     Value: Imaging Study Description Text
     Origin: caDSR
     Version: '3'
-    Code: 2182389
+    Code: '2182389'
   sub_cycle_number:
     Value: Imaging Multiplex Imaging Reagent Sub-Cycle Number Integer
     Origin: caDSR
     Version: '1'
-    Code: 14765180
+    Code: '14765180'
   subject_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
     Version: '1'
-    Code: 14822135
+    Code: '14822135'
   target_name:
     Value: Imaging Multiplex Imaging Target Antigen Name
     Origin: caDSR
     Version: '1'
-    Code: 14765182
+    Code: '14765182'
   test_result:
     Value: Laboratory Procedure Test Result Text
     Origin: caDSR
     Version: '1'
-    Code: 13362271
+    Code: '13362271'
   test_value:
     Value: Laboratory Procedure Test Result Float
     Origin: caDSR
     Version: '1'
-    Code: 13336306
+    Code: '13336306'
   tissue_fixative:
     Value: Specimen Preservation Procedure Medium Type
     Origin: caDSR
     Version: '1'
-    Code: 16323957
+    Code: '16323957'
   title:
     Value: Publication Title Text
     Origin: caDSR
     Version: '1'
-    Code: 16078531
+    Code: '16078531'
   tumor_tissue_type:
     Value: Tumor Classification Category
     Origin: caDSR
     Version: '1'
-    Code: 12922545
+    Code: '12922545'
   vital_status:
     Value: Participant Vital Status Type
     Origin: caDSR
     Version: '1'
-    Code: 2847330
+    Code: '2847330'
   working_distance:
     Value: Imaging Procedure Microscope Device Working Distance Float Value
     Origin: caDSR
     Version: '2'
-    Code: 7788943
+    Code: '7788943'
   year_of_publication:
     Value: Publication Year Date
     Origin: caDSR
     Version: '1'
-    Code: 16081475
+    Code: '16081475'
