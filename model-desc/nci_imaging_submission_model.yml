@@ -1,9 +1,8 @@
 Handle: NCIISM
-Version: 0.0.4
+Version: 0.0.5
 Nodes:
   dataset:
     Tags:
-      node: Dataset
       nodereq: true
       category: study
       assignment: core
@@ -22,7 +21,6 @@ Nodes:
     - grant_id
   diagnosis:
     Tags:
-      node: Diagnosis
       nodereq: true
       category: case
       assignment: core
@@ -36,7 +34,6 @@ Nodes:
     - primary_site
   file:
     Tags:
-      node: File
       nodereq: true
       category: data file
       assignment: core
@@ -56,7 +53,6 @@ Nodes:
     - md5sum
   histopathology:
     Tags:
-      node: Histopathology
       nodereq: true
       category: data file
       assignment: core
@@ -74,7 +70,6 @@ Nodes:
     - tumor_tissue_type
   investigator:
     Tags:
-      node: Investigator
       nodereq: true
       category: administrative
       assignment: core
@@ -93,7 +88,6 @@ Nodes:
     - ror_id
   multiplex_channels:
     Tags:
-      node: Multiplex_Channels
       nodereq: true
       category: data file
       assignment: core
@@ -121,7 +115,6 @@ Nodes:
     - target_name
   multiplex_imaging:
     Tags:
-      node: Multiplex_Imaging
       nodereq: true
       category: data file
       assignment: core
@@ -142,7 +135,6 @@ Nodes:
     - working_distance
   procedure:
     Tags:
-      node: Procedure
       nodereq: true
       category: case
       assignment: core
@@ -157,7 +149,6 @@ Nodes:
     - test_value
   program:
     Tags:
-      node: Program
       nodereq: true
       category: administrative
       assignment: core
@@ -173,7 +164,6 @@ Nodes:
     - program_short_name
   radiology:
     Tags:
-      node: Radiology
       nodereq: true
       category: data file
       assignment: core
@@ -193,7 +183,6 @@ Nodes:
     - study_description
   related_work:
     Tags:
-      node: Related_Work
       nodereq: true
       category: administrative
       assignment: core
@@ -212,7 +201,6 @@ Nodes:
     - year_of_publication
   subject:
     Tags:
-      node: Subject
       nodereq: true
       category: case
       assignment: core
@@ -228,7 +216,7 @@ Nodes:
 Relationships:
   of_program:
     Mul: many_to_one
-    Desc: Data of program
+    Desc: TBD
     Props: null
     Ends:
     - Src: dataset
@@ -236,7 +224,7 @@ Relationships:
       Props: null
   of_dataset:
     Mul: many_to_one
-    Desc: Data of dataset
+    Desc: TBD
     Props: null
     Ends:
     - Src: subject
@@ -250,7 +238,7 @@ Relationships:
       Props: null
   of_subject:
     Mul: many_to_one
-    Desc: Data of subject
+    Desc: TBD
     Props: null
     Ends:
     - Src: procedure
@@ -258,7 +246,7 @@ Relationships:
       Props: null
   of_procedure:
     Mul: many_to_one
-    Desc: Data of procedure
+    Desc: TBD
     Props: null
     Ends:
     - Src: file
@@ -269,7 +257,7 @@ Relationships:
       Props: null
   of_radiology:
     Mul: many_to_one
-    Desc: Data of radiology
+    Desc: TBD
     Props: null
     Ends:
     - Src: file
@@ -277,7 +265,7 @@ Relationships:
       Props: null
   of_histopathology:
     Mul: many_to_one
-    Desc: Data of histopathology
+    Desc: TBD
     Props: null
     Ends:
     - Src: file
@@ -285,7 +273,7 @@ Relationships:
       Props: null
   of_multiplex_imaging:
     Mul: many_to_one
-    Desc: Data of multiplex_imaging
+    Desc: TBD
     Props: null
     Ends:
     - Src: file
@@ -293,7 +281,7 @@ Relationships:
       Props: null
   of_multiplex_channels:
     Mul: one_to_many
-    Desc: Data of multiplex_channels
+    Desc: TBD
     Props: null
     Ends:
     - Src: multiplex_imaging

@@ -2,805 +2,555 @@ Terms:
   acknowledgements:
     Value: Research Activity Acknowledgements Text
     Origin: caDSR
-    Definition: Systematic investigation into a subject in order to discover facts,
-      establish or revise a theory, or develop a plan of action based on the facts
-      discovered.:A branch of knowledge.:The words of something written.
     Version: '1'
-    Code: '17284354'
+    Code: 17284354
   acquisition_method_type:
     Value: Biospecimen Acquisition Method Type
     Origin: caDSR
-    Definition: Records the method of acquisition or source for the specimen under
-      consideration.
     Version: '2'
-    Code: '6626651'
+    Code: 6626651
   adult_or_childhood_study:
-    Value: Study Administration Legal Adult Or Pediatric Study Type
+    Value: Subject Legal Adult Or Pediatric Study Participant Type
     Origin: caDSR
-    Definition: The identifiable class of the study participants based upon their
-      age.
-    Version: '3'
-    Code: '11524549'
+    Version: '2'
+    Code: 11524549
   age_at_diagnosis:
     Value: Subject Age in Days at Diagnosis Count
     Origin: caDSR
-    Definition: The age in days of the subject at the time of diagnosis.
     Version: '1'
-    Code: '15019300'
+    Code: 15019300
   antibody_name:
     Value: Assay Antibody Name
     Origin: caDSR
-    Definition: Words that describe the name of the antibody.
     Version: '1'
-    Code: '16964035'
+    Code: 16964035
   author_order:
     Value: Publication Author Display Order Integer
     Origin: caDSR
-    Definition: A printed or electronic work offered for distribution.:The writer
-      of a book, article, or other text._The sequence or position of a component in
-      a list.:A number with no fractional part, including the negative and positive
-      numbers as well as zero.
     Version: '1'
-    Code: '17090270'
+    Code: 17090270
   authorship:
     Value: Publication Citation Author List Text
     Origin: caDSR
-    Definition: A list of authors cited for a published work.
     Version: '1'
-    Code: '16081468'
+    Code: 16081468
   body_part_examined:
     Value: Disease Body Part Examined Anatomic Site Uberon Identifier
     Origin: caDSR
-    Definition: The location within the body that was inspected or evaluated as captured
-      in the Uberon identifier.
     Version: '1'
-    Code: '14883072'
+    Code: 14883072
   catalog_number:
     Value: Imaging Multiplexed Imaging Vendor Catalog Number Text
     Origin: caDSR
-    Definition: A textual description of the catalog identifier assigned to a product
-      by the vendor used in multiplex imaging.
     Version: '1'
-    Code: '14767261'
+    Code: 14767261
   channel_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   channel_name:
     Value: Imaging OME Tagged Image File Format Channel Name
     Origin: caDSR
-    Definition: Any technology or method that aids in the visualization of any biological
-      process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
-      or therapy.:A tagged image file format (TIFF) image file format that contains
-      an Open Microscopy Environment (OME) XML metadata block in the file header for
-      storing microscopy information (pixels and metadata) using the OME Data Model._An
-      independent acquisition scheme, i.e., a route or conduit through which flows
-      data consisting of one particular measurement using one particular parameter.:The
-      words or language units by which a thing is known.
     Version: '1'
-    Code: '14765172'
+    Code: 14765172
   clone:
     Value: Imaging Multiplex Imaging Clone Unique Identifier
     Origin: caDSR
-    Definition: A sequence of characters used to identify a group of genetically identical
-      cells, organisms, or DNA molecules used in multiplex imaging.
     Version: '1'
-    Code: '14767258'
+    Code: 14767258
   concentration:
     Value: Imaging Multiplex Imaging Final Concentration Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the measure of the amount of substance
-      present in a unit amount of mixture used in multiplex imaging.
     Version: '1'
-    Code: '14768386'
+    Code: 14768386
   cycle_number:
     Value: Imaging Multiplex Imaging Reagent Cycle Number Integer
     Origin: caDSR
-    Definition: A numerical value which captures the cycle number during which a reagent
-      was used in multiplex imaging.
     Version: '1'
-    Code: '14765176'
+    Code: 14765176
   data_has_been_de_identified:
     Value: Data File Deidentified Indicator
     Origin: caDSR
-    Definition: A data file stored as an electronic record.:Removal of text elements
-      that would make data individually identifiable.:An event, entity or condition
-      that typically characterizes a prescribed environment or situation and determines
-      or aids in determining whether certain stated circumstances exist or criteria
-      are satisfied.
     Version: '1'
-    Code: '17087977'
+    Code: 17087977
   dataset_abstract:
     Value: Study Administration Dataset Abstract Text
     Origin: caDSR
-    Definition: A written summary of the important points of a collection of related
-      data records.
     Version: '1'
-    Code: '17279144'
+    Code: 17279144
   dataset_description:
     Value: Study Administration Dataset Description Text
     Origin: caDSR
-    Definition: A written explanation of a collection of related data records.
     Version: '1'
-    Code: '17279143'
+    Code: 17279143
   dataset_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   dataset_long_name:
     Value: Study Administration Dataset Name Text
     Origin: caDSR
-    Definition: Words that describe a collection of related data records.
     Version: '1'
-    Code: '17279141'
+    Code: 17279141
   dataset_short_name:
     Value: Study Administration Dataset Short Name Text
     Origin: caDSR
-    Definition: The acronym or abbreviated form of the name of a collection of related
-      data records.
     Version: '1'
-    Code: '17279142'
+    Code: 17279142
   de_identification_method_description:
     Value: Deidentification Method Description Text
     Origin: caDSR
-    Definition: Text describing the manner of procedure or systematic course of actions
-      performed to remove text elements that would make data individually identifiable.
     Version: '1'
-    Code: '14612655'
+    Code: 14612655
   de_identification_method_type:
     Value: Data File Deidentification Method Type
     Origin: caDSR
-    Definition: The type of procedure used to remove text elements that would make
-      data individually identifiable in an electronic record.
     Version: '1'
-    Code: '14576319'
+    Code: 14576319
   de_identification_software:
     Value: Deidentification Software Name Text
     Origin: caDSR
-    Definition: Text describing the literal identifier of the software program used
-      to remove text elements that would make data individually identifiable.
     Version: '1'
-    Code: '14612658'
+    Code: 14612658
   diagnosis_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   dilution:
     Value: Imaging Multiplex Imaging Final Dilution Ratio Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the concentration of  different
-      reagents used in multiplex imaging.
     Version: '1'
-    Code: '14767270'
+    Code: 14767270
   doi:
     Value: Publication Digital Object Identifier Text
     Origin: caDSR
-    Definition: A unique code used by publishers to identify a digital object, such
-      as a journal article, web document, or other item of intellectual property.
     Version: '1'
-    Code: '15915370'
+    Code: 15915370
   doi_version:
     Value: Publication Digital Object Identifier Version Text
     Origin: caDSR
-    Definition: The version of the DOI.
     Version: '1'
-    Code: '17090342'
+    Code: 17090342
   email:
     Value: Person Email Address Text
     Origin: caDSR
-    Definition: The string of characters that represents the electronic mail address
-      of a person.
     Version: '1'
-    Code: '2517550'
+    Code: 2517550
   embedding_medium:
     Value: Specimen Preservation Procedure Type
     Origin: caDSR
-    Definition: The term which describes the method used to maintain the specimen
-      in a viable state.
     Version: '3'
-    Code: '8028962'
+    Code: 8028962
   emission_bandwidth:
     Value: Imaging Multiplex Imaging Emission Bandwidth Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the nominal width of an emission
-      spectrum used in multiplex imaging.
     Version: '1'
-    Code: '14765193'
+    Code: 14765193
   emission_wavelength:
     Value: Imaging Multiplex Imaging Emission Wavelength Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the wavelength with the maximum
-      peak in an emission spectrum.
     Version: '1'
-    Code: '14767264'
+    Code: 14767264
   ethnicity:
     Value: Ethnic Group Category Text
     Origin: caDSR
-    Definition: The text for reporting information about ethnicity based on the Office
-      of Management and Budget (OMB) categories.
     Version: '2'
-    Code: '2192217'
+    Code: 2192217
   excitation_bandwidth:
     Value: Imaging Multiplex Imaging Excitation Bandwidth Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the nominal width of an excitation
-      spectrum used in multiplex imaging.
     Version: '1'
-    Code: '14765190'
+    Code: 14765190
   excitation_wavelength:
     Value: Imaging Multiplex Imaging Excitation Wavelength Number
     Origin: caDSR
-    Definition: A numerical quantity which captures the electromagnetic radiation
-      wavelength that causes peak excitation used in multiplex imaging.
     Version: '1'
-    Code: '14765187'
+    Code: 14765187
   file_description:
     Value: Data File Description Text
     Origin: caDSR
-    Definition: A free text field that can be used to document the content and other
-      details about a data file that may not be captured elsewhere.
     Version: '2'
-    Code: '11280338'
+    Code: 11280338
   file_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   file_name:
     Value: Data File Name Text
     Origin: caDSR
-    Definition: The literal label for an electronic data file.
     Version: '3'
-    Code: '11284037'
+    Code: 11284037
   file_size:
     Value: Data File Size Integer
     Origin: caDSR
-    Definition: The measure (in bytes) of how much space a data file takes up on a
-      storage medium.
     Version: '2'
-    Code: '11479876'
+    Code: 11479876
   file_type:
     Value: Data File Format Type
     Origin: caDSR
-    Definition: A defined organization or layout representing and structuring data
-      in a computer file.
     Version: '2'
-    Code: '11416926'
+    Code: 11416926
   first_name:
     Value: Person Given/First Name
     Origin: caDSR
-    Definition: A word or group of words indicating a person's first (personal or
-      given) name; the name that precedes the surname. Synonym = Given Name
     Version: '2'
-    Code: '2179589'
+    Code: 2179589
   fluorophore:
     Value: Imaging Multiplex Imaging Fluorescent Dye Text
     Origin: caDSR
-    Definition: A textual description of fluorescent antibodies, aptamers, peptides,
-      dyes, and similar detection reagents used in multiplex imaging.
     Version: '1'
-    Code: '14767255'
+    Code: 14767255
   funding_agency:
     Value: Study Administration Funding Agency Organization Name
     Origin: caDSR
-    Definition: The name of the funding source organization or sponsor.
     Version: '1'
-    Code: '16002760'
+    Code: 16002760
   funding_source_program_name:
     Value: Study Administration Funding Agency Program Name
     Origin: caDSR
-    Definition: The name of the program assigned by the funding agency.
     Version: '1'
-    Code: '16002776'
+    Code: 16002776
   grant_id:
     Value: Study Administration Grant Funding Number Identifier
     Origin: caDSR
-    Definition: One or more characters used to identify a grant.
     Version: '1'
-    Code: '16002823'
+    Code: 16002823
   histopathology_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   image_modality:
     Value: Imaging DICOM Modality Type
     Origin: caDSR
-    Definition: A system of categories for representing a specific manner, characteristic,
-      pattern of a data acquisition device used in an imaging event whether physical
-      or electronic.
     Version: '2'
-    Code: '12137353'
+    Code: 12137353
   imaging_assay_type:
     Value: Assay Type
     Origin: caDSR
-    Definition: The type of assay method or technology utilized to determine the amount
-      of a particular constituent in a sample or the biological properties or activity
-      of the sample.
     Version: '2'
-    Code: '7789196'
+    Code: 7789196
   immersion:
     Value: Imaging Procedure Microscope Immersion Medium Type
     Origin: caDSR
-    Definition: Text specifying the kind of fluid used to fill the space between a
-      microscope's objective lens and the coverslip.
     Version: '2'
-    Code: '8058286'
+    Code: 8058286
   institution_name:
     Value: Study Administration Institution Name
     Origin: caDSR
-    Definition: A study-level administrative activity that is essential to the efficient
-      and/or effective coordination and execution of a clinical or research study
-      and is independent of a study subject.:The buildings and organizations where
-      healthcare services are provided.:The words or language units by which a thing
-      is known.
     Version: '1'
-    Code: '17087567'
+    Code: 17087567
   investigator_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   is_phantom:
     Value: Imaging Quality Control Subject Indicator
     Origin: caDSR
-    Definition: Any technology or method that aids in the visualization of any biological
-      process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
-      or therapy.:Set of measurements and inspections taken to verify that performance
-      of equipment and procedures remains within specified limits._A matter or an
-      individual that is observed, analyzed, examined, investigated, experimented
-      upon, or/and treated in the course of a particular study.:The preferred Value
-      Domain to indicate a question with permissible values of yes/no.
     Version: '1'
-    Code: '17088525'
+    Code: 17088525
   journal_citation:
     Value: Publication Journal Citation Text
     Origin: caDSR
-    Definition: A bibliographical reference to a cited journal article.
     Version: '1'
-    Code: '16081476'
+    Code: 16081476
   lab_test_name:
     Value: Laboratory Procedure Test Name
     Origin: caDSR
-    Definition: The words by which the laboratory assessment is known.
     Version: '1'
-    Code: '13569486'
+    Code: 13569486
   last_name:
     Value: Person Family/Last Name
     Origin: caDSR
-    Definition: A means of identifying an individual by using a word or group of words
-      indicating a person's last (family) name. Synonym = Last Name, Surname.
     Version: '2'
-    Code: '2179591'
+    Code: 2179591
   lens_numerical_aperture:
     Value: Equipment Microscope Lens Numerical Aperture Float Value
     Origin: caDSR
-    Definition: A floating point numerical value describing the range of angles over
-      which the objective lens can accept or emit light.
     Version: '2'
-    Code: '7788942'
+    Code: 7788942
   license:
     Value: Data File Dataset License Type
     Origin: caDSR
-    Definition: The license format describing credit and use restrictions when granting
-      permission to share and/or distribute data collections.
     Version: '1'
-    Code: '14902606'
+    Code: 14902606
   lot:
     Value: Imaging Multiplex Imaging Vendor Lot Number Text
     Origin: caDSR
-    Definition: A textual description of the lot identifier assigned to a product
-      by the vendor used in multiplex imaging.
     Version: '1'
-    Code: '14769695'
+    Code: 14769695
   manufacturer:
     Value: Equipment Manufacturer Name
     Origin: caDSR
-    Definition: The name of the entity that produces the equipment.
     Version: '1'
-    Code: '16065939'
+    Code: 16065939
   manufacturer_model_name:
     Value: Equipment Model Name
     Origin: caDSR
-    Definition: The name that describes the equipment used to perform a non-sequencing
-      diagnostic, therapeutic or research activity.
     Version: '1'
-    Code: '16072578'
+    Code: 16072578
   md5sum:
     Value: Data File MD5 Checksum Text
     Origin: caDSR
-    Definition: A 32-character hexadecimal number that is computed on a file.
     Version: '2'
-    Code: '11556150'
+    Code: 11556150
   metal_isotope_element:
-    Value: Imaging Multiplex Imaging Isotope Element Identifier
+    Value: Imaging Multiplexed Imaging Isotope Abbreviation Name
     Origin: caDSR
-    Definition: A sequence of characters used to identify the chemical element used
-      in multiplex imaging whose atoms all have the same atomic number.
     Version: '1'
-    Code: '14765201'
+    Code: 14765198
   metastasis_anatomic_site:
     Value: Disease Metastasis Anatomic Site Uberon Identifier
     Origin: caDSR
-    Definition: The location within the body where cancer has spread from one part
-      of the body (the organ in which it first appeared) to another secondary part
-      as captured in the Uberon identifier.
     Version: '1'
-    Code: '15114457'
+    Code: 15114457
   middle_name:
     Value: Person Middle Name
     Origin: caDSR
-    Definition: A means of identifying an individual by using a word or group of words
-      indicating a person's middle name.
     Version: '2'
-    Code: '2179590'
+    Code: 2179590
   modality:
     Value: Imaging DICOM Modality Type
     Origin: caDSR
-    Definition: A system of categories for representing a specific manner, characteristic,
-      pattern of a data acquisition device used in an imaging event whether physical
-      or electronic.
     Version: '2'
-    Code: '12137353'
+    Code: 12137353
   multiplex_image_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   ncbi_taxonomy_id:
     Value: Subject Taxonomy NCBI Identifier
     Origin: caDSR
-    Definition: The unique numerical identifier of a subject's organismal classification
-      as captured in the National Center for Biotechnology Information (NCBI) Taxonomy
-      standard nomenclature and classification repository.
     Version: '2'
-    Code: '10543100'
+    Code: 10543100
   nominal_magnification:
     Value: Equipment Microscope Nominal Magnification Float Value
     Origin: caDSR
-    Definition: A floating point numerical value describing the nominal magnification
-      of an optical instrument using a combination of lenses to produce an image.
     Version: '2'
-    Code: '7788940'
+    Code: 7788940
   objective:
     Value: Equipment Microscope Objective Lens Text
     Origin: caDSR
-    Definition: Text which describes the microscope's objective lens nearest to the
-      specimen being viewed that magnifies and projects the image of the specimen.
     Version: '2'
-    Code: '7788935'
+    Code: 7788935
   oligo_barcode_lower_strand:
     Value: Imaging Multiplex Imaging Oligonucleotide Barcode Lower Strand Text
     Origin: caDSR
-    Definition: A textual description of the oligonucleotide barcode used in multiplex
-      imaging to label the non-coding strand in double-stranded DNA.
     Version: '1'
-    Code: '14765208'
+    Code: 14765208
   oligo_barcode_upper_strand:
     Value: Imaging Multiplex Imaging Oligonucleotide Barcode Upper Strand Text
     Origin: caDSR
-    Definition: A textual description of the oligonucleotide barcode used in multiplex
-      imaging to label the coding strand in double-stranded DNA.
     Version: '1'
-    Code: '14765205'
+    Code: 14765205
   organization_name:
     Value: Research Activity Organization Name
     Origin: caDSR
-    Definition: A textual identifier for an organization.
     Version: '1'
-    Code: '17090221'
+    Code: 17090221
   patient_age_at_imaging:
-    Value: Subject Age in Days at Imaging Count
+    Value: Subject Age at Imaging Count
     Origin: caDSR
-    Definition: The age in days of the subject at the time of imaging.
-    Version: '2'
-    Code: '12307007'
+    Version: '1'
+    Code: 12307007
   person_orcid:
     Value: Person ORCID Text
     Origin: caDSR
-    Definition: A persistent unique digital identifier assigned to a person by the
-      Open Researcher and Contributor ID (ORCID) organization.
     Version: '3'
-    Code: '10624734'
+    Code: 10624734
   pixel_spacing_row:
     Value: Imaging Pixel Spacing Float or Fixed-point Millimeter Number
     Origin: caDSR
-    Definition: Physical distance between the center of each pixel in an image measured
-      in mm.
     Version: '3'
-    Code: '2903393'
+    Code: 2903393
   primary_diagnosis:
     Value: Disease Primary Diagnosis NCI Thesaurus Text
     Origin: caDSR
-    Definition: A term describing the main condition for evaluation and treatment
-      as captured in the Disease or Diagnosis (C2991) branch of the National Cancer
-      Institute Thesaurus (NCIt) hierarchy tree.
     Version: '1'
-    Code: '14905532'
+    Code: 14905532
   primary_site:
     Value: Disease Primary Site Uberon Identifier
     Origin: caDSR
-    Definition: The location within the body from where the disease of interest originated
-      as captured in the Uberon identifier.
     Version: '1'
-    Code: '14883047'
+    Code: 14883047
   procedure_date:
     Value: Imaging Procedure Occurrence Date
     Origin: caDSR
-    Definition: The date of an imaging procedure.
     Version: '2'
-    Code: '3434493'
+    Code: 3434493
   procedure_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   program_external_url:
     Value: Study Administration Program External URL Text
     Origin: caDSR
-    Definition: A study-level administrative activity that is essential to the efficient
-      and/or effective coordination and execution of a clinical or research study
-      and is independent of a study subject.:A URL address for a research program
-      or study that is accessible by those outside the host institution.:Text; the
-      words of something written.
     Version: '1'
-    Code: '17087631'
+    Code: 17087631
   program_full_description:
     Value: Study Administration Program Full Description Text
     Origin: caDSR
-    Definition: A study-level administrative activity that is essential to the efficient
-      and/or effective coordination and execution of a clinical or research study
-      and is independent of a study subject.:An unabridged description of a research
-      program or study.:The words of something written.
     Version: '1'
-    Code: '17087562'
+    Code: 17087562
   program_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   program_name:
     Value: Study Administration Program Name
     Origin: caDSR
-    Definition: The name applied to a research program.
     Version: '1'
-    Code: '15846335'
+    Code: 15846335
   program_short_description:
     Value: Study Administration Program Short Description Text
     Origin: caDSR
-    Definition: A study-level administrative activity that is essential to the efficient
-      and/or effective coordination and execution of a clinical or research study
-      and is independent of a study subject.:An abbreviated description of a research
-      program or study.:The words of something written.
     Version: '1'
-    Code: '17087559'
+    Code: 17087559
   program_short_name:
     Value: Study Administration Program Short Name
     Origin: caDSR
-    Definition: The shortened name applied to a research program.
     Version: '1'
-    Code: '15846845'
+    Code: 15846845
   publication_type:
     Value: Publication Document Type
     Origin: caDSR
-    Definition: A printed or electronic work offered for distribution.:A physical
-      object, or electronic counterpart, that is characterized by containing writing
-      which is meant to be human-readable._Something distinguishable as an identifiable
-      class based on common qualities.:A physical object, or electronic counterpart,
-      that is characterized by containing writing which is meant to be human-readable._Something
-      distinguishable as an identifiable class based on common qualities.
     Version: '1'
-    Code: '16698383'
+    Code: 16698383
   pyramid:
     Value: Imaging Pyramid Representation True False Indicator
     Origin: caDSR
-    Definition: A response of true or false or to indicate if an image is a multi-resolution
-      representation allowing for analysis and manipulation of the image over a range
-      of spatial scales.
     Version: '2'
-    Code: '7788945'
+    Code: 7788945
   race:
     Value: Race Category Text
     Origin: caDSR
-    Definition: The text for reporting information about race based on the Office
-      of Management and Budget (OMB) categories.
     Version: '1'
-    Code: '2192199'
+    Code: 2192199
   radiology_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   related_work_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   relationship_type:
     Value: Publication DOI Relationship Type
     Origin: caDSR
-    Definition: A set of DOI relationship types based on the DataCite Metadata Schema.
     Version: '1'
-    Code: '17090347'
+    Code: 17090347
   resource_identifier:
     Value: Research Activity Resource Identifier
     Origin: caDSR
-    Definition: A Research Resource Identifier (RRID) is a unique identifier for referencing
-      a research resource such as organisms, antibodies, plasmids, cell lines, software
-      tools and databases.
     Version: '1'
-    Code: '14767247'
+    Code: 14767247
   role:
     Value: Person Affiliation Role Text Type
     Origin: caDSR
-    Definition: The text that describes the distinguishable characteristics of the
-      action or activity assigned to or required or expected of a person in a formal
-      association with a group or organization.
     Version: '2'
-    Code: '2201713'
+    Code: 2201713
   ror_id:
     Value: Study Administration Research Organization Registry Identifier
     Origin: caDSR
-    Definition: A Research Organization Registry ID (ROR ID) is a unique digital identifier
-      created by the ROR used to identify research and funding organizations.
     Version: '1'
-    Code: '17090260'
+    Code: 17090260
   rrid_identifier:
     Value: Research Activity Resource Identifier
     Origin: caDSR
-    Definition: A Research Resource Identifier (RRID) is a unique identifier for referencing
-      a research resource such as organisms, antibodies, plasmids, cell lines, software
-      tools and databases.
     Version: '1'
-    Code: '14767247'
+    Code: 14767247
   series_description:
     Value: Imaging Series Description Text
     Origin: caDSR
-    Definition: Text description that represents a collection of images with a common
-      element.
     Version: '1'
-    Code: '16253922'
+    Code: 16253922
   sex_at_birth:
     Value: Person Sex at Birth Category
     Origin: caDSR
-    Definition: A textual description of a person's sex at birth.
     Version: '3'
-    Code: '7572817'
+    Code: 7572817
   slice_thickness:
     Value: Imaging Slice Thickness Float or Fixed-point Millimeter Number
     Origin: caDSR
-    Definition: 'Any technology or method that aids in the visualization of any biological
-      process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
-      or therapy.:The dimension between two surfaces of an imaging plane.:DS MM: A
-      string of characters representing either a fixed point number or a floating
-      point number measured in millimeters.'
     Version: '3'
-    Code: '3113185'
+    Code: 3113185
   software_versions:
     Value: Equipment Software Version Text
     Origin: caDSR
-    Definition: One or more characters which describe a specific form or variant of
-      data and/or instructions stored in the computer.
     Version: '1.2'
-    Code: '2413278'
+    Code: 2413278
   staining_method:
     Value: Specimen Staining Method Type
     Origin: caDSR
-    Definition: The type of method used to perform the staining.
     Version: '1'
-    Code: '16964049'
+    Code: 16964049
   study_description:
     Value: Imaging Study Description Text
     Origin: caDSR
-    Definition: Text which describes the radiographic technique used to evaluate a
-      specific anatomic location for a specific purpose.
     Version: '3'
-    Code: '2182389'
+    Code: 2182389
   sub_cycle_number:
     Value: Imaging Multiplex Imaging Reagent Sub-Cycle Number Integer
     Origin: caDSR
-    Definition: A numerical value which captures the sub-cycle number during which
-      a reagent was used in multiplex imaging.
     Version: '1'
-    Code: '14765180'
+    Code: 14765180
   subject_id:
     Value: Data Record Link Unique Identifier
     Origin: caDSR
-    Definition: A unique sequence of characters used to identify a linkage between
-      related records.
     Version: '1'
-    Code: '14822135'
+    Code: 14822135
   target_name:
     Value: Imaging Multiplex Imaging Target Antigen Name
     Origin: caDSR
-    Definition: The words by which the substance, generally a protein, that stimulates
-      the immune system and elicits an immune response used in multiplex imaging is
-      known.
     Version: '1'
-    Code: '14765182'
+    Code: 14765182
   test_result:
     Value: Laboratory Procedure Test Result Text
     Origin: caDSR
-    Definition: A textual description of the outcome of any procedure that involves
-      testing or manipulating a sample of blood, urine, or other body substance in
-      a laboratory setting.
     Version: '1'
-    Code: '13362271'
+    Code: 13362271
   test_value:
     Value: Laboratory Procedure Test Result Float
     Origin: caDSR
-    Definition: The numeric value of the blood, urine, or other body substance laboratory
-      test being recorded.
     Version: '1'
-    Code: '13336306'
+    Code: 13336306
   tissue_fixative:
     Value: Specimen Preservation Procedure Medium Type
     Origin: caDSR
-    Definition: The kind of substance holding another substance in solution or suspension
-      to maintain a specimen in a viable state.
     Version: '1'
-    Code: '16323957'
+    Code: 16323957
   title:
     Value: Publication Title Text
     Origin: caDSR
-    Definition: The title for a published printed or electronic article.
     Version: '1'
-    Code: '16078531'
+    Code: 16078531
   tumor_tissue_type:
     Value: Tumor Classification Category
     Origin: caDSR
-    Definition: The classification of a tumor at a particular time based primarily
-      on histopathological characteristics.
     Version: '1'
-    Code: '12922545'
+    Code: 12922545
   vital_status:
     Value: Participant Vital Status Type
     Origin: caDSR
-    Definition: The response to a question that describes a participant's survival
-      status.
     Version: '1'
-    Code: '2847330'
+    Code: 2847330
   working_distance:
     Value: Imaging Procedure Microscope Device Working Distance Float Value
     Origin: caDSR
-    Definition: Any technology or method that aids in the visualization of any biological
-      process, cell, tissue or organ for use in screening, diagnosis, surgical procedures
-      or therapy.:An optical instrument that uses a combination of lenses to produce
-      magnified images of very small objects_The distance between the front end of
-      the objective lens and the specimen surface when the specimen is in focus.:A
-      number that can have its decimal point in any position._A numerical quantity
-      measured or assigned or computed.
     Version: '2'
-    Code: '7788943'
+    Code: 7788943
   year_of_publication:
     Value: Publication Year Date
     Origin: caDSR
-    Definition: The year in four digit format in which the printed or electronic work
-      was published.
     Version: '1'
-    Code: '16081475'
+    Code: 16081475
